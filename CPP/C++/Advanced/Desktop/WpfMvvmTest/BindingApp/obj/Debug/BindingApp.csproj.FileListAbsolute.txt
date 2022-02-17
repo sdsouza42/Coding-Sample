@@ -1,0 +1,17 @@
+E:\MS.NET\Advanced\Desktop\WpfMvvmTest\BindingApp\bin\Debug\BindingApp.exe.config
+E:\MS.NET\Advanced\Desktop\WpfMvvmTest\BindingApp\bin\Debug\BindingApp.exe
+E:\MS.NET\Advanced\Desktop\WpfMvvmTest\BindingApp\bin\Debug\BindingApp.pdb
+E:\MS.NET\Advanced\Desktop\WpfMvvmTest\BindingApp\obj\Debug\BindingApp.csprojResolveAssemblyReference.cache
+E:\MS.NET\Advanced\Desktop\WpfMvvmTest\BindingApp\obj\Debug\MainWindow.g.cs
+E:\MS.NET\Advanced\Desktop\WpfMvvmTest\BindingApp\obj\Debug\App.g.cs
+E:\MS.NET\Advanced\Desktop\WpfMvvmTest\BindingApp\obj\Debug\BindingApp_MarkupCompile.cache
+E:\MS.NET\Advanced\Desktop\WpfMvvmTest\BindingApp\obj\Debug\BindingApp_MarkupCompile.lref
+E:\MS.NET\Advanced\Desktop\WpfMvvmTest\BindingApp\obj\Debug\MainWindow.baml
+E:\MS.NET\Advanced\Desktop\WpfMvvmTest\BindingApp\obj\Debug\BindingApp.g.resources
+E:\MS.NET\Advanced\Desktop\WpfMvvmTest\BindingApp\obj\Debug\BindingApp.Properties.Resources.resources
+E:\MS.NET\Advanced\Desktop\WpfMvvmTest\BindingApp\obj\Debug\BindingApp.csproj.GenerateResource.Cache
+E:\MS.NET\Advanced\Desktop\WpfMvvmTest\BindingApp\obj\Debug\BindingApp.exe
+E:\MS.NET\Advanced\Desktop\WpfMvvmTest\BindingApp\obj\Debug\BindingApp.pdb
+E:\MS.NET\Advanced\Desktop\WpfMvvmTest\BindingApp\obj\Debug\VisitorView.g.cs
+E:\MS.NET\Advanced\Desktop\WpfMvvmTest\BindingApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\MS.NET\Advanced\Desktop\WpfMvvmTest\BindingApp\obj\Debug\VisitorView.baml

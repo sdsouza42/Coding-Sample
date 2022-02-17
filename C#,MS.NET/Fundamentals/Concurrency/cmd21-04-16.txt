@@ -1,0 +1,50 @@
+threadsleeptest.exe
+csc threadsleeptest.cs worker.cs
+threadsleeptest.exe
+np threadsynctest.cs
+csc threadsynctest.cs
+csc threadsynctest.cs worker.cs
+threadsynctest.exe
+csc threadsynctest.cs worker.cs
+threadsynctest.exe
+csc threadsynctest.cs worker.cs
+threadsynctest.exe
+csc threadsynctest.cs worker.cs
+threadsynctest.exe
+np threadcoordtest.cs
+csc threadcoordtest.cs worker.cs
+threadcoordtest.exe
+csc threadcoordtest.cs worker.cs
+threadcoordtest.exe
+csc threadcoordtest.cs worker.cs
+threadcoordtest.exe
+csc threadcoordtest.cs worker.cs
+threadcoordtest.exe
+doskey /h >cmd21-04-16.txt
+dynamicobjtest.exe Greeter
+cd ..
+md Concurrency
+cd Concurrency
+dir
+np worker.cs
+np threadtest.cs
+csc threadtest.cs worker.cs
+threadtest.exe
+threadtest.exe 30
+csc threadtest.cs worker.cs
+threadtest.exe
+threadtest.exe 30
+csc threadtest.cs worker.cs
+threadtest.exe 60
+threadtest.exe 80
+np threadsleeptest.cs
+csc threadsleeptest.cs
+threadsleeptest.exe
+csc threadsleeptest.cs
+csc threadsleeptest.cs worker.cs
+cls
+threadsleeptest.exe
+csc threadsleeptest.cs
+csc threadsleeptest.cs worker.cs
+threadsleeptest.exe
+csc threadsleeptest.cs worker.cs

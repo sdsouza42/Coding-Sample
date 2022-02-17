@@ -1,0 +1,8 @@
+E:\MS.NET\Advanced\Distributed\WcfStateTest\ServerApp\bin\Debug\ServerApp.exe.config
+E:\MS.NET\Advanced\Distributed\WcfStateTest\ServerApp\bin\Debug\ServerApp.exe
+E:\MS.NET\Advanced\Distributed\WcfStateTest\ServerApp\bin\Debug\ServerApp.pdb
+E:\MS.NET\Advanced\Distributed\WcfStateTest\ServerApp\bin\Debug\ContractLib.dll
+E:\MS.NET\Advanced\Distributed\WcfStateTest\ServerApp\bin\Debug\ContractLib.pdb
+E:\MS.NET\Advanced\Distributed\WcfStateTest\ServerApp\obj\Debug\ServerApp.csprojResolveAssemblyReference.cache
+E:\MS.NET\Advanced\Distributed\WcfStateTest\ServerApp\obj\Debug\ServerApp.exe
+E:\MS.NET\Advanced\Distributed\WcfStateTest\ServerApp\obj\Debug\ServerApp.pdb

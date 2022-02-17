@@ -1,0 +1,10 @@
+    1  cd www/html/
+    2  ls
+    3  vi jsparsecontrols.html 
+    4  cp jsparsecontrols.html jsdynamiccombo.html
+    5  vi jsdynamiccombo.html 
+    6  cp jsvalidationtest3.html jsdynamiccombo.html 
+    7  vi jsdynamiccombo.html 
+    8  cp jsdynamiccombo.html jsdynamicwindow.html
+    9  vi jsdynamicwindow.html 
+   10  history > cmd17-12-2015.txt

@@ -1,0 +1,11 @@
+  01  vi jshello.html 
+  02  cp jshello.html jsvartest.html
+  03  vi jsvartest.html 
+  04  cp jsvartest.html jsbuiltinfunctest.html
+  05  vi jsbuiltinfunctest.html 
+  06  cp jsbuiltinfunctest.html jsbuiltintypetest.html 
+  07  vi jsbuiltintypetest.html 
+  08  vi jshello.html 
+  09  cp jshello.html jsuserdefinedtype.html
+  10  vi jsuserdefinedtype.html 
+  11  history >cmd08-12-2015.txt

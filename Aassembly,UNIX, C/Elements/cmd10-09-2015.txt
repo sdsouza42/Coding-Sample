@@ -1,0 +1,19 @@
+    1  cd Foundations/Fundamentals/Elements/
+    2  cp arraytest.s branchtest.s
+    3  vi branchtest.s 
+    4  as -o branchtest.o branchtest.s 
+    5  ld -o branchtest branchtest.o system.o 
+    6  ./branchtest 
+    7  vi branchtest.s 
+    8  ./branchtest 
+    9  vi looptest.s
+   10  as -o looptest.o looptest.s 
+   11  ld -o looptest looptest.o system.o 
+   12  ./looptest 
+   13  vi looptest.s
+   14  ld -o looptest looptest.o system.o 
+   15  as -o looptest.o looptest.s 
+   16  ld -o looptest looptest.o system.o 
+   17  ./looptest 
+   18  vi looptest.s
+   19  history >cmd10-09-2015.txt 

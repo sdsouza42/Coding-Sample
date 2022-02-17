@@ -1,0 +1,17 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:jsp="http://java.sun.com/JSP/Page">
+
+	<head>
+		<title>BasicWebApp</title>
+	</head>
+	<jsp:scriptlet>
+	<![CDATA[
+		pageContext.setAttribute("now", new java.util.Date());
+	]]>
+	</jsp:scriptlet>
+	<body>
+		<h1>Welcome Visitor ${param.visitor}</h1>
+		<b>Time on server: </b> ${now}
+	</body>
+</html>
+

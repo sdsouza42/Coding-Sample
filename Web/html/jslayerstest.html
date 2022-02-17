@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Image Layers- TestApp</title>
+		<script type="text/javascript">
+			function bringLayer(index){
+				if(index == 1)
+					document.getElementById("imageLayer").style.visibility='visible';
+				else
+					document.getElementById("imageLayer").style.visibility='hidden';
+				}
+		</script>
+	</head>
+	<body>
+		<h1 align="center">Image Layer</h1>
+		<img src="./images/laptop.jpg"  onMouseOver="bringLayer(1)" onMouseOut="bringLayer(0)"/>
+		<div id="imageLayer" style="position:absolute;left:10%;top:20%;visibility:hidden">
+			<img src="./images/laptop.jpg" width="400" heigth="400" /> 
+		</div>
+	</body>
+</html>
+

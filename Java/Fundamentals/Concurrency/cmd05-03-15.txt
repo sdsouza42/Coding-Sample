@@ -1,0 +1,75 @@
+    1  cd Java/Fundamentals/Reflection/
+    2  cp ~/Shared/Greeter.java .
+    3  vi Greeter.java 
+    4  javac Greeter.java 
+    5  vi Greeter.java 
+    6  vi DynamicProxyTest.java
+    7  javac DynamicProxyTest.java
+    8  java DynamicProxyTest
+    9  vi DynamicProxyTest.java
+   10  javac DynamicProxyTest.java
+   11  vi DynamicProxyTest.java
+   12  javac DynamicProxyTest.java
+   13  java DynamicProxyTest
+   14  vi DynamicProxyTest.java
+   15  javac DynamicProxyTest.java
+   16  java DynamicProxyTest
+   17  vi DynamicProxyTest.java
+   18  cd ..
+   19  mkdir Concurrency
+   20  cd Concurrency/
+   21  cp ~/Shared/threads/Worker.java .
+   22  vi Worker.java 
+   23  vi ThreadTest.java
+   24  javac ThreadTest.java
+   25  java ThreadTest
+   26  vi ThreadTest.java
+   27  javac ThreadTest.java
+   28  java ThreadTest
+   29  java ThreadTest 60
+   30  java ThreadTest 30
+   31  vi ThreadTest.java
+   32  java ThreadTest
+   33  vi ThreadTest.java
+   34  javac ThreadTest.java
+   35  java ThreadTest 60
+   36  java ThreadTest 80
+   37  vi ThreadSleepTest.java
+   38  javac ThreadSleepTest.java
+   39  vi ThreadSleepTest.java
+   40  javac ThreadSleepTest.java
+   41  vi ThreadSleepTest.java
+   42  javac ThreadSleepTest.java
+   43  vi ThreadSleepTest.java
+   44  javac ThreadSleepTest.java
+   45  vi ThreadSleepTest.java
+   46  javac ThreadSleepTest.java
+   47  vi ThreadSleepTest.java
+   48  javac ThreadSleepTest.java
+   49  vi ThreadSleepTest.java
+   50  javac ThreadSleepTest.java
+   51  java ThreadSleepTest
+   52  vi ThreadSleepTest.java
+   53  javac ThreadSleepTest.java
+   54  java ThreadSleepTest
+   55  vi ThreadSleepTest.java
+   56  javac ThreadSleepTest.java
+   57  java ThreadSleepTest
+   58  vi ThreadSleepTest.java
+   59  javac ThreadSleepTest.java
+   60  java ThreadSleepTest
+   61  vi ThreadSleepTest.java
+   62  javac ThreadSleepTest.java
+   63  java ThreadSleepTest
+   64  cp ~/Shared/threads/ThreadSyncTest.java .
+   65  vi ThreadSyncTest.java 
+   66  javac ThreadSyncTest.java 
+   67  java ThreadSyncTest
+   68  vi ThreadSyncTest.java 
+   69  javac ThreadSyncTest.java 
+   70  java ThreadSyncTest
+   71  vi ThreadSyncTest.java 
+   72  javac ThreadSyncTest.java 
+   73  java ThreadSyncTest
+   74  vi ThreadSyncTest.java 
+   75  history > cmd05-03-15.txt

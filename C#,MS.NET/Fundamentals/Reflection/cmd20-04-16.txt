@@ -1,0 +1,50 @@
+appdomaintest.exe
+csc appdomaintest.cs
+appdomaintest.exe
+np proxying.cs
+csc /t:library proxying.cs
+np emitproxytest.cs
+np greeter.cs
+csc emitproxytest.cs greeter.cs
+emitproxytest.exe
+csc emitproxytest.cs /r:proxying.dll
+csc emitproxytest.cs greeter.cs /r:proxying.dll
+emitproxytest.exe
+doskey /h >cmd20-04-16.txt
+objaccesstest.exe
+gacutil /i payroll.dll
+np payroll.cs
+sn /k met.snk
+csc /keyfile:met.snk /t:library payroll.cs
+sn -T payroll.dll
+sn -T simplefin.dll
+csc objaccesstest.cs /r:payroll.dll
+csc objaccesstest.cs interval.cs /r:payroll.dll
+ildasm objaccesstest.exe
+objaccesstest.exe
+gacutil /i payroll.dll
+gacutil /l payroll
+dir c:\Windows\Microsoft.NET\assembly\GAC_MSIL\payroll\v4.0_1.0.0.0__385bcd457c5e1e72\payroll.dll
+ngen install payroll.dll
+objaccesstest.exe
+ngen uninstall payroll.dll
+del payroll.dll
+objaccesstest.exe
+gacutil /u payroll
+objaccesstest.exe
+csc /keyfile:met.snk /t:library payroll.cs
+objaccesstest.exe
+np asmloadtest1.cs
+csc asmloadtest1.cs
+asmloadtest1.exe simplefin
+asmloadtest1.exe payroll
+np asmloadtest2.cs
+csc asmloadtest2.cs
+cld
+cls
+asmloadtest2.exe
+copy asmloadtest2.cs appdomaintest.cs
+np appdomaintest.cs
+csc appdomaintest.cs
+appdomaintest.exe
+csc appdomaintest.cs

@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<title>Parse Controls - TestApp</title>
+		<script type="text/javascript">
+			function calculate(frm){
+				var amount = parseInt(frm.amount.value); // "17" => 17
+				var period = parseInt(frm.period.value);
+				var policy = parseFloat(frm.scheme.value);
+
+				var i = policy / 1200;
+				var m = 12 * period;
+				if(frm.employee.checked)
+					i *= 0.5;
+				
+				var emi = amount * i / (1 - Math.pow(1 + i, -m));			
+
+				alert("E.M.I = " + emi);
+
+			}
+			
+		</script>
+	</head>
+	<body>
+		<h1 align="center">Loan Calculator</h1>
+		<form name="frmLoan" method="POST">
+			<table align="center">
+				<tr>
+					<td>Amount : </td>
+					<td>
+						<input type="text" name="amount" />
+					</td>
+				</tr>
+				<tr>
+					<td>Period : </td>
+					<td>
+						<input type="text" name="period" />
+					</td>
+				</tr>
+				<tr>
+					<td>Scheme : </td>
+					<td>
+						<select name="scheme">
+							<option value="4.5">Home</option>
+							<option value="5.5">Personal</option>
+							<option value="6.5">Educational</option>
+							<option value="7.5">Business</option>
+						</select>
+					</td>
+				</tr>
+				<tr align="center">
+					<td colspan="2">
+						<input type="checkbox" name="employee" /> Employee
+					</td>
+				</tr>
+				<tr align="center">
+					<td colspan="2">
+						<input type="button" name="btnCalculate" value="Calculate" onClick="calculate(frmLoan)" />
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
+

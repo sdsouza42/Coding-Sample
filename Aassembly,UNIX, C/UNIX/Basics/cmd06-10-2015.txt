@@ -1,0 +1,51 @@
+  01  cd Foundations/Fundamentals/
+  02  dir
+  03  ls
+  04  mkdir UNIX
+  05  cd UNIX/
+  06  mkdir Basics
+  07  cd Basics/
+  08  vi libctest.c
+  09  cc -o libctest libctest.c 
+  10  ./libctest 
+  11  ./libctest Jack Jill John Jeff
+  12  ./libctest Jack and Jill John Jeff
+  13  ./libctest "Jack and Jill" John Jeff
+  14  ./libctest "Jack and Jill" 'John or Jeff'
+  15  ./libctest Jack and Jill John Jeff
+  16  ./libctest Jack Jill John Jeff
+  17  ./libctest Jack Jill John Jeff Jane
+  18  vi libctest.c
+  19  cc -o libctest libctest.c 
+  20  ./libctest Jack Jill John Jeff Jane
+  21  vi libctest.c
+  22  objdump -t libctest
+  23  ./libctest Jack Jill John Jeff Jane
+  24  vi libctest.c
+  25  cc -o libctest libctest.c 
+  26  ./libctest Jack Jill John Jeff Jane
+  27  cc -o libctest libctest.c 
+  28  vi libctest.c
+  29  cc -o libctest libctest.c 
+  30  ./libctest Jack Jill John Jeff
+  31  vi libctest.c
+  32  mkdir ~/Shared/Testing
+  33  cp libctest.c ~/Shared/Testing/
+  34  cp libctest.c syscalltest.c
+  35  vi syscalltest.c 
+  36  cc -o syscalltest syscalltest.c 
+  37  ./syscalltest Jack Jill John Jane
+  38  vi syscalltest.c 
+  39  cc -o syscalltest syscalltest.c 
+  40  ./syscalltest Jack Jill John Jane
+  41  cp ~/Shared/Testing/
+  42  cp syscalltest.c ~/Shared/Testing/
+  43  cp libctest.c posixtest.c
+  44  vi posixtest.c 
+  45  vi syscalltest.c 
+  46  cc -o syscalltest syscalltest.c 
+  47  vi posixtest.c 
+  48  cc -o posixtest posixtest.c 
+  49  ./posixtest Jack Jill John Jane
+  50  kill -l
+  51  history >cmd06-10-2015.txt

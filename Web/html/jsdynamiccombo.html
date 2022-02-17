@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<title>Javascript Validation - TestApp</title>
+		<script type="text/javascript">
+			function loadCities(index){
+				var cities = document.frmRegister.cities;
+				var cityArray = new Array();
+				cityArray[1] = ["Mumbai", "Chennai", "Kolkatta", "Delhi"];
+				cityArray[2] = ["Khar", "Bandra"];
+				cityArray[3] = ["Mahim", "Dadar", "Parel"];
+				cityArray[4] = ["Ghatkopar", "Bhandup", "Dharavi", "Dombivli", "Andheri"];
+
+				cities.options.length = 0;
+				var len = cityArray[index].length;
+
+				for(var i = 0; i < len; i++)
+					cities.options[i] = new Option(cityArray[index][i]);
+			}
+		</script>
+	</head>
+	<body>
+		<h1 align="center">Customer Registration</h1>
+		<form name="frmRegister" method="POST">
+		  <table>
+			<tr>
+				<td>Name : </td>
+				<td>
+					<input type="text" name="user" />
+				</td>
+			</tr>
+			<tr>
+				<td>Mobile : </td>
+				<td>
+					<input type="text" name="mobile" onBlur="validateMobile(this)"/>
+				</td>
+			</tr>
+			<tr>
+				<td>DOB : </td>
+				<td>
+					<select name="day">
+						<script type="text/javascript">
+							for(var i = 1; i <= 31; i++)
+								document.write("<option>" + i + "</option>");
+						</script>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Countries : </td>
+				<td>
+					<select name="countries" onChange="loadCities(this.selectedIndex)">
+						<option>-- Select Country --</option>
+						<option>India</option>
+						<option>China</option>
+						<option>USA</option>
+						<option>UK</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Cities : </td>
+				<td>
+					<select name="cities">
+						<option>-- Select City --</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Email : </td>
+				<td>
+					<input type="text" name="email" />
+				</td>
+			</tr>
+			<tr align="center">
+				<td colspan="2">
+					<input type="submit" name="submit" value="Register" onClick="validate(frmRegister)"/>
+				</td>
+			</tr>
+
+		  </table>
+		</form>
+	</body>
+</html>
+
+

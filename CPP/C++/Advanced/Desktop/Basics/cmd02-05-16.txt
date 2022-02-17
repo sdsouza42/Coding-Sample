@@ -1,0 +1,21 @@
+subst S: MS.NET\Advanced
+s:
+md Desktop\Basics
+cd Desktop\Basics
+np winplaintest.cs
+csc winplaintest.cs
+winplaintest.exe
+start .
+csc /t:winexe winplaintest.cs
+copy E:\MS.NET\Fundamentals\Concurrency\computation.cs 
+np winctrltest.cs
+copy winplaintest.cs winctrltest.cs
+np winctrltest.cs
+csc /t:winexe winctrltest.cs
+np computation.cs
+csc /t:winexe winctrltest.cs computation.cs
+copy winplaintest.cs winpainttest.cs
+np winpainttest.cs
+csc /t:winexe winpainttest.cs
+
+doskey /h > cmd02-05-16.txt

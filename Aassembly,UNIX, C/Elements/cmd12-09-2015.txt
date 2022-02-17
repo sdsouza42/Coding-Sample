@@ -1,0 +1,23 @@
+    1  cd Foundations/Fundamentals/Elements/
+    2  vi myproc.s
+    3  as -o myproc.o myproc.s 
+    4  ld -o myproc myproc.o system.o 
+    5  vi proctest.s
+    6  as -o proctest.o proctest.s 
+    7  ld -o proctest proctest.o system.o 
+    8* 
+    9  ./proctest 
+   10  vi myproc.s
+   11  vi proctest.s
+   12  objdump -D -M intel proctest.o
+   13  objdump -d -M intel proctest
+   14  cp proctest.s stacktest.s
+   15  vi stacktest.s 
+   16  as -o stacktest.o stacktest.s 
+   17  ld -o stacktest stacktest.o system.o myproc.o
+   18  ./stacktest 
+   19  vi stacktest.s 
+   20  as -o stacktest.o stacktest.s 
+   21  ld -o stacktest stacktest.o system.o myproc.o
+   22  ./stacktest 
+   23  history > cmd12-09-2015.txt 

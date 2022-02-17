@@ -1,0 +1,26 @@
+    1  cd Foundations/Fundamentals/Elements/
+    2  vi variabletest.s
+    3  as -o variabletest.o variabletest.s 
+    4  ld -o variabletest variabletest.o system.o 
+    5  ./variabletest 
+    6  vi variabletest.s
+    7  ./variabletest 
+    8  vi variabletest.s
+    9  as -o variabletest.o variabletest.s 
+   10  ld -o variabletest variabletest.o system.o 
+   11  ./variabletest 
+   12  vi variabletest.s
+   13  as -o variabletest.o variabletest.s 
+   14  ld -o variabletest variabletest.o system.o 
+   15  ./variabletest 
+   16  vi variabletest.s
+   17  vi arraytest.s
+   18  as -o arraytest.o arraytest.s 
+   19  ld -o arraytest arraytest.o system.o 
+   20  ./arraytest 
+   21  vi arraytest.s
+   22  as -o arraytest.o arraytest.s 
+   23  ld -o arraytest arraytest.o system.o 
+   24  ./arraytest 
+   25  vi variabletest.s
+   26  history >cmd09-09-2015.txt

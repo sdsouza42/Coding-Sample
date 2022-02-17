@@ -1,0 +1,45 @@
+    1  cd Foundations/Fundamentals/C/Basics/
+    2  vi fortest.c
+    3  cc -o fortest fortest.c
+    4  ./fortest 
+    5  cd ..
+    6  mkdir Functions
+    7  cd Functions/
+    8  vi mymacro.h
+    9  vi macrotest1.c
+   10  ll /usr/include/
+   11  vi macrotest1.c
+   12  cc -o macrotest1 macrotest1.c 
+   13  ./macrotest1 
+   14  vi macrotest2.c
+   15  cc -o squares macrotest2.c 
+   16  ./squares 
+   17  vi macrotest2.c
+   18  cc -o squares macrotest2.c 
+   19  ./squares 
+   20  cc -o cubes macrotest2.c 
+   21  ./cubes 
+   22  cc -D _HIGH -o cubes macrotest2.c 
+   23  ./cubes 
+   24  vi myfunc.c
+   25  cc -c myfunc.c 
+   26  vi functest1.c
+   27  cc -o functest1 functest1.c 
+   28  cc -o functest1 functest1.c myfunc.o
+   29  ./functest1 
+   30  vi functest1.c
+   31  cc -o functest1 functest1.c myfunc.o
+   32  ./functest1 
+   33  vi functest1.c
+   34  cc -o functest1 functest1.c myfunc.o
+   35  vi functest1.c
+   36  cc -o functest1 functest1.c myfunc.o
+   37  vi functest1.c
+   38  cc -o functest1 functest1.c myfunc.o
+   39  ./functest1 
+   40  cp functest1.c macrofunctest.c
+   41  vi macrofunctest.c 
+   42  cc -o macrofunctest macrofunctest.c myfunc.o
+   43  ./macrofunctest 
+   44  objdump -t myfunc.o
+   45  history >cmd23-09-2015.txt

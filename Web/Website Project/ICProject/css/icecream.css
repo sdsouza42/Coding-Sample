@@ -1,0 +1,21 @@
+.textStyle{
+	font-family:Trebuchet MS,Verdana,Arial,Helvetica,sans-serif;
+}
+.signoutButton{
+color:white;
+font-text:45px;
+font-weight:bold;
+text-decoration:underline;
+cursor:pointer;
+background-color:transparent;
+border:none
+}
+.tableButton{
+color:blue;
+font-text:45px;
+font-weight:bold;
+text-decoration:underline;
+cursor:pointer;
+background-color:transparent;
+border:none
+}

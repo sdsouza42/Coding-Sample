@@ -1,0 +1,6 @@
+  01  cd www/html/
+  02  vi order.php 
+  03  ls
+  04  vi order.php 
+  05  vi /var/spool/mail/unipro 
+  06  history >cmd-20-02-2016.txt

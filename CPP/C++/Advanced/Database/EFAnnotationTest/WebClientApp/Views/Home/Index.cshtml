@@ -1,0 +1,60 @@
+﻿@model IEnumerable<WebClientApp.Models.Product>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>WebClientApp</title>
+    <style type="text/css">
+        table{
+            border-collapse:collapse;
+            background-color:lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>List of Products</h1>
+
+    <table border="1" class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stock)
+            </th>
+            <th>View</th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stock)
+            </td>
+            <td>
+                @Html.ActionLink("Orders", "Details", new { id=item.Id }) 
+            </td>
+        </tr>
+    }
+    
+    </table>
+
+    <p>
+        @Html.ActionLink("Add New Product", "Create")
+    </p>
+</body>
+</html>

@@ -1,0 +1,15 @@
+    1  cd Foundations/Advanced/C++/Inheritance/
+    2  cp banking1.h banking2.h
+    3  cp banking1.cpp banking2.cpp
+    4  vi banking2.h 
+    5  vi banking2.cpp 
+    6  vi banking2.h
+    7  vi banking2.cpp 
+    8  c++ -c banking2.cpp 
+    9  cp adttest2.cpp adtmitest.cpp
+   10  vi adtmitest.cpp 
+   11  c++ -o adtmitest adtmitest.cpp banking2.o
+   12  vi adtmitest.cpp 
+   13  c++ -o adtmitest adtmitest.cpp banking2.o
+   14  ./adtmitest 
+   15  history >cmd04-11-2015.txt

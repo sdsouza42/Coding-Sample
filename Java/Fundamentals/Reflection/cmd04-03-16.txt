@@ -1,0 +1,81 @@
+    1  cd Java/Fundamentals/Reflection/
+    2  cp EarlyBindTest.java LateBindTest.java
+    3  vi LateBindTest.java 
+    4  javac LateBindTest.java 
+    5  java LateBindTest 500000 finance.EducationLoan interestRate
+    6  java LateBindTest 500000 finance.PersonalLoan interestRate
+    7* java LateBindTest 500000 finance.PlLoan interestRateForEmployees
+    8  java LateBindTest 500000 finance.BusinessLoan interestRate
+    9  java LateBindTest 500000 finance.BusinessLoan rateOfInterest
+   10  vi finance/ReducingBalance.java
+   11  javac finance/ReducingBalance.java
+   12  vi finance/HomeLoan.java 
+   13  vi finance/PersonalLoan.java 
+   14  javac finance/PersonalLoan.java 
+   15  javac finance/HomeLoan.java 
+   16  vi finance/ReducingBalance.java
+   17  javac finance/ReducingBalance.java
+   18  javac finance/HomeLoan.java 
+   19  javac finance/PersonalLoan.java 
+   20  vi finance/PersonalLoan.java 
+   21  javac finance/PersonalLoan.java 
+   22  vi finance/ReducingBalance.java 
+   23  javac finance/ReducingBalance.java 
+   24  javac finance/HomeLoan.java 
+   25  javac finance/PersonalLoan.java 
+   26  cp EarlyBindTest.java AnnotationTest.java
+   27  mv AnnotationTest.java AnnotationTest2.java 
+   28  mv AnnotationTest2.java AnnotationTest1.java 
+   29  vi AnnotationTest1.java 
+   30  javac AnnotationTest1.java 
+   31  java AnnotationTest1 500000 finance.HomeLoan
+   32  java AnnotationTest1 500000 finance.EducationLoan
+   33  vi finance/MaxDuration.java
+   34  javac finance/MaxDuration.java
+   35  vi finance/MaxDuration.java
+   36  javac finance/MaxDuration.java
+   37  vi finance/EducationLoan.java 
+   38  vi finance/HomeLoan.java 
+   39  vi finance/PersonalLoan.java 
+   40  javac finance/*.java 
+   41  cp LateBindTest.java  AnnotationTest2.java
+   42* javac AnnotationTest2.java 
+   43  vi AnnotationTest2.java 
+   44  javac AnnotationTest2.java 
+   45  vi AnnotationTest2.java 
+   46  javac AnnotationTest2.java 
+   47  java AnnotationTest2 500000 finance.EducationLoan interestRate
+   48  java AnnotationTest2 500000 finance.PersonalLoan interestRate
+   49  java AnnotationTest2 500000 finance.PersonalLoan interestRateForEmployees
+   50  java AnnotationTest2 500000 finance.HomeLoan interestRateForEmployees
+   51  java AnnotationTest2 500000 finance.HomeLoan interestRate
+   52  vi AnnotationTest2.java 
+   53  javap -c Interval
+   54  cp ../Language/OOP/AbstractClassTest.class .
+   55  java AbstractClassTest 2000
+   56  java -cp .:../Language/OOP AbstractClassTest 2000
+   57  java AbstractClassTest 2000
+   58  export CLASSPATH=.:../Language/OOP
+   59  java AbstractClassTest 2000
+   60  unset CLASSPATH
+   61  java AbstractClassTest 2000
+   62  cd ../Language/OOP/
+   63  jar cf bank.jar edu
+   64  jar tf bank.jar
+   65  cd ../../Reflection/
+   66  cp ../Language/OOP/bank.jar .
+   67  java AbstractClassTest 2000
+   68  java -cp .:bank.jar AbstractClassTest 2000
+   69  mkdir CMD-INF
+   70  mv ~/Shared/commands/ CMD-INF/
+   71  cd CMD-INF/
+   72  cd ..
+   73  vi ClassLoaderTest.java
+   74  javac ClassLoaderTest.java
+   75  java ClassLoaderTest
+   76  java -cp .:CMD-INF/ ClassLoaderTest
+   77  vi ClassLoaderTest.java 
+   78  javac ClassLoaderTest.java 
+   79  java ClassLoaderTest
+   80  java -cp .:CMD-INF/ ClassLoaderTest
+   81  history >cmd04-03-16.txt

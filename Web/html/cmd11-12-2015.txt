@@ -1,0 +1,16 @@
+   01 vi jsbuiltintypetest.html 
+   02 vi jsuserdefinedtype.html 
+   03 mv jsuserdefinedtype.html jsuserdefinedtype1.html 
+   04 cp jsuserdefinedtype1.html jsuserdefinedtype2.html 
+   05 vi jsuserdefinedtype2.html 
+   06 cp formstest.html jsvalidationtest1.html
+   07 vi jsvalidationtest1.html 
+   08 cp jsvalidationtest1.html jsvalidationtest2.html 
+   09 vi jsvalidationtest2.html 
+   10 ls
+   11 mkdir src
+   12 vi src/validate.js
+   13 cp jsvalidationtest2.html jsvalidationtest3.html 
+   14 vi jsvalidationtest3.html 
+   15 cd .. 
+   16 history >cmd11-12-2015.txt

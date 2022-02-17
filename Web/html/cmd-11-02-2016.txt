@@ -1,0 +1,13 @@
+    1  ls
+    2  cd www/html/
+    3  ls
+    4  cp hello.php gettest.php
+    5  vi gettest.php 
+    6  cp gettest.php posttest.php
+    7  vi posttest.php 
+    8  cp posttest.php sessiontest.php
+    9  vi sessiontest.php 
+   10  cp hello.php productinfo.php
+   11  vi productinfo.php 
+   12  history > cmd-11-02-2016.txt
+   13  vi sessiontest.php

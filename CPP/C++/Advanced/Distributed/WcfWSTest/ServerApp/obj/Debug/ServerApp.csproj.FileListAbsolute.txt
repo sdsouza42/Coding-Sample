@@ -1,0 +1,6 @@
+E:\MS.NET\Advanced\Distributed\WcfWSTest\ServerApp\bin\ServerApp.dll.config
+E:\MS.NET\Advanced\Distributed\WcfWSTest\ServerApp\bin\ServerApp.dll
+E:\MS.NET\Advanced\Distributed\WcfWSTest\ServerApp\bin\ServerApp.pdb
+E:\MS.NET\Advanced\Distributed\WcfWSTest\ServerApp\obj\Debug\ServerApp.csprojResolveAssemblyReference.cache
+E:\MS.NET\Advanced\Distributed\WcfWSTest\ServerApp\obj\Debug\ServerApp.dll
+E:\MS.NET\Advanced\Distributed\WcfWSTest\ServerApp\obj\Debug\ServerApp.pdb

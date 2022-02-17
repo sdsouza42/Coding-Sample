@@ -1,0 +1,63 @@
+    1  ~/oracle/startxe 
+    2  ~/glassfish4/bin/asadmin start-domain
+    3  cd Java/Advanced/Database/
+    4  mkdir JPAWebApp
+    5  cd JPAWebApp/
+    6  mkdir WEB-INF
+    7  mkdir WEB-INF/classes
+    8  mkdir WEB-INF/classes/META-INF
+    9  mkdir WEB-INF/src
+   10  cp ~/Shared/web.xml WEB-INF/
+   11  cp ~/Shared/persistence.xml WEB-INF/classes/META-INF/
+   12  vi WEB-INF/classes/META-INF/persistence.xml 
+   13  ~/glassfish4/bin/asadmin deploy .
+   14  export CLASSPATH=.:~/glassfish4/glassfish/lib/javaee.jar 
+   15  ll
+   16  vi src/ProductEntity.java
+   17  ll -a
+   18  cd WEB-INF/
+   19  ll
+   20  mv src/ classes/
+   21  cd classes/
+   22  vi src/ProductEntity.java
+   23  javac -d . src/ProductEntity.java
+   24  vi src/ProductInfoBean.java
+   25  javac -d . src/ProductInfoBean.java
+   26  touch ../../.reload
+   27  cp ../../../../Web/facelettest.xhtml ../../index.xhtml
+   28  vi ../../index.xhtml 
+   29  vi src/ProductInfoBean.java
+   30  javac -d . src/ProductInfoBean.java
+   31  touch ../../.reload
+   32  vi ../../index.xhtml 
+   33  cp src/ProductEntity.java src/OrderEntity.java
+   34  vi src/OrderEntity.java 
+   35  javac -d . src/OrderEntity.java 
+   36  vi src/OrderEntity.java 
+   37  javac -d . src/OrderEntity.java 
+   38  vi src/ProductEntity.java 
+   39  javac -d . src/ProductEntity.java 
+   40  vi src/ProductInfoBean.java 
+   41  javac -d . src/ProductInfoBean.java 
+   42  touch ../../.reload
+   43  vi ../../index.xhtml 
+   44  vi src/ProductInfoBean.java 
+   45  cp ../../index.xhtml ../../details.xhtml
+   46  vi ../../details.xhtml 
+   47  vi ../../index.xhtml 
+   48  vi src/ProductMakerEJB.java
+   49  vi src/CounterEntity.java
+   50  javac -d . src/CounterEntity.java
+   51  vi src/ProductMakerEJB.java
+   52  javac -d . src/ProductMakerEJB.java
+   53  vi src/ProductInputBean.java
+   54  javac -d . src/ProductInputBean.java
+   55  vi src/ProductInputBean.java
+   56  javac -d . src/ProductInputBean.java
+   57  touch ../../.reload
+   58  cp ../../index.xhtml ../../create.xhtml
+   59  vi ../../create.xhtml
+   60  vi src/ProductInputBean.java
+   61  javac -d . src/ProductInputBean.java
+   62  touch ../../.reload
+   63  history >cmd29-03-16.txt

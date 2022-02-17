@@ -1,0 +1,12 @@
+E:\MS.NET\Advanced\Database\EFEntityModelTest\MiddleTierApp\bin\Debug\MiddleTierApp.exe.config
+E:\MS.NET\Advanced\Database\EFEntityModelTest\MiddleTierApp\bin\Debug\MiddleTierApp.exe
+E:\MS.NET\Advanced\Database\EFEntityModelTest\MiddleTierApp\bin\Debug\MiddleTierApp.pdb
+E:\MS.NET\Advanced\Database\EFEntityModelTest\MiddleTierApp\bin\Debug\ContractLib.dll
+E:\MS.NET\Advanced\Database\EFEntityModelTest\MiddleTierApp\bin\Debug\EntityFramework.dll
+E:\MS.NET\Advanced\Database\EFEntityModelTest\MiddleTierApp\bin\Debug\EntityFramework.SqlServer.dll
+E:\MS.NET\Advanced\Database\EFEntityModelTest\MiddleTierApp\bin\Debug\ContractLib.pdb
+E:\MS.NET\Advanced\Database\EFEntityModelTest\MiddleTierApp\bin\Debug\EntityFramework.xml
+E:\MS.NET\Advanced\Database\EFEntityModelTest\MiddleTierApp\bin\Debug\EntityFramework.SqlServer.xml
+E:\MS.NET\Advanced\Database\EFEntityModelTest\MiddleTierApp\obj\Debug\MiddleTierApp.csprojResolveAssemblyReference.cache
+E:\MS.NET\Advanced\Database\EFEntityModelTest\MiddleTierApp\obj\Debug\MiddleTierApp.exe
+E:\MS.NET\Advanced\Database\EFEntityModelTest\MiddleTierApp\obj\Debug\MiddleTierApp.pdb

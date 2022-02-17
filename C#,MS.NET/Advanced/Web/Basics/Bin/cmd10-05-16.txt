@@ -1,0 +1,24 @@
+subst s: MS.NET\Advanced
+s:
+md Web\Basics
+cd Web\Basics
+dir
+md Bin
+start server
+dir
+start server
+copy z:\Shared\Java\Advanced\Web\welcome.html
+np welcome.html
+write welcome.html
+np welcome.html
+np web.config
+cd Bin
+np basicwebapp.cs
+csc /t:library basicwebapp.cs
+copy ..\welcome.html ..\formpost.html
+np ..\formpost.html
+np ..\state.ashx
+csc /t:library basicwebapp.cs
+np ..\web.config
+csc /t:library basicwebapp.cs
+doskey /h >cmd10-05-16.txt

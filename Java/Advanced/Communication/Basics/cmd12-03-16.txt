@@ -1,0 +1,58 @@
+    1  cd Java/Advanced/Communication/Basics/
+    2  vi InetAddrTest.java
+    3  javac InetAddrTest.java
+    4  dir
+    5  ls
+    6  vi InetAddrTest.java
+    7  rm InetAddressTest.class 
+    8  javac InetAddrTest.java
+    9  java InetAddrTest
+   10  cp InetAddrTest.class ~/Shared/Test
+   11  vi TCPServerTest1.java
+   12  javac TCPServerTest1.java
+   13  java TCPServerTest1 &
+   14  ps
+   15  sudo rpm -i ~/Shared/telnet.rpm 
+   16  telnet localhost 2055
+   17  ps
+   18  kill 4106
+   19  telnet localhost 2055
+   20  cp TCPServerTest1*.class ~/Shared/Test
+   21  telnet adsd-faculty 2055
+   22  vi TCPServerTest1.java 
+   23  javac TCPServerTest1.java
+   24  cp TCPServerTest1*.class ~/Shared/Test
+   25  telnet adsd-faculty 2055
+   26  cp TCPServerTest1.java TCPServerTest2.java
+   27  vi TCPServerTest2.java 
+   28  javac TCPServerTest2.java 
+   29  cp TCPServerTest2*.class ~/Shared/Test
+   30  telnet adsd-faculty 2055
+   31  vi TCPClientTest.java
+   32  javac TCPClientTest.java
+   33  java TCPClientTest adsd-faculty
+   34  java TCPServerTest2 &
+   35  java TCPClientTest
+   36  vi UDPPubTest.java
+   37  javac UDPPubTest.java
+   38  vi UDPPubTest.java
+   39  javac UDPPubTest.java
+   40  java UDPPubTest &
+   41  vi UDPSubTest.java
+   42  javac UDPSubTest.java
+   43  ps
+   44  kill 4394
+   45  java UDPSubTest
+   46  cp UDP*.class ~/Shared/Test
+   47  java UDPSubTest
+   48  cp ~/Shared/stock.php .
+   49  vi stock.php 
+   50  cp stock.php /SoftDev/www/html/
+   51  vi stock.php 
+   52  cp stock.php /SoftDev/www/html/
+   53  vi URLTest.java
+   54  javac URLTest.java
+   55  vi URLTest.java
+   56  javac URLTest.java
+   57  java URLTest
+   58  history >cmd12-03-16.txt

@@ -1,0 +1,2 @@
+sqlcmd /d Shop
+doskey /h > cmdfordb13-05-16.txt

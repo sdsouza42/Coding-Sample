@@ -1,0 +1,43 @@
+    1  cd Foundations/Fundamentals/UNIX/
+    2  mkdir Concurrency
+    3  cd Concurrency/
+    4  vi worker.h
+    5  vi forktest.c
+    6  cc -o forktest forktest.c 
+    7  ./forktest 
+    8  vi forktest.c
+    9  cc -o forktest forktest.c 
+   10  ./forktest 
+   11  ps
+   12  vi forktest.c
+   13  cc -o forktest forktest.c 
+   14  ./forktest 
+   15  vi forktest.c
+   16  cc -o forktest forktest.c 
+   17  ./forktest 
+   18  vi forktest.c
+   19  cc -o forktest forktest.c 
+   20  ./forktest 
+   21  vi forktest.c
+   22  cc -o forktest forktest.c 
+   23  ./forktest 
+   24  vi forkexectest.c
+   25  cc -o forkexectest forkexectest.c 
+   26  ./forkexectest 
+   27  vi forkexectest.c
+   28  cc -o forkexectest forkexectest.c 
+   29  ./forktest 
+   30  ./forkexectest 
+   31  ./forkexectest xyz
+   32  ./forkexectest ../Basics/pidtest
+   33   ../Basics/pidtest
+   34  ./forkexectest ../Basics/pidtest
+   35  vi forkexectest.c
+   36  cc -o forkexectest forkexectest.c 
+   37  ./forkexectest xyz
+   38  vi forkexectest.c
+   39  cc -o forkexectest forkexectest.c 
+   40  ./forkexectest xyz
+   41  ./forkexectest ../Basics/pidtest
+   42  vi forkexectest.c
+   43  history >cmd13-10-2015.txt

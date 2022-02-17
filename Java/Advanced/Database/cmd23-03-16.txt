@@ -1,0 +1,34 @@
+    1  cd Java/Advanced/
+    2  mkdir Database
+    3  cd Database/
+    4  sudo ~/Shared/install/*.jar /usr/java/jdk1.8.0_11/jre/lib/ext/
+    5  vi QueryTest1.java
+    6  javac QueryTest1.java
+    7  ll /usr/java/jdk1.8.0_11/jre/lib/ext/
+    8  sudo ~/Shared/install/*.jar /usr/java/jdk1.8.0_11/jre/lib/ext/
+    9  sudo ~/Shared/install/oracljdbc.jar /usr/java/jdk1.8.0_11/jre/lib/ext/
+   10  sudo cp ~/Shared/install/*.jar /usr/java/jdk1.8.0_11/jre/lib/ext/
+   11  javac QueryTest1.java
+   12  java QueryTest1
+   13  vi QueryTest1.java
+   14* javac QueryTest1.
+   15  java QueryTest1
+   16  vi db.properties
+   17  cp QueryTest1.java QueryTest2.java
+   18  vi QueryTest2.java 
+   19  javac QueryTest2.java 
+   20  java QueryTest2 oracle
+   21  ~/oracle/startxe 
+   22  vi db.properties
+   23  java QueryTest2 oracle
+   24  vi db.properties
+   25  java QueryTest2 mysql
+   26  vi db.properties
+   27  java QueryTest2 mssql
+   28  vi UpdateTest.java
+   29  javac UpdateTest.java
+   30  java UpdateTest 104
+   31  java UpdateTest
+   32  java UpdateTest 107
+   33  ~/oracle/stopxe 
+   34  history >cmd23-03-16.txt

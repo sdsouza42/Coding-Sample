@@ -1,0 +1,44 @@
+subst s: MS.NET\Fundamentals\Language\Basics
+s:
+np propertytest1.cs
+np propertytest2.cs
+csc propertytest2.cs
+propertytest2.exe
+ildasm propertytest2.exe
+csc propertytest2.cs
+propertytest2.exe
+ildasm propertytest2.exe
+csc propertytest2.cs
+propertytest2.exe
+ildasm propertytest2.exe
+csc propertytest2.cs
+propertytest2.exe
+ildasm propertytest2.exe
+csc propertytest2.cs
+propertytest2.exe
+copy propertytest1.cs opovldtest.cs
+np opovldtest.cs
+csc opovldtest.cs
+opovldtest.exe
+csc opovldtest.cs
+opovldtest.exe
+ildasm opovldtest.exe
+csc opovldtest.cs
+opovldtest.exe
+ildasm opovldtest.exe
+csc opovldtest.cs
+opovldtest.exe
+csc opovldtest.cs
+opovldtest.exe
+csc opovldtest.cs
+opovldtest.exe
+csc opovldtest.cs
+opovldtest.exe
+e:
+subst /d s:
+cd MS.NET\Fundamentals\Language
+md OOP
+cd OOP
+subst S: .
+s:
+doskey /h >cmd07-04-16.txt

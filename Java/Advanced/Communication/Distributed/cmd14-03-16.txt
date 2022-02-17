@@ -1,0 +1,40 @@
+    1  cd Java/Advanced/Communication/
+    2  mkdir Distributed
+    3  cd Distributed/
+    4  mkdir shopping
+    5  mv ~/Shared/Store.java shopping/
+    6  vi shopping/Store.java 
+    7  javac shopping/Store.java 
+    8  vi shopping/Store.java 
+    9  javac shopping/Store.java 
+   10  cp shopping/Store.java ~/Shared/
+   11  vi shopping/PriceManager.java
+   12  javac shopping/PriceManager.java
+   13  javac shopping/PriceManagerImpl.java
+   14  vi shopping/PriceManagerImpl.java
+   15  javac shopping/PriceManagerImpl.java
+   16  vi RMIServerTest1.java
+   17  javac RMIServerTest1.java
+   18  rmiregistry &
+   19  java RMIServerTest1 &
+   20  vi RMIClientTest1.java
+   21  javac RMIClientTest1.java
+   22  java RMIClientTest.class
+   23  vi RMIClientTest1.java
+   24  javac RMIClientTest1.java
+   25  rm RMIClientTest.class 
+   26  java RMIClientTest1
+   27  ps
+   28  kill 4226
+   29  vi shopping/PriceManagerImpl.java
+   30  vi shopping/Cart.java
+   31  javac shopping/Cart.java
+   32  vi shopping/CartImpl.java
+   33  javac shopping/CartImpl.java
+   34  vi shopping/CartImpl.java
+   35  javac shopping/CartImpl.java
+   36  rmic -nowarn shopping.CartImpl
+   37  ll shopping/
+   38  vi shopping/CartImpl.java
+   39  pwd
+   40  history >cmd14-03-16.txt

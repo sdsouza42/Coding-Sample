@@ -1,0 +1,12 @@
+subst S: MS.NET\Advanced
+s:
+cd Desktop
+dir
+cd Basics
+np wpfdepobjtest.cs
+csc wpfdepobjtest.cs
+csc @wpf.rsp wpfdepobjtest.cs
+copy wpfdepobjtest.cs wpfuielemtest.cs
+np wpfuielemtest.cs
+csc @wpf.rsp wpfuielemtest.cs
+doskey /h > cmd04-05-16.txt

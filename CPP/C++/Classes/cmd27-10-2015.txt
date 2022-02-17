@@ -1,0 +1,47 @@
+    1  cd Foundations/Advanced/C++/
+    2  mkdir Classes
+    3  cd Classes/
+    4  vi classtest1.cpp
+    5  c++ -o classtest1 classtest1.cpp 
+    6  vi classtest1.cpp
+    7  c++ -o classtest1 classtest1.cpp 
+    8  ./classtest1 
+    9  vi classtest1.cpp
+   10  c++ -o classtest1 classtest1.cpp 
+   11  ./classtest1 
+   12  vi classtest1.cpp
+   13  c++ -o classtest1 classtest1.cpp 
+   14  ./classtest1 
+   15  vi classtest1.cpp
+   16  c++ -o classtest1 classtest1.cpp 
+   17  ./classtest1 
+   18  cp classtest1.cpp classtest2.cpp
+   19  vi classtest2.cpp 
+   20  c++ -o classtest2 classtest2.cpp 
+   21  ./classtest2
+   22  cp classtest2.cpp ctortest.cpp
+   23  vi ctortest.cpp 
+   24  c++ -o ctortest ctortest.cpp 
+   25  ./ctortest 
+   26  vi ctortest.cpp 
+   27  c++ -o ctortest ctortest.cpp 
+   28  ./ctortest 
+   29  vi ctortest.cpp 
+   30  c++ -o ctortest ctortest.cpp 
+   31  ./ctortest 
+   32  vi ctortest.cpp 
+   33  c++ -o ctortest ctortest.cpp 
+   34  ./ctortest 
+   35  vi ctortest.cpp 
+   36  c++ -o ctortest ctortest.cpp 
+   37  q
+   38  vi ctortest.cpp 
+   39  c++ -o ctortest ctortest.cpp 
+   40  vi ctortest.cpp 
+   41  c++ -o ctortest ctortest.cpp 
+   42  ./ctortest 
+   43  vi ctortest.cpp 
+   44  c++ -o ctortest ctortest.cpp 
+   45  ./ctortest 
+   46  vi ctortest.cpp 
+   47  history >cmd27-10-2015.txt

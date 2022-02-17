@@ -1,0 +1,40 @@
+    1  cd Java/
+    2  mkdir Advanced
+    3  cd Advanced/
+    4  mkdir Native
+    5  cd Native/
+    6  vi NativeMethodTest.java
+    7  javac NativeMethodTest.java
+    8  java NativeMethodTest 24 36
+    9  vi nmt.c
+   10  export CPATH=/usr/java/jdk1.8.0_11/include/:/usr/java/jdk1.8.0_11/include/linux/
+   11  cc -shared -fPIC -o libnmt.so nmt.c 
+   12  java NativeMethodTest 24 36
+   13  vi NativeMethodTest.java
+   14  javac NativeMethodTest.java
+   15  java NativeMethodTest 24 36
+   16  echo $LD_LIBRARY_PATH
+   17  unset LD_LIBRARY_PATH
+   18  vi ~/.bashrc 
+   19  java NativeMethodTest 24 36
+   20  java -Djava.library.path=. NativeMethodTest 24 36
+   21  export LD_LIBRARY_PATH=.
+   22  java NativeMethodTest 24 36
+   23  vi StringAccessTest.java
+   24  javac -h . StringAccessTest.java
+   25  ll
+   26  vi StringHelper.h
+   27  vi strh.cpp
+   28  c++ -shared -fPIC -o libstrh.so strh.cpp 
+   29  java StringAccessTest monday
+   30  java StringAccessTest sunday
+   31  vi StringAccessTest.java
+   32  javac -h . StringAccessTest.java
+   33  java StringAccessTest monday
+   34  vi StringHelper.h
+   35  vi strh.cpp 
+   36  c++ -shared -fPIC -o libstrh.so strh.cpp 
+   37  vi strh.cpp 
+   38  c++ -shared -fPIC -o libstrh.so strh.cpp 
+   39  java StringAccessTest monday
+   40  history >cmd10-09-16.txt

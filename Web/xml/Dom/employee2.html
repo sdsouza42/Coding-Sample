@@ -1,0 +1,34 @@
+<html>
+<body>
+
+<script>
+var xmlDoc=new ActiveXObject("Microsoft.XMLDOM")
+xmlDoc.async=false
+xmlDoc.load("employee.xml")
+var root=xmlDoc.documentElement
+alert(root.childNodes.length)
+
+for ( i = 0; i < root.childNodes.length; i++)
+{
+	document.write("<pre>")
+	var child = root.childNodes[i]
+	if (child.hasChildNodes())
+	{
+	   for ( j = 0; j < child.childNodes.length; j++)
+   	   {
+		
+		document.writeln("Node Name : " + child.childNodes[j].nodeName)
+		document.writeln("Node Value : " + child.childNodes[j].firstChild.nodeValue)
+		document.writeln("<hr>")
+
+	   }
+	
+	}
+	document.write("</pre>")
+
+}
+
+
+</script>
+</body>
+</html>

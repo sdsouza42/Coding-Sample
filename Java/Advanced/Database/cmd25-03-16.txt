@@ -1,0 +1,17 @@
+    1  cd Java/Advanced/Database/
+    2  ~/oracle/startxe 
+    3  cp UpdateTest.java ParamSQLTest.java
+    4  vi ParamSQLTest.java 
+    5  javac ParamSQLTest.java 
+    6  java ParamSQLTest CU101 104 8
+    7  java ParamSQLTest CU102 106 4
+    8  java ParamSQLTest CU102 101 4
+    9  cp ParamSQLTest.java StoredProcTest.java
+   10  vi StoredProcTest.java 
+   11  javac StoredProcTest.java 
+   12  java StoredProcTest CU103 102 14
+   13  java StoredProcTest CU105 103 9
+   14  java StoredProcTest CU106 103 9
+   15  java StoredProcTest CU104 103 9
+   16  ~/oracle/stopxe 
+   17  history > cmd25-03-16.txt 

@@ -1,0 +1,69 @@
+<html>
+<body>
+
+<script>
+var xmlDoc=new ActiveXObject("Microsoft.XMLDOM")
+xmlDoc.async=false
+xmlDoc.load("employee.xml")
+
+var root=xmlDoc.documentElement
+//displaying contents of PI
+document.write("<pre>")
+var fchild = xmlDoc.firstChild
+var lchild = xmlDoc.lastChild
+var root  = xmlDoc.documentElement
+var pi = xmlDoc.firstChild
+
+//alert(root.nodeName)
+//alert(fchild.nodeName)
+//alert(lchild.nodeName)
+
+var attlist = pi.attributes
+
+var enamelist = xmlDoc.getElementsByTagName("ename")
+//document.writeln("No of Elements in List " + emplist.length)
+
+
+/*
+alert(emplist.length)
+alert(emplist.item(0).nodeName)
+alert(emplist.item(0).firstChild.nodeName)
+*/
+
+var i = 0
+
+/*
+for(i = 0; i < enamelist.length; i++)
+{
+
+   alert(enamelist.item(i).nodeName)
+   alert(enamelist.item(i).firstChild.nodeName)
+   alert(enamelist.item(i).firstChild.nodeValue)
+
+}
+*/ 
+for(i = 0; i < attlist.length; i++)
+{
+
+   alert(attlist.item(i).nodeName)
+   alert(attlist.item(i).nodeValue)
+
+}
+
+
+/*
+document.writeln("No of Child :",xmlDoc.childNodes.length) 
+document.writeln("first child of Document Root: " + xmlDoc.childNodes.item(0).nodeName)
+document.writeln("Second child of Document Root: " + xmlDoc.childNodes[1].nodeName)
+document.writeln("Details of first Child")
+document.writeln("No of first child childs: " + xmlDoc.childNodes[0].childNodes.length)
+document.writeln("Details of Second Child")
+document.writeln("No of Second child's children: " + xmlDoc.childNodes[1].childNodes.length)
+document.writeln("Processing Instruction Details:")
+document.writeln(xmlDoc.childNodes[0].nodeName + " : " + xmlDoc.childNodes[0].nodeValue)
+document.write("</pre>")
+*/
+
+</script>
+</body>
+</html>

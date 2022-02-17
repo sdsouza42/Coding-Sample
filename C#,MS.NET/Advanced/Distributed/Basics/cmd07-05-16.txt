@@ -1,0 +1,15 @@
+subst s: MS.NET\Advanced
+s:
+cd Distributed\Basics
+DIR
+copy strmsocktest.cs dgrmsocktest.cs
+np dgrmsocktest.cs
+csc dgrmsocktest.cs
+start dgrmsocktest.exe
+dgrmsocktest.exe localhost monday
+dgrmsocktest.exe localhost NLMGBZ
+np webclienttest.cs
+csc webclienttest.cs
+webclienttest.exe monday
+webclienttest.exe kFool
+doskey /h > cmd07-05-16.txt

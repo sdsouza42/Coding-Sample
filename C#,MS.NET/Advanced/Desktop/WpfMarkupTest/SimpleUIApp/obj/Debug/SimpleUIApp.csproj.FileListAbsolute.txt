@@ -1,0 +1,17 @@
+E:\MS.NET\Advanced\Desktop\WpfMarkupTest\SimpleUIApp\bin\Debug\SimpleUIApp.exe.config
+E:\MS.NET\Advanced\Desktop\WpfMarkupTest\SimpleUIApp\bin\Debug\SimpleUIApp.exe
+E:\MS.NET\Advanced\Desktop\WpfMarkupTest\SimpleUIApp\bin\Debug\SimpleUIApp.pdb
+E:\MS.NET\Advanced\Desktop\WpfMarkupTest\SimpleUIApp\obj\Debug\SimpleUIApp.csprojResolveAssemblyReference.cache
+E:\MS.NET\Advanced\Desktop\WpfMarkupTest\SimpleUIApp\obj\Debug\MainWindow.g.cs
+E:\MS.NET\Advanced\Desktop\WpfMarkupTest\SimpleUIApp\obj\Debug\App.g.cs
+E:\MS.NET\Advanced\Desktop\WpfMarkupTest\SimpleUIApp\obj\Debug\SimpleUIApp_MarkupCompile.cache
+E:\MS.NET\Advanced\Desktop\WpfMarkupTest\SimpleUIApp\obj\Debug\SimpleUIApp_MarkupCompile.lref
+E:\MS.NET\Advanced\Desktop\WpfMarkupTest\SimpleUIApp\obj\Debug\MainWindow.baml
+E:\MS.NET\Advanced\Desktop\WpfMarkupTest\SimpleUIApp\obj\Debug\SimpleUIApp.g.resources
+E:\MS.NET\Advanced\Desktop\WpfMarkupTest\SimpleUIApp\obj\Debug\SimpleUIApp.Properties.Resources.resources
+E:\MS.NET\Advanced\Desktop\WpfMarkupTest\SimpleUIApp\obj\Debug\SimpleUIApp.csproj.GenerateResource.Cache
+E:\MS.NET\Advanced\Desktop\WpfMarkupTest\SimpleUIApp\obj\Debug\SimpleUIApp.exe
+E:\MS.NET\Advanced\Desktop\WpfMarkupTest\SimpleUIApp\obj\Debug\SimpleUIApp.pdb
+S:\Desktop\WpfMarkupTest\SimpleUIApp\bin\Debug\SimpleUIApp.exe.config
+S:\Desktop\WpfMarkupTest\SimpleUIApp\obj\Debug\SimpleUIApp.exe
+S:\Desktop\WpfMarkupTest\SimpleUIApp\obj\Debug\SimpleUIApp.pdb

@@ -1,0 +1,35 @@
+md MS.NET\Fundamentals\Generic\Basics
+subst s: MS.NET\Fundamentals\Generic\Basics
+s:
+copy E:\MS.NET\Fundamentals\Language\OOP\interval.cs
+np interval.cs
+np autoboxtest.cs
+csc autoboxtest.cs interval.cs
+autoboxtest.exe -5
+autoboxtest.exe 4
+csc autoboxtest.cs interval.cs
+autoboxtest.exe -5
+autoboxtest.exe 4
+ildasm autoboxtest.exe
+csc autoboxtest.cs 
+autoboxtest.exe -5
+autoboxtest.exe 4
+ildasm autoboxtest.exe
+csc autoboxtest.cs 
+autoboxtest.exe -5
+autoboxtest.exe 4
+copy autoboxtest.cs genmethodtest1.cs
+np gen,autoboxtest.cs
+np genmethodtest1.cs
+csc genmethodtest1.cs
+ildasm genmethodtest1.exe
+copy genmethodtest1.cs genmethodtest2.cs
+np genmethodtest2.cs
+csc genmethodtest1.cs
+csc genmethodtest2.cs
+genmethodtest2.exe
+csc genmethodtest2.cs interval.cs
+np interval.cs
+csc genmethodtest2.cs interval.cs
+genmethodtest2.exe
+doskey /h > cmd14-4-16.txt

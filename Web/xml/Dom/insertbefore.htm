@@ -1,0 +1,21 @@
+<html>
+<body>
+<script >
+var xmlDoc=new ActiveXObject("Microsoft.XMLDOM")
+xmlDoc.async=false
+xmlDoc.load("books.xml")
+var rootEl=xmlDoc.documentElement
+document.write("The original XML:")
+document.write("<xmp>" + xmlDoc.xml + "</xmp>")
+
+var newnode=xmlDoc.createElement("Publication")
+var newtext=xmlDoc.createTextNode("Wrox")
+newnode.appendChild(newtext)
+//xmlDoc.documentElement.appendChild(newnode)
+rootEl.insertBefore(newnode, rootEl.firstChild)
+
+document.write("After inserting the text node:")
+document.write("<xmp>" + xmlDoc.xml + "</xmp>")
+xmlDoc.save("books.xml")
+</script>
+</body>

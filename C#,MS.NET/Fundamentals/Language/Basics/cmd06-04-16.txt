@@ -1,0 +1,40 @@
+subst s: MS.NET\Fundamentals\Language\Basics
+s:
+dir
+copy structtypetest.cs refoutargtest.cs
+np refoutargtest.cs
+csc refoutargtest.cs
+refoutargtest.exe
+csc refoutargtest.cs
+refoutargtest.exe
+csc refoutargtest.cs
+refoutargtest.exe
+csc refoutargtest.cs
+refoutargtest.exe
+np paramarraytest.cs
+csc paramarraytest.cs
+paramarraytest.exe
+csc paramarraytest.cs
+paramarraytest.exe
+csc paramarraytest.cs
+paramarraytest.exe
+csc paramarraytest.cs
+paramarraytest.exe
+np optparamtest.cs
+csc optparamtest.cs
+optparamtest.exe
+csc optparamtest.cs
+optparamtest.exe
+optparamtest.exe 75OOO
+optparamtest.exe 75000
+csc optparamtest.cs
+optparamtest.exe 75000
+np propertytest1.cs
+csc propertytest1.cs
+ildasm propertytest1.exe
+csc propertytest1.cs
+propertytest1.exe
+csc propertytest1.cs
+propertytest1.exe
+ildasm propertytest1.exe
+doskey /h >cmd06-04-16.txt

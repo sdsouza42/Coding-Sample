@@ -1,0 +1,31 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:jsp="http://java.sun.com/JSP/Page">
+
+	<jsp:useBean id="greeter" class="basicwebapp.GreeterBean" />
+	<jsp:setProperty name="greeter" property="*" />
+	<head>
+		<title>BasicWebApp</title>
+	</head>
+	<body>
+		<h1>${greeter.message}</h1>
+		<form method="POST" action="beantest2.jspx">
+			<p>
+				<b>Person: </b>
+				<input type="text" name="person" value="${param.person}" />
+			</p>
+			<p>
+				<b>Period: </b>
+				<select name="period">
+					<option>Night</option>
+					<option>Morning</option>
+					<option>Afternoon</option>
+					<option>Evening</option>
+				</select>
+			</p>
+			<p>
+				<input type="submit" value="Greet" />
+			</p>
+		</form>
+	</body>
+</html>
+

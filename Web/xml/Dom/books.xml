@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!--This is information about book-->
+<Book id="101">
+	<Publication>Wrox</Publication><author>david Hunter</author>
+	<Title>XML unleashed</Title>
+</Book>

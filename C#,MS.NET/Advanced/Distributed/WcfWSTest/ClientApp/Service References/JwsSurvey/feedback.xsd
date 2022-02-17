@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://survey/" targetNamespace="http://survey/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ReadFeedback" type="tns:ReadFeedback" />
+  <xs:element name="ReadFeedbackResponse" type="tns:ReadFeedbackResponse" />
+  <xs:element name="WriteFeedback" type="tns:WriteFeedback" />
+  <xs:element name="WriteFeedbackResponse" type="tns:WriteFeedbackResponse" />
+  <xs:complexType name="WriteFeedback">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:FeedbackInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="FeedbackInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="From" type="xs:string" />
+      <xs:element minOccurs="0" name="Comment" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="WriteFeedbackResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ReadFeedback">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ReadFeedbackResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:FeedbackInfo" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

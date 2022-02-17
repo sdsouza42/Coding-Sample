@@ -1,0 +1,34 @@
+    1  cd Foundations/Fundamentals/C/Functions/
+    2  ll
+    3  vi box.h
+    4  vi box.c
+    5  cc -c box.c
+    6  vi functest2.c
+    7  cc -o functest2 functest2.c box.o
+    8  ./functest2
+    9  cd ..
+   10  mkdir UDT
+   11  cd UDT/
+   12  cp ../Functions/box.h .
+   13  cp ../Functions/box.c .
+   14  vi box.
+   15  vi box.h
+   16  vi box.c
+   17  cc -c box.c
+   18  vi box.c
+   19  cc -c box.c
+   20  cp ../Functions/functest2.c typedeftest1.c
+   21  vi typedeftest1.c 
+   22  cc -o typedeftest1 typedeftest1.c box.o
+   23  ./typedeftest1 
+   24  vi box.h
+   25  vi box.c
+   26  cc -c box.c
+   27  cc -o typedeftest1 typedeftest1.c box.o
+   28  ./typedeftest1 
+   29  cp typedeftest1.c typedeftest2.c
+   30  vi typedeftest2.c 
+   31  cc -o typedeftest2 typedeftest2.c box.o
+   32  ./typedeftest2
+   33  ./typedeftest1
+   34  history > cmd26-09-15.txt

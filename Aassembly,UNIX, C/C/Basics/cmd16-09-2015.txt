@@ -1,0 +1,18 @@
+  01 mkdir C
+  02 cd C
+  03 mkdir Basics
+  04 cd Basics/
+  05 pwd
+  06 vi hello.c
+  07 ll
+  08 cc -S hello.c 
+  09 ll
+  10 vi hello.s
+  11 as -o hello.o hello.s
+  12 ll
+  13 ld -o hello hello.o /usr/lib/crt*.o /usr/lib/libc.so -dynamic-linker /lib/ld-2.12.so 
+  14 ./hello 
+  15 echo $?
+  16 ll
+  17 echo $?
+  18 history > cmd16-09-2015.txt

@@ -1,0 +1,22 @@
+    1  cd www/html/
+    2  ls
+    3  mysql -u root -i sales
+    4  vi index.php 
+    5  vi login.php 
+    6  cp login.php order.php
+    7  vi order.php 
+    8  vi login.php 
+    9  vi order.php 
+   10  vi login.php 
+   11  vi order.php 
+   12  vi db.inc
+   13  vi index.php 
+   14  vi login.php 
+   15  vi order.php 
+   16  cd ..
+   17  cp -r html/ ~/Shared/
+   18  pwd
+   19  html/
+   20  cd html/
+   21  ls
+   22  history >cmd-09-02-2016.txt

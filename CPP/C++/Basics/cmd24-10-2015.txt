@@ -1,0 +1,37 @@
+    1  CD Foundations/Advanced/C++/Basics/
+    2  cd Foundations/Advanced/C++/Basics/
+    3  vi reftypetest.cpp
+    4  vi ../../../Fundamentals/C/Pointers/simpleptrtest2.c 
+    5  vi reftypetest.cpp
+    6  c++ -o reftypetest reftypetest.cpp 
+    7  ./reftypetest 
+    8  vi reftypetest.cpp
+    9  vi throwtest.cpp
+   10  c++ -o throwtest throwtest.cpp 
+   11  ./throwtest 
+   12  vi throwtest.cpp
+   13  c++ -o throwtest throwtest.cpp 
+   14  ./throwtest 
+   15  vi throwtest.cpp
+   16  c++ -o throwtest throwtest.cpp 
+   17  ./throwtest 
+   18  cp throwtest.cpp trycatchtest1.cpp
+   19  vi trycatchtest1.cpp 
+   20  c++ -o trycatchtest1 trycatchtest1.cpp 
+   21  cp throwtest.cpp trycatchtest1.cpp
+   22  vi trycatchtest1.cpp 
+   23  c++ -o trycatchtest1 trycatchtest1.cpp 
+   24  vi trycatchtest1.cpp 
+   25  c++ -o trycatchtest1 trycatchtest1.cpp 
+   26  ./trycatchtest1 
+   27  vi trycatchtest1.cpp 
+   28  ./trycatchtest1 
+   29  vi trycatchtest1.cpp 
+   30  c++ -o trycatchtest1 trycatchtest1.cpp 
+   31  ./trycatchtest1 
+   32  vi trycatchtest1.cpp 
+   33  cp trycatchtest1.cpp trycatchtest2.cpp
+   34  vi trycatchtest2.cpp 
+   35  c++ -o trycatchtest2 trycatchtest2.cpp 
+   36  ./trycatchtest2
+   37  history >cmd24-10-2015.txt

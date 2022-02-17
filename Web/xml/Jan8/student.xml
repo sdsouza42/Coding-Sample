@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MET SYSTEM "student.dtd">
+<MET>
+  <Student sid="s001">
+      <Sname>A&gt;mit</Sname>
+      <Scourse>DAC</Scourse>
+      <Sage>22</Sage>
+      <Sfees>10000</Sfees>
+      <SContact>
+            <SMobile>99999999</SMobile>
+      </SContact>
+      <SAddress>&add;</SAddress>
+  </Student>
+<Student sid="s002">
+      <Sname>Anil</Sname>
+      <Scourse>DAC</Scourse>
+      <Sage>23</Sage>
+      <Sfees>10000</Sfees>
+      <SContact>
+         <SLandline>25555555</SLandline>
+      </SContact>
+      <SAddress>&add;</SAddress>
+  </Student>
+<Student sid="s003">
+      <Sname>Ketan</Sname>
+      <Scourse>DAC</Scourse>
+      <Sage>25</Sage>
+      <Sfees>10000</Sfees>
+      <SContact>
+         <SLandline>25555555</SLandline>
+      </SContact>
+      <SAddress>&add;</SAddress>
+  </Student>
+</MET>

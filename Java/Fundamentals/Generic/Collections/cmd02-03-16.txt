@@ -1,0 +1,102 @@
+    1  cd Java/Fundamentals/Generic/Basics/
+    2  cp GenClassTest1.java GenClassTest2.java
+    3  vi GenClassTest2.java 
+    4  javac GenClassTest2.java 
+    5  vi GenClassTest2.java 
+    6  javac GenClassTest2.java 
+    7  java GenClassTest2
+    8  vi GenClassTest2.java 
+    9  javac GenClassTest2.java 
+   10  java GenClassTest2
+   11  vi GenClassTest2.java 
+   12  javac GenClassTest2.java 
+   13  vi GenClassTest2.java 
+   14  javac GenClassTest2.java 
+   15  java GenClassTest2
+   16  vi GenClassTest2.java 
+   17  javac GenClassTest2.java 
+   18  java GenClassTest2
+   19  vi GenClassTest2.java 
+   20  javac GenClassTest2.java 
+   21  vi GenClassTest2.java 
+   22  javac GenClassTest2.java 
+   23  vi GenClassTest2.java 
+   24  javac GenClassTest2.java 
+   25  java GenClassTest2
+   26  vi GenClassTest2.java 
+   27  javac GenClassTest2.java 
+   28  java GenClassTest2
+   29  vi GenClassTest2.java 
+   30  javac GenClassTest2.java 
+   31  vi GenClassTest2.java 
+   32  javac GenClassTest2.java 
+   33  vi GenClassTest2.java 
+   34  javac GenClassTest2.java 
+   35  java GenClassTest2
+   36  cp GenClassTest1.java IterationTest.java
+   37  vi IterationTest.java 
+   38  javac IterationTest.java 
+   39  java IterationTest
+   40  vi IterationTest.java 
+   41  javac IterationTest.java 
+   42  vi IterationTest.java 
+   43  javap java.lang.Iterable
+   44  javap java.util.Iterator
+   45  vi IterationTest.java 
+   46  javac IterationTest.java 
+   47  java IterationTest
+   48  cd ..
+   49  mkdir Collections
+   50  cd Collections/
+   51  cp ../Basics/Interval.java .
+   52  vi ArrayListTest.java
+   53  javac ArrayListTest.java
+   54  java ArrayListTest
+   55  cp ArrayListTest.java LinkedListTest.java
+   56  vi LinkedListTest.java 
+   57  javac LinkedListTest.java 
+   58  java LinkedListTest
+   59  cp ArrayListTest.java HashSetTest.java
+   60  vi HashSetTest.java 
+   61  javac HashSetTest.java 
+   62  vi HashSetTest.java 
+   63  javac HashSetTest.java 
+   64  java HashSetTest
+   65  cp HashSetTest.java TreeSetTest1.java
+   66  vi TreeSetTest1.java 
+   67  javac TreeSetTest1.java 
+   68  java TreeSetTest1
+   69  vi Interval.java 
+   70  javac Interval.java 
+   71  javac TreeSetTest1.java 
+   72  java TreeSetTest1
+   73  vi Interval.java 
+   74  javac Interval.java 
+   75  java TreeSetTest1
+   76  cp TreeSetTest1.java TreeSetTest2.java
+   77  vi TreeSetTest2.java 
+   78  javac TreeSetTest2.java 
+   79  java TreeSetTest2
+   80  vi TreeSetTest2.java 
+   81  javac -source 1.7 TreeSetTest2.java 
+   82  vi TreeSetTest2.java 
+   83  javac -source 1.7 TreeSetTest2.java 
+   84  java TreeSetTest2
+   85  vi TreeSetTest2.java 
+   86  javac TreeSetTest2.java 
+   87  cp HashSetTest.java HashMapTest.java
+   88  vi HashMapTest.java 
+   89  javac HashMapTest.java 
+   90  vi HashMapTest.java 
+   91  javac HashMapTest.java 
+   92  java HashMapTest
+   93  vi HashMapTest.java 
+   94  javac HashMapTest.java 
+   95  java HashMapTest
+   96  cp HashMapTest.java TreeMapTest.java
+   97  vi TreeMapTest.java 
+   98  javac TreeMapTest.java 
+   99  java TreeMapTest
+  100  vi TreeMapTest.java 
+  101  cd ..
+  102  history > cmd02-03-16.txt

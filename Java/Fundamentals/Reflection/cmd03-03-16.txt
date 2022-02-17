@@ -1,0 +1,95 @@
+    1  cd Java/Fundamentals/Generic/Collections/
+    2  vi StreamTest1.java
+    3  javac StreamTest1.java
+    4  java StreamTest1
+    5  vi StreamTest1.java
+    6  javac StreamTest1.java
+    7  java StreamTest1
+    8  vi StreamTest1.java
+    9  cp ArrayListTest.java StreamTest2.java
+   10  vi StreamTest2.java 
+   11  javac StreamTest2.java 
+   12  java StreamTest2
+   13  java StreamTest2 300
+   14  java StreamTest2 400
+   15  vi StreamTest2.java 
+   16  javac StreamTest2.java 
+   17  javap java.util.stream.Stream
+   18  vi StreamTest2.java 
+   19  javac StreamTest2.java 
+   20  vi StreamTest2.java 
+   21  javac StreamTest2.java 
+   22  java StreamTest2
+   23  java StreamTest2 300
+   24  vi StreamTest2.java 
+   25  javac StreamTest2.java 
+   26  vi StreamTest2.java 
+   27  javac StreamTest2.java 
+   28  java StreamTest2
+   29  java StreamTest2 400
+   30  vi StreamTest2.java 
+   31  javac StreamTest2.java 
+   32  java StreamTest2 300
+   33  vi StreamTest2.java 
+   34  javac StreamTest2.java 
+   35  vi StreamTest2.java 
+   36  javac StreamTest2.java 
+   37  java StreamTest2
+   38  java StreamTest2 400
+   39  java StreamTest2 300
+   40  ll /SoftDev/Web/
+   41  ll /SoftDev/www/html/
+   42  cd ../..
+   43  mkdir Reflection
+   44  cd Reflection/
+   45  cp -r ../Language/OOP/payroll/ .
+   46  cp ../Language/OOP/Interval.java .
+   47  javac Interval.java 
+   48  vi ObjAccessTest.java
+   49* javac ObjAccessTest
+   50  vi ObjAccessTest.java
+   51  javac ObjAccessTest.java
+   52  java ObjAccessTest
+   53  vi ObjAccessTest.java
+   54  javac ObjAccessTest.java
+   55  vi ObjAccessTest.java
+   56  javac ObjAccessTest.java
+   57  vi ObjAccessTest.java
+   58  javac ObjAccessTest.java
+   59  java ObjAccessTest
+   60  vi ObjAccessTest.java
+   61  javac ObjAccessTest.java
+   62  java ObjAccessTest
+   63  vi ObjAccessTest.java
+   64  javac ObjAccessTest.java
+   65  java ObjAccessTest
+   66  vi ObjAccessTest.java
+   67  javac ObjAccessTest.java
+   68  java ObjAccessTest
+   69  vi ObjAccessTest.java
+   70  javac ObjAccessTest.java
+   71  java ObjAccessTest
+   72  vi ObjAccessTest.java
+   73  javac ObjAccessTest.java
+   74  java ObjAccessTest
+   75  vi ObjAccessTest.java
+   76  vi Interval.java 
+   77  javac Interval.java 
+   78  java ObjAccessTest
+   79  vi ObjAccessTest.java
+   80  cp -r ~/Shared/finance/ .
+   81  ll finance/
+   82  vi finance/LoanPolicy.java 
+   83  vi finance/EducationLoan.java 
+   84  vi finance/HomeLoan.java 
+   85  vi finance/PersonalLoan.java 
+   86  vi finance/BusinessLoan.java 
+   87  javac finance/*.java
+   88  vi EarlyBindTest.java
+   89  javac EarlyBindTest.java
+   90  java EarlyBindTest 500000 finance.EducationLoan
+   91  java EarlyBindTest 500000 finance.HomeLoan
+   92  java EarlyBindTest 500000 finance.PersonalLoan
+   93  java EarlyBindTest 500000 finance.BusinessLoan
+   94  vi EarlyBindTest.java
+   95  history >cmd03-03-16.txt

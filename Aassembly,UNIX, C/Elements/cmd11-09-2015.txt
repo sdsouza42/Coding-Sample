@@ -1,0 +1,15 @@
+    1  cd Foundations/Fundamentals/Elements/
+    2  vi mymacro.i
+    3  cp looptest.s macrotest.s
+    4  vi macrotest.s 
+    5  as -o macrotest.o macrotest.s 
+    6  ld -o macrotest macrotest.o system.o 
+    7  ./macrotest
+    8  vi macrotest.s 
+    9  vi mymacro.i 
+   10  vi macrotest.s 
+   11  objdump -d macrotest.o
+   12  objdump -d -M intel macrotest.o
+   13  vi macrotest.s 
+   14  objdump -d -M intel macrotest.o
+   15  history >cmd11-09-2015.txt

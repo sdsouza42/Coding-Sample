@@ -1,0 +1,25 @@
+ 01  cp personal.html 
+ 02  cp personal.html inlinecss.html
+ 03  vi inlinecss.html 
+ 04  cp inlinecss.html internalcss.html
+ 05  vi internalcss.html 
+ 06  cp ~/Shared/met.gif images/
+ 07  vi internalcss.html 
+ 08  mv internalcss.html internalcss1.html 
+ 09  mv internalcss1.html internalcss.html 
+ 10  cp internalcss.html customclasscss.html
+ 11  vi customclasscss.html 
+ 12  mkdir css
+ 13  vi css/extcss.css
+ 14  cp ~/Shared/watermark.jpg images/
+ 15  vi css/extcss.css
+ 16  vi inlinecss.html 
+ 17  vi internalcss.html 
+ 18  vi inlinecss.html 
+ 19  vi internalcss.html 
+ 20  vi css/extcss.css 
+ 21  cp internalcss.html externalcss.html
+ 22  vi externalcss.html 
+ 23  vi inlinecss.html 
+ 24  history >cmd03-12-2015.txti
+

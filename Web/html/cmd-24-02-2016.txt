@@ -1,0 +1,13 @@
+    1  cd www/html/
+    2  ls
+    3  vi jshello.html 
+    4  vi jqhello.html
+    5  cp jshello.html jqhello.html 
+    6  vi jqhello.html 
+    7  ls
+    8  ls scripts/
+    9  ls src/
+   10  vi jqhello.html 
+   11  cp jqhello.html jqeventtest.html
+   12  vi jqeventtest.html 
+   13  history > cmd-24-02-2016.txt

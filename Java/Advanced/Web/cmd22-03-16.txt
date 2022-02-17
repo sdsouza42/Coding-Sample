@@ -1,0 +1,43 @@
+    1  ~/glassfish4/bin/asadmin start-domain
+    2  export CLASSPATH=.:~/glassfish4/glassfish/lib/javaee.jar 
+    3  cd Java/Advanced/Web/
+    4  cd WEB-INF/
+    5  vi web.xml 
+    6  cd classes/
+    7  cp ../../../Desktop/Visitor.java basicwebapp/
+    8  vi basicwebapp/Visitor.java 
+    9  javac basicwebapp/Visitor.java 
+   10  vi basicwebapp/VisitorManagedBean.java
+   11  javac basicwebapp/VisitorManagedBean.java
+   12  touch ../../.reload 
+   13  vi ../../facelettest.xhtml
+   14  vi basicwebapp/VisitorManagedBean.java
+   15  vi basicwebapp/FeedbackResource.java
+   16  javac basicwebapp/FeedbackResource.java
+   17  vi RESTfulApp.java
+   18  javac RESTfulApp.java
+   19  vi FeedbackService.cs
+   20  javac FeedbackService.cs
+   21  vi FeedbackService.cs
+   22  mv FeedbackService.cs basicwebapp/
+   23  javac basicwebapp/FeedbackService.cs 
+   24  mv basicwebapp/FeedbackService.cs basicwebapp/FeedbackService.java
+   25  javac basicwebapp/FeedbackService.java 
+   26  vi basicwebapp/FeedbackService.java 
+   27  javac basicwebapp/FeedbackService.java 
+   28  vi basicwebapp/FeedbackService.java 
+   29  javac basicwebapp/FeedbackService.java 
+   30  touch ../../.reload 
+   31  vi basicwebapp/FeedbackService.java 
+   32  ll
+   33  vi RESTfulApp.java 
+   34  mv RESTfulApp.* basicwebapp/
+   35  ll
+   36  touch ../../.reload 
+   37  ll
+   38  cd ../..
+   39  cp ~/Shared/jquery.js .
+   40  cp ~/Shared/restclienttest.html .
+   41  vi restclienttest.html 
+   42  cp restclienttest.html ~/Shared/restclienttest.html 
+   43  history >cmd22-03-16.txt

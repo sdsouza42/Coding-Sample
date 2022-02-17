@@ -1,0 +1,12 @@
+E:\MS.NET\Advanced\Desktop\DesignerTest\SimpleUIApp\bin\Debug\SimpleUIApp.exe.config
+E:\MS.NET\Advanced\Desktop\DesignerTest\SimpleUIApp\bin\Debug\SimpleUIApp.exe
+E:\MS.NET\Advanced\Desktop\DesignerTest\SimpleUIApp\bin\Debug\SimpleUIApp.pdb
+E:\MS.NET\Advanced\Desktop\DesignerTest\SimpleUIApp\obj\Debug\SimpleUIApp.csprojResolveAssemblyReference.cache
+E:\MS.NET\Advanced\Desktop\DesignerTest\SimpleUIApp\obj\Debug\SimpleUIApp.MainForm.resources
+E:\MS.NET\Advanced\Desktop\DesignerTest\SimpleUIApp\obj\Debug\SimpleUIApp.Properties.Resources.resources
+E:\MS.NET\Advanced\Desktop\DesignerTest\SimpleUIApp\obj\Debug\SimpleUIApp.csproj.GenerateResource.Cache
+E:\MS.NET\Advanced\Desktop\DesignerTest\SimpleUIApp\obj\Debug\SimpleUIApp.exe
+E:\MS.NET\Advanced\Desktop\DesignerTest\SimpleUIApp\obj\Debug\SimpleUIApp.pdb
+F:\MET\Coding Sample\MS.NET\Advanced\Desktop\DesignerTest\SimpleUIApp\bin\Debug\SimpleUIApp.exe.config
+F:\MET\Coding Sample\MS.NET\Advanced\Desktop\DesignerTest\SimpleUIApp\obj\Debug\SimpleUIApp.exe
+F:\MET\Coding Sample\MS.NET\Advanced\Desktop\DesignerTest\SimpleUIApp\obj\Debug\SimpleUIApp.pdb

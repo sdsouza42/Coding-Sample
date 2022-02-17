@@ -1,0 +1,16 @@
+E:\Database\EFConventionTest\CodeFirstApp\bin\Debug\CodeFirstApp.exe.config
+E:\Database\EFConventionTest\CodeFirstApp\bin\Debug\CodeFirstApp.exe
+E:\Database\EFConventionTest\CodeFirstApp\bin\Debug\CodeFirstApp.pdb
+E:\Database\EFConventionTest\CodeFirstApp\bin\Debug\EntityFramework.dll
+E:\Database\EFConventionTest\CodeFirstApp\bin\Debug\EntityFramework.SqlServer.dll
+E:\Database\EFConventionTest\CodeFirstApp\bin\Debug\EntityFramework.xml
+E:\Database\EFConventionTest\CodeFirstApp\bin\Debug\EntityFramework.SqlServer.xml
+E:\Database\EFConventionTest\CodeFirstApp\obj\Debug\CodeFirstApp.csprojResolveAssemblyReference.cache
+E:\Database\EFConventionTest\CodeFirstApp\obj\Debug\CodeFirstApp.MainForm.resources
+E:\Database\EFConventionTest\CodeFirstApp\obj\Debug\CodeFirstApp.Properties.Resources.resources
+E:\Database\EFConventionTest\CodeFirstApp\obj\Debug\CodeFirstApp.csproj.GenerateResource.Cache
+E:\Database\EFConventionTest\CodeFirstApp\obj\Debug\CodeFirstApp.exe
+E:\Database\EFConventionTest\CodeFirstApp\obj\Debug\CodeFirstApp.pdb
+E:\MS.NET\Advanced\Database\EFConventionTest\CodeFirstApp\bin\Debug\CodeFirstApp.exe.config
+E:\MS.NET\Advanced\Database\EFConventionTest\CodeFirstApp\obj\Debug\CodeFirstApp.exe
+E:\MS.NET\Advanced\Database\EFConventionTest\CodeFirstApp\obj\Debug\CodeFirstApp.pdb

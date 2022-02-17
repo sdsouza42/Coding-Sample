@@ -1,0 +1,53 @@
+subst s: MS.NET\Fundamentals
+s:
+cd Concurrency
+dir
+np threadlocaltest.cs
+csc threadlocaltest.cs worker.cs
+threadlocaltest.exe
+csc threadlocaltest.cs worker.cs
+threadlocaltest.exe
+csc threadlocaltest.cs worker.cs
+threadlocaltest.exe
+np computation.cs
+np asyncinvoketest.cs
+np computation.cs
+csc asyncinvoketest.cs computation.cs
+asyncinvoketest.exe
+csc asyncinvoketest.cs computation.cs
+asyncinvoketest.exe
+copy threadtest.cs tasktest.cs
+np tasktest.cs
+csc tasktest.cs worker.cs
+tasktest.exe
+csc tasktest.cs worker.cs
+tasktest.exe
+csc tasktest.cs worker.cs
+tasktest.exe
+tasktest.exe 60
+tasktest.exe 80
+csc tasktest.cs worker.cs
+tasktest.exe
+tasktest.exe 60
+tasktest.exe 80
+csc tasktest.cs worker.cs
+copy asyncinvoketest.cs asyncawaittest.cs
+np asyncawaittest.cs
+csc asyncawaittest.cs computation.cs
+asyncawaittest.exe
+csc asyncawaittest.cs computation.cs
+np paralleltest.cs
+csc paralleltest.cs worker.cs
+paralleltest.exe
+csc paralleltest.cs worker.cs
+paralleltest.exe
+csc paralleltest.cs worker.cs
+paralleltest.exe
+np plinqtest.cs
+csc plinqtest.cs worker.cs
+cls
+plinqtest.exe
+csc plinqtest.cs worker.cs
+plinqtest.exe
+copy plinqtest.exe z:\Shared\Testing
+doskey /h >cmd22-04-16.txt

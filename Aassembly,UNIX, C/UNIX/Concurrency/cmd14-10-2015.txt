@@ -1,0 +1,49 @@
+    1  cd Foundations/Fundamentals/UNIX/Concurrency/
+    2  vi threadtest.c
+    3  cc -o threadtest threadtest.c -lrt
+    4  ./threadtest 
+    5  vi threadtest.c
+    6  cc -o threadtest threadtest.c -lrt
+    7  ./threadtest 
+    8  vi threadtest.c
+    9  cc -o threadtest threadtest.c -lrt
+   10  ./threadtest 
+   11  vi threadtest.c
+   12  cc -o threadtest threadtest.c -lrt
+   13  ./threadtest 
+   14  cp threadtest.c threadsynctest.c
+   15  vi threadsynctest.c 
+   16  cc -o threadsynctest threadsynctest.c -lrt
+   17  ./threadsynctest 
+   18  vi threadsynctest.c 
+   19  cc -o threadsynctest threadsynctest.c -lrt
+   20  vi threadsynctest.c 
+   21  cc -o threadsynctest threadsynctest.c -lrt
+   22  ./threadsynctest 
+   23  cc -o threadsynctest threadsynctest.c -lrt
+   24  vi threadsynctest.c 
+   25  cc -o threadsynctest threadsynctest.c -lrt
+   26  vi threadsynctest.c 
+   27  cc -o threadsynctest threadsynctest.c -lrt
+   28  ./threadsynctest 
+   29  vi threadsynctest.c 
+   30  vi threadcoordtest.c
+   31  cc -o threadcoordtest threadcoordtest.c -lrt
+   32  ./threadcoordtest 
+   33  vi threadcoordtest.c
+   34  cc -o threadcoordtest threadcoordtest.c -lrt
+   35  ./threadcoordtest 
+   36  vi threadcoordtest.c
+   37  cc -o threadcoordtest threadcoordtest.c -lrt
+   38  ./threadcoordtest 
+   39  vi threadlocaltest.c
+   40  cc -o threadlocaltest threadlocaltest.c 
+   41  cc -o threadlocaltest threadlocaltest.c -lrt
+   42  ./threadlocaltest 
+   43  vi threadlocaltest.c
+   44  cc -o threadlocaltest threadlocaltest.c -lrt
+   45  ./threadlocaltest 
+   46  vi threadlocaltest.c
+   47  cc -o threadlocaltest threadlocaltest.c -lrt
+   48  ./threadlocaltest 
+   49  history >cmd14-10-2015.txt

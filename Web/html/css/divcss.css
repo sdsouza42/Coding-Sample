@@ -1,0 +1,45 @@
+body{
+	background-image:url('../images/watermark.jpg');
+}
+
+#logo{
+	margin:0;
+	position:absolute;
+	left:0%;
+	top:0%;
+	height:22%;
+	width:100%;
+	background-image:url('../images/met.gif');
+	background-color:wheat
+}
+
+#menu{
+	position:absolute;
+	left:15%;
+	top:22%;
+	height:10%;
+	width:85%;
+	background-color:grey
+}
+
+#content{
+	position:absolute;
+	left:0%;
+	top:32%;
+	height:60%;
+	width:100%;
+	background-color:pink
+}
+
+#footer{
+	position:absolute;
+	left:0%;
+	top:93%;
+	height:7%;
+	width:100%;
+	background-color:grey
+}
+
+
+
+

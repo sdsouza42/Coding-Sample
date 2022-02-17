@@ -1,0 +1,45 @@
+<html>
+<body>
+
+<script>
+var xmlDoc=new ActiveXObject("Microsoft.XMLDOM")
+xmlDoc.load("employee.xml")
+//alert(xmlDoc.childNodes.length)
+//alert(xmlDoc.firstChild.nodeName)
+//alert(xmlDoc.firstChild.text)
+//alert(xmlDoc.firstChild.value)
+//var root = xmlDoc.lastChild    Gets the Root Node
+//alert(root.nodeName)
+//var root = xmlDoc.documentElement         Gets the Root Node
+//alert(root.nodeName)
+
+//alert(xmlDoc.childNodes.item(0).nodeName)    by using items collection
+//alert(xmlDoc.childNodes[0].nodeName)          by using childNodes property
+
+/*
+var root = xmlDoc.documentElement
+for (i=0;i < root.childNodes.length; i++)
+{
+	var emp = root.childNodes[i]
+	for(j=0;j < emp.childNodes.length; j++)			Displays all the data using Loops
+	{
+		alert(emp.childNodes[j].nodeName)
+		alert(emp.childNodes[j].firstChild.nodeValue)
+	}
+}
+*/
+
+var attlist = xmlDoc.firstChild.attributes
+alert(attlist.length)
+for (i =0; i < attlist.length; i++)
+{
+ 	var attr = attlist.item(0);
+ 	alert(attr.name);
+ 	alert(attr.value);
+
+}
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+E:\Database\DataSetWinTest\RichClientApp\bin\Debug\RichClientApp.exe.config
+E:\Database\DataSetWinTest\RichClientApp\bin\Debug\RichClientApp.exe
+E:\Database\DataSetWinTest\RichClientApp\bin\Debug\RichClientApp.pdb
+E:\Database\DataSetWinTest\RichClientApp\obj\Debug\RichClientApp.csprojResolveAssemblyReference.cache
+E:\Database\DataSetWinTest\RichClientApp\obj\Debug\RichClientApp.MainForm.resources
+E:\Database\DataSetWinTest\RichClientApp\obj\Debug\RichClientApp.Properties.Resources.resources
+E:\Database\DataSetWinTest\RichClientApp\obj\Debug\RichClientApp.csproj.GenerateResource.Cache
+E:\Database\DataSetWinTest\RichClientApp\obj\Debug\RichClientApp.exe
+E:\Database\DataSetWinTest\RichClientApp\obj\Debug\RichClientApp.pdb
+E:\Database\DataSetWinTest\RichClientApp\obj\Debug\RichClientApp.InvoiceForm.resources
+E:\MS.NET\Advanced\Database\DataSetWinTest\RichClientApp\bin\Debug\RichClientApp.exe.config
+E:\MS.NET\Advanced\Database\DataSetWinTest\RichClientApp\obj\Debug\RichClientApp.exe
+E:\MS.NET\Advanced\Database\DataSetWinTest\RichClientApp\obj\Debug\RichClientApp.pdb

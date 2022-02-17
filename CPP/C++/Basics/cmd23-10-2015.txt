@@ -1,0 +1,22 @@
+    1  cd Foundations/Advanced/C++/Basics/
+    2  vi defargtest.cpp
+    3  c++ -o defargtest defargtest.cpp 
+    4  vi defargtest.cpp
+    5  c++ -o defargtest defargtest.cpp 
+    6  ./defargtest 
+    7  vi defargtest.cpp
+    8  cp defargtest.cpp funcovldtest.cpp
+    9  vi funcovldtest.cpp 
+   10  c++ -o funcovldtest funcovldtest.cpp 
+   11  vi funcovldtest.cpp 
+   12  c++ -o funcovldtest funcovldtest.cpp 
+   13  ./funcovldtest 
+   14  ./defargtest 
+   15  ./funcovldtest 
+   16  vi funcovldtest.cpp 
+   17  c++ -o funcovldtest funcovldtest.cpp 
+   18  ./funcovldtest 
+   19  objdump -t funcovldtest
+   20  vi funcovldtest.cpp 
+   21  c++ -o funcovldtest funcovldtest.cpp 
+   22  history > cmd23-10-2015.txt 

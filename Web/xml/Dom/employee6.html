@@ -1,0 +1,22 @@
+<html>
+<body>
+
+<script>
+var xmlDoc=new ActiveXObject("Microsoft.XMLDOM")
+xmlDoc.async=false
+xmlDoc.load("employee.xml")
+alert(xmlDoc)
+//var root = xmlDoc.documentElement
+var node = xmlDoc.selectNodes("//ename")
+alert(node.length)
+for(i = 0;i < node.length;i++)
+{
+ 	//var item = node.item(i)
+	var item = node[i]
+	alert(item.nodeName)
+	alert(item.firstChild.nodeValue)
+
+}
+</script>
+</body>
+</html>

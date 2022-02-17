@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Employee>
+  <Emp>
+    <Ename>Amit</Ename>
+    <Eage>22</Eage>
+    <Esal>10000</Esal>  
+  </Emp>
+  <Emp>
+    <Ename>Anil</Ename>
+    <Eage>22</Eage>
+    <Esal>15000</Esal>  
+  </Emp>
+  <Emp>
+    <Ename>Ketan</Ename>
+    <Eage>28</Eage>
+    <Esal>10000</Esal>  
+  </Emp>
+</Employee>

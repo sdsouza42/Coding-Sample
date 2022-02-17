@@ -1,0 +1,12 @@
+<!ELEMENT MET (Student+)>
+<!ELEMENT Student (Sname,Scourse,Sage,Sfees,SContact,SAddress)>
+<!ELEMENT Sname (#PCDATA)>
+<!ELEMENT Scourse (#PCDATA)>
+<!ELEMENT Sage (#PCDATA)>
+<!ELEMENT Sfees (#PCDATA)>
+<!ELEMENT SContact (SMobile|SLandline)>
+<!ELEMENT SMobile (#PCDATA)>
+<!ELEMENT SLandline (#PCDATA)>
+<!ELEMENT SAddress (#PCDATA)>
+<!ATTLIST Student sid ID #REQUIRED>
+<!ENTITY add "Mumbai Educational Trust">

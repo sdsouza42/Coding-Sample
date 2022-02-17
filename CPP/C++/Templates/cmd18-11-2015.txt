@@ -1,0 +1,27 @@
+    1  cd Foundations/Advanced/C++/Templates/
+    2  vi simplelist.h
+    3  cp ~/Shared/interval.h .
+    4  vi interval.h 
+    5  vi gencntnrtest.cpp
+    6  c++ -o gencntnrtest gencntnrtest.cpp 
+    7  ./gencntnrtest
+    8  vi gencntnrtest.cpp
+    9  cp gencntnrtest.cpp genadptrtest.cpp
+   10  vi genadptrtest.cpp 
+   11  c++ -o genadptrtest genadptrtest.cpp 
+   12  ./genadptrtest 
+   13  vi genadptrtest.cpp 
+   14  c++ -o genadptrtest genadptrtest.cpp 
+   15  ./genadptrtest 
+   16  vi genadptrtest.cpp 
+   17  vi simplelist.h 
+   18  cp gencntnrtest.cpp genitrtrtest.cpp
+   19  vi genitrtrtest.cpp 
+   20  vi simplelist.h 
+   21  vi genitrtrtest.cpp 
+   22  c++ -o genitrtrtest genitrtrtest.cpp 
+   23  vi simplelist.h 
+   24  c++ -o genitrtrtest genitrtrtest.cpp 
+   25  ./genitrtrtest 
+   26  vi genitrtrtest.cpp 
+   27  history >cmd18-11-2015.txt

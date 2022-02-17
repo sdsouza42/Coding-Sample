@@ -1,0 +1,65 @@
+    1  ~/oracle/startxe 
+    2  ~/glassfish4/bin/asadmin start-domain
+    3  cd Java/Advanced/Database/
+    4  ll
+    5  mkdir DBWebApp2
+    6  cd DBWebApp
+    7  cd DBWebApp2
+    8  mkdir WEB-INF
+    9  mkdir WEB-INF/classes
+   10  cp ~/Shared/web.xml WEB-INF/
+   11  export CLASSPATH=.:~/glassfish4/glassfish/lib/javaee.jar 
+   12  ~/glassfish4/bin/asadmin deploy .
+   13  mkdir view
+   14  cd WEB-INF/classes/
+   15  mkdir model
+   16  mkdir controller
+   17  vi model/ProductEntry.java
+   18  javac model/ProductEntry.java
+   19  javac model/ProductBean.java
+   20  vi model/ProductBean.java
+   21  vi model/ProductEntry.java
+   22  javac model/ProductBean.java
+   23  javac model/ProductEntry.java
+   24  vi model/ProductBean.java
+   25  javac model/ProductBean.java
+   26  vi ../../view/product.jspx
+   27  vi controller/ShopServlet.java
+   28  javac controller/ShopServlet.java
+   29  touch ../../.reload
+   30  vi controller/ShopServlet.java
+   31  javac controller/ShopServlet.java
+   32  touch ../../.reload
+   33  vi model/CustomerBean.java
+   34  javac model/CustomerBean.java
+   35  vi model/CustomerBean.java
+   36  javac model/CustomerBean.java
+   37  cp ../../view/product.jspx ../../customer.jspx
+   38  vi ../../customer.jspx
+   39  vi controller/ShopServlet.java
+   40  javac controller/ShopServlet.java
+   41  vi controller/ShopServlet.java
+   42  javac controller/ShopServlet.java
+   43  touch ../../.reload
+   44  vi controller/ShopServlet.java
+   45  mv ../../customer.jspx ../../view/
+   46  vi controller/ShopServlet.java
+   47  javac controller/ShopServlet.java
+   48  javac model/CustomerBean.java
+   49  vi model/CustomerBean.java
+   50  javac model/CustomerBean.java
+   51  javac controller/ShopServlet.java
+   52  touch ../../.reload
+   53  vi ../../../NTierApp/sales/OrderManager.java 
+   54  vi model/CustomerBean.java
+   55  javac model/CustomerBean.java
+   56  cp ../../view/product.jspx ../../view/order.jspx
+   57  vi ../../view/order.jspx
+   58  vi controller/ShopServlet.java
+   59  javac controller/ShopServlet.java
+   60  touch ../../.reload
+   61  vi ../../view/order.jspx
+   62  vi controller/ShopServlet.java
+   63  javac controller/ShopServlet.java
+   64  touch ../../.reload
+   65  history >cmd28-03-16.txt

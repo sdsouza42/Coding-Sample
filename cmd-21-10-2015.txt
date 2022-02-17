@@ -1,0 +1,1000 @@
+   66  cc -o structptrtest2 structptrtest2.c
+   67  ./structptrtest2
+   68  vi structptrtest2.c
+   69  cc -o structptrtest2 structptrtest2.c
+   70  ./structptrtest2
+   71  history > cmd30-09-2015.txt
+   72  vi cmd30-09-2015.txt
+   73  cd ..
+   74  cp -r Foundations ~/Shared/
+   75  exit
+   76  cd Foundations/Fundamentals/C/Pointers/
+   77  vi funcptrtest.c
+   78  cc -o funcptrtest funcptrtest.c 
+   79  ./funcptrtest 
+   80  vi funcptrtest.c
+   81  cc -o funcptrtest funcptrtest.c 
+   82  vi funcptrtest.c
+   83  cc -o funcptrtest funcptrtest.c 
+   84  ./funcptrtest 
+   85  vi funcptrtest.c
+   86  cc -o funcptrtest funcptrtest.c 
+   87  ./funcptrtest 
+   88  vi funcptrtest.c
+   89  cc -o funcptrtest funcptrtest.c 
+   90  vi funcptrtest.c
+   91  cc -o funcptrtest funcptrtest.c 
+   92  vi funcptrtest.c
+   93  vi voidptrtest.c
+   94  cc -o voidptrtest voidptrtest.c 
+   95  ./voidptrtest 
+   96  vi voidptrtest.c
+   97  cc -o voidptrtest voidptrtest.c 
+   98  ./voidptrtest 
+   99  vi voidptrtest.c
+  100  cc -o voidptrtest voidptrtest.c 
+  101  ./voidptrtest 
+  102  vi voidptrtest.c
+  103  cc -o voidptrtest voidptrtest.c 
+  104  vi voidptrtest.c
+  105  cc -o voidptrtest voidptrtest.c 
+  106  ./voidptrtest 
+  107  vi voidptrtest.c
+  108  cc -o voidptrtest voidptrtest.c 
+  109  ./voidptrtest 
+  110  vi voidptrtest.c
+  111  cc -o voidptrtest voidptrtest.c 
+  112  ./voidptrtest 
+  113  vi voidptrtest.c
+  114  cc -o voidptrtest voidptrtest.c 
+  115  ./voidptrtest 
+  116  vi voidptrtest.c
+  117  cc -o voidptrtest voidptrtest.c 
+  118  ./voidptrtest 
+  119  vi voidptrtest.c
+  120  history >cmd01-10-2015.txt
+  121  vi cmd01-10-2015.txt
+  122  cp -r /SoftDev/Foundations ~/Shared/
+  123  exit
+  124  ps -A
+  125  l
+  126  ll
+  127  cd practice
+  128  ll
+  129  cd C
+  130  clear
+  131  vi test.c
+  132  cc test.c
+  133  ./a.out
+  134  vi test.c
+  135  cc test.c
+  136  ./a.out
+  137  vi test.c
+  138  cc test.c
+  139  vi test.c
+  140  cc test.c
+  141  clear
+  142  ./a.out
+  143  vi test.c
+  144  cc test.c
+  145  clera
+  146  clear
+  147  ./a.out
+  148  vi test.c
+  149  cc test.c
+  150  vi test.c
+  151  exit
+  152  cd Foundations/Fundamentals/
+  153  dir
+  154  ls
+  155  mkdir UNIX
+  156  cd UNIX/
+  157  mkdir Basics
+  158  cd Basics/
+  159  vi libctest.c
+  160  cc -o libctest libctest.c 
+  161  ./libctest 
+  162  ./libctest Jack Jill John Jeff
+  163  ./libctest Jack and Jill John Jeff
+  164  ./libctest "Jack and Jill" John Jeff
+  165  ./libctest "Jack and Jill" 'John or Jeff'
+  166  ./libctest Jack and Jill John Jeff
+  167  ./libctest Jack Jill John Jeff
+  168  ./libctest Jack Jill John Jeff Jane
+  169  vi libctest.c
+  170  cc -o libctest libctest.c 
+  171  ./libctest Jack Jill John Jeff Jane
+  172  vi libctest.c
+  173  objdump -t libctest
+  174  ./libctest Jack Jill John Jeff Jane
+  175  vi libctest.c
+  176  cc -o libctest libctest.c 
+  177  ./libctest Jack Jill John Jeff Jane
+  178  cc -o libctest libctest.c 
+  179  vi libctest.c
+  180  cc -o libctest libctest.c 
+  181  ./libctest Jack Jill John Jeff
+  182  vi libctest.c
+  183  mkdir ~/Shared/Testing
+  184  cp libctest.c ~/Shared/Testing/
+  185  cp libctest.c syscalltest.c
+  186  vi syscalltest.c 
+  187  cc -o syscalltest syscalltest.c 
+  188  ./syscalltest Jack Jill John Jane
+  189  vi syscalltest.c 
+  190  cc -o syscalltest syscalltest.c 
+  191  ./syscalltest Jack Jill John Jane
+  192  cp ~/Shared/Testing/
+  193  cp syscalltest.c ~/Shared/Testing/
+  194  cp libctest.c posixtest.c
+  195  vi posixtest.c 
+  196  vi syscalltest.c 
+  197  cc -o syscalltest syscalltest.c 
+  198  vi posixtest.c 
+  199  cc -o posixtest posixtest.c 
+  200  ./posixtest Jack Jill John Jane
+  201  kill -l
+  202  pwd
+  203  history >cmd06-10-2015.txt
+  204  ls
+  205  vi cmd06-10-2015.txt
+  206  ls
+  207  cd ..
+  208  ls
+  209  pwd
+  210  cp -r /SoftDev/Foundations ~/Shared/
+  211  exit
+  212  cd Foundations/Fundamentals/UNIX/Basics/
+  213  ./pidtest 
+  214  ps
+  215  ./pidtest 
+  216  cd Foundations/Fundamentals/UNIX/Basics/
+  217  vi signaltest1.c
+  218  cc -o signaltest1 signaltest1.c 
+  219  ./signaltest1 
+  220  vi signaltest1.c
+  221  cc -o signaltest1 signaltest1.c 
+  222  ./signaltest1 
+  223  vi signaltest1.c
+  224  cc -o signaltest1 signaltest1.c 
+  225  ./signaltest1 
+  226  vi signaltest1.c
+  227  cc -o signaltest1 signaltest1.c 
+  228  ./signaltest1 
+  229  echo $?
+  230  vi signaltest1.c
+  231  man sigaction
+  232  vi signaltest1.c
+  233  ./signaltest1 
+  234  vi signaltest1.c
+  235  cc -o signaltest1 signaltest1.c 
+  236  ./signaltest1 
+  237  vi signaltest1.c
+  238  cc -o signaltest1 signaltest1.c 
+  239  ./signaltest1 
+  240  vi signaltest1.c
+  241  cc -o signaltest1 signaltest1.c 
+  242  ./signaltest1 
+  243  cp signaltest1.c signaltest2.c
+  244  vi signaltest2.c 
+  245  cc -o signaltest2 signaltest2.c
+  246  ./signaltest2
+  247  vi signaltest2.c 
+  248  cc -o signaltest2 signaltest2.c
+  249  ./signaltest2
+  250  ll
+  251  ps -A
+  252  vi pidtest.c
+  253  cc -o pidtest pidtest.c 
+  254  ps
+  255  ./pidtest 
+  256  cd ..
+  257  mkdir IO
+  258  cd IO
+  259  vi strmiotest1.c
+  260  cc -o strmiotest1 strmiotest1.c 
+  261  ./strmiotest1 
+  262  vi strmiotest1.c
+  263  cc -o strmiotest1 strmiotest1.c 
+  264  vi encbuf.c
+  265  vi strmiotest1.c
+  266  vi encbuf.c
+  267  cc -c encbuf.c 
+  268  cc -o strmiotest1 strmiotest1.c encbuf.o
+  269  ./strmiotest1 
+  270  ./strmiotest1 data1.txt data2.txt
+  271  cp strmiotest1.c data1.txt
+  272  vi data1.txt 
+  273  ./strmiotest1 data1.txt data2.txt
+  274  vi data2.txt 
+  275  ./strmiotest1 data2.txt data1.txt 
+  276  ./strmiotest1 data2.txt data3.txt 
+  277  vi data3.txt 
+  278  ll data2.txt 
+  279  ll data1.txt 
+  280  history >cmd07-10-2015.txt
+  281  vi cmd07-10-2015.txt 
+  282  cp -r /SoftDev/Foundations ~/Shared/
+  283  eixt
+  284  exit
+  285  cd Foundations/Fundamentals/UNIX/IO/
+  286  vi strmiotest1.c 
+  287  vi encbuf.c
+  288  vi revbuf.c
+  289  cc -c revbuf.c 
+  290  vi strmiotest2.c
+  291  ll /usr/include/
+  292  ll /usr/include/sys
+  293  vi strmiotest2.c
+  294  man fstat
+  295  vi strmiotest2.c
+  296  cc -o strmiotest2 strmiotest2.c revbuf.o
+  297  vi strmiotest2.c
+  298  cc -o strmiotest2 strmiotest2.c revbuf.o
+  299  vi data1.txt 
+  300  ./strmiotest2
+  301  ./strmiotest2 data1.txt 
+  302  vi data1.txt 
+  303  ./strmiotest2 data2.txt 
+  304  vi data1.txt 
+  305  ./strmiotest2 data1.txt 
+  306  vi data1.txt 
+  307  vi strmiotest2.c
+  308  cc -o strmiotest2 strmiotest2.c revbuf.o
+  309  history >cmd08-10-2015.txt 
+  310  vi cmd08-10-2015.txt 
+  311  cp -r /SoftDev/Foundations ~/Shared/
+  312  exit
+  313  exit
+  314  cd Foundations/Fundamentals/UNIX/IO/
+  315  vi strmiotest2.c
+  316  cp strmiotest2.c mmapiotest.c
+  317  vi mmapiotest.c 
+  318  cc -o mmapiotest mmapiotest.c 
+  319  cc -o mmapiotest mmapiotest.c revbuf.o
+  320  vi data1.txt 
+  321  ./mmapiotest 
+  322  ./mmapiotest data1.txt 
+  323  vi data1.txt 
+  324  ./mmapiotest data1.txt 
+  325  vi data1.txt 
+  326  vi mmapiotest.c 
+  327  history >cmd09-10-2015.txt
+  328  vi cmd09-10-2015.txt
+  329  cp -r /SoftDev/Foundations ~/Shared/
+  330  exit
+  331  sudo yum install glibc-static
+  332  ls
+  333  cd practice/
+  334  ls
+  335  cd ..
+  336  mkdir Testing
+  337  cd Testing/
+  338  ls
+  339  vi fptrtest.c
+  340  cc -static fptrtest.c
+  341  ls
+  342  rm a.out 
+  343  vi fptrtest.c 
+  344  cc -c fptrtest.c 
+  345  objdump -d fptrtest.o -M intel
+  346  cc -o fptrtest fptrtest.c
+  347  objdump -d fptrtest -M intel
+  348  vi fptrtest.c 
+  349  cc -o fptrtest fptrtest.c
+  350  vi fptrtest.c 
+  351  cc -o fptrtest fptrtest.c
+  352  ./fptrtest 
+  353  vi fptrtest.c 
+  354  cc -o fptrtest fptrtest.c
+  355  ./fptrtest 
+  356  vi fptrtest.c 
+  357  cc -o fptrtest fptrtest.c
+  358  ./fptrtest 
+  359  vi fptrtest.c 
+  360  cc -o fptrtest fptrtest.c
+  361  vi fptrtest.c 
+  362  cc -o fptrtest fptrtest.c
+  363  ./fptrtest 
+  364  vi fptrtest.c 
+  365  cc -o fptrtest fptrtest.c
+  366  ./fptrtest 
+  367  vi fptrtest.c 
+  368  cc -o fptrtest fptrtest.c
+  369  ./fptrtest 
+  370  vi fptrtest.c 
+  371  ls
+  372  cp -r /SoftDev/Testing ~/Shared/
+  373  cd ..
+  374  ls
+  375  cd Testing/
+  376  ls
+  377  exit
+  378  cd Foundations/Fundamentals/UNIX/IO
+  379  objdump -d -M intel shobjtest1
+  380  cd Foundations/Fundamentals/UNIX/IO/
+  381  ./shobjtest1 
+  382  cd Foundations/Fundamentals/UNIX/IO/
+  383  ./shobjtest1 
+  384  cd Foundations/Fundamentals/C/Basics/
+  385  ll hello
+  386  ll variabletest
+  387  cc -static -o variabletest variabletest.o
+  388  ll variabletest
+  389  ./variabletest 
+  390  cd ../../UNIX/IO/
+  391  vi shobjtest1.c
+  392  cc -o shobjtest1 shobjtest1.c 
+  393  cc -o shobjtest1 shobjtest1.c encbuf.o
+  394  ./shobjtest1 
+  395  vi encbuf.c
+  396  cc -c encbuf.c
+  397  ./shobjtest1 
+  398  cc -o shobjtest1 shobjtest1.c encbuf.o
+  399  ./shobjtest1 
+  400  cc -c encbuf.c
+  401  vi encbuf.c
+  402  cc -c encbuf.c
+  403  cc -o shobjtest1 shobjtest1.c encbuf.o
+  404  ./shobjtest1 
+  405  objdump -d encbuf.o
+  406  objdump -d -M intel encbuf.o
+  407  cc -shared -fPIC -o libenc.so encbuf.c
+  408  ll
+  409  cc -o shobjtest1 shobjtest1.c -lenc
+  410  cc -o shobjtest1 shobjtest1.c -L. -lenc
+  411  objdump -d -M intel libenc.so
+  412  ./shobjtest1 
+  413  cp libenc.so /usr/lib
+  414  sudo libenc.so /usr/lib
+  415  sudo cp libenc.so /usr/lib
+  416  ./shobjtest1 
+  417  sudo rm /usr/lib/libenc.so 
+  418  ./shobjtest1 
+  419  export LD_LIBRARY_PATH=.
+  420  ./shobjtest1 
+  421  vi ~/.bashrc 
+  422  vi encbuf.c
+  423  cc -shared -fPIC -o libenc.so encbuf.c
+  424  ./shobjtest1 
+  425  cc -o shobjtest1 shobjtest1.c encbuf.o
+  426  objdump -d -M intel shobjtest1
+  427  cc -o shobjtest1 shobjtest1.c -L. -lenc
+  428  objdump -d -M intel shobjtest1
+  429  ./shobjtest1 
+  430  cc -shared -fPIC -o libenc.so revbuf.c
+  431  ./shobjtest1 
+  432  cc -shared -fPIC -o libenc.so encbuf.c
+  433  ./shobjtest1 
+  434  history >cmd10-10-2015.txt
+  435  cp -r /SoftDev/Foundations ~/Shared/
+  436  vi cmd10-10-2015.txt 
+  437  exit
+  438  cd Foundations/Fundamentals/UNIX/IO/
+  439  objdump -d -M intel shobjtest1
+  440  exit
+  441  ll
+  442  cd practice/
+  443  vi arraytest.c
+  444  cc -o arraytest arraytest.c
+  445  vi arraytest.c
+  446  cc -o arraytest arraytest.c
+  447  ./a.out
+  448  ./arraytest
+  449  ./a.out
+  450  clear
+  451  vi arraytest.c
+  452  cc -o arraytest arraytest.c
+  453  ./arraytest 
+  454  vi arraytest.c
+  455  cc -o arraytest arraytest.c
+  456  ./a.out
+  457  ./arraytest
+  458  vi arraytest.c
+  459  clear
+  460  vi structtest.c
+  461  cc -o structtest structtest.c
+  462  vi structtest.c
+  463  cc -o structtest structtest.c
+  464  ./structtest 
+  465  vi structtest.c
+  466  cc -o structtest structtest.c
+  467  vi structtest.c
+  468  cc -o structtest structtest.c
+  469  vi structtest.c
+  470  cc -o structtest structtest.c
+  471  clear
+  472  cc -o structtest structtest.c
+  473  vi structtest.c
+  474  cc -o structtest structtest.c
+  475  ./a.out
+  476  ./structtest
+  477  vi structtest.c
+  478  cc -o structtest structtest.c
+  479  clear
+  480  ./structtest 
+  481  vi structtest.c
+  482  cc -o structtest structtest.c
+  483  ./structtest
+  484  vi structtest.c
+  485  cc -o structtest structtest.c
+  486  ./a.out
+  487  clear
+  488  ./structtest
+  489  vi structtest.c
+  490  cc -o structtest structtest.c
+  491  ./structest
+  492  ./structtest
+  493  vi structtest.c
+  494  cc -o structtest structtest.c
+  495  vi structtest.c
+  496  clear
+  497  vi structtest.c
+  498  cc -o structtest structtest.c
+  499  vi structtest.c
+  500  cc -o structtest structtest.c
+  501  ./structtest
+  502  cc -o structtest structtest.c
+  503  vi structtest.c
+  504  cc -o structtest structtest.c
+  505  ./structtest 
+  506  vi structtest.c
+  507  cc -o structtest structtest.c
+  508  ./a.out
+  509  clear
+  510  ./structtest 
+  511  ./a.out
+  512  clear
+  513  vi structtest.c
+  514  clear
+  515  exit
+  516  ll
+  517  cd Python/
+  518  ll
+  519  cd Foundations/Fundamentals/Elements/
+  520  ll
+  521  cd ..
+  522  ll
+  523  cd ..
+  524  ll
+  525  cd Foundations/Fundamentals/UNIX/IO/
+  526  ll *.so
+  527  cc -shared -fPIC -o librev.so revbuf.c
+  528  ll *.so
+  529  vi shobjtest2.c
+  530  cc -o shobjtest2 shobjtest1.c 
+  531  vi shobjtest2.c
+  532  cc -o shobjtest2 shobjtest1.c 
+  533  cc -o shobjtest2 shobjtest2.c 
+  534  ll /usr/lib
+  535  ll /usr/lib/*.so
+  536  cc -o shobjtest2 shobjtest2.c -ldl
+  537  man dlopen
+  538  ./shobjtest2
+  539  ./shobjtest2 libxyz.so
+  540  echo $LD_LIBRARY_PATH
+  541  ./shobjtest2 libm.so
+  542  ./shobjtest2 libenc.so
+  543  ./shobjtest2 librev.so
+  544  vi shobjtest2.c
+  545  vi shobjtest3.py
+  546  vi shobjtest2.c
+  547  vi shobjtest3.py
+  548  python shobjtest3.py 
+  549  vi shobjtest3.py
+  550  python shobjtest3.py 
+  551  history >cmd12-10-2015.txt
+  552  vi cmd12-10-2015.txt \
+  553  vi cmd12-10-2015.txt
+  554  cp -r /SoftDev/Foundations ~/Shared/
+  555  exir
+  556  exit
+  557  cd Foundations/Fundamentals/UNIX/
+  558  mkdir Concurrency
+  559  cd Concurrency/
+  560  vi worker.h
+  561  vi forktest.c
+  562  cc -o forktest forktest.c 
+  563  ./forktest 
+  564  vi forktest.c
+  565  cc -o forktest forktest.c 
+  566  ./forktest 
+  567  ps
+  568  vi forktest.c
+  569  cc -o forktest forktest.c 
+  570  ./forktest 
+  571  vi forktest.c
+  572  cc -o forktest forktest.c 
+  573  ./forktest 
+  574  vi forktest.c
+  575  cc -o forktest forktest.c 
+  576  ./forktest 
+  577  vi forktest.c
+  578  cc -o forktest forktest.c 
+  579  ./forktest 
+  580  vi forkexectest.c
+  581  cc -o forkexectest forkexectest.c 
+  582  ./forkexectest 
+  583  vi forkexectest.c
+  584  cc -o forkexectest forkexectest.c 
+  585  ./forktest 
+  586  ./forkexectest 
+  587  ./forkexectest xyz
+  588  ./forkexectest ../Basics/pidtest
+  589   ../Basics/pidtest
+  590  ./forkexectest ../Basics/pidtest
+  591  vi forkexectest.c
+  592  cc -o forkexectest forkexectest.c 
+  593  ./forkexectest xyz
+  594  vi forkexectest.c
+  595  cc -o forkexectest forkexectest.c 
+  596  ./forkexectest xyz
+  597  ./forkexectest ../Basics/pidtest
+  598  vi forkexectest.c
+  599  pwd
+  600  history >cmd13-10-2015.txt
+  601  vi cmd13-10-2015.txt
+  602  cp -r /SoftDev/Foundations ~/Shared/
+  603  exit
+  604  ls
+  605  cd ShellScript/
+  606  ls
+  607  ls a*
+  608  ls a* b*
+  609  ls [ab]*
+  610  ls [abg]*
+  611  ls [!abg]*
+  612  ls
+  613  mkdir Test
+  614  ls
+  615  cd ..
+  616  ls
+  617  ls -R Foundations/
+  618  cd ShellScript/
+  619  ls
+  620  mkdir MET
+  621  cd MET/
+  622  mkdir IIT
+  623  cd IIT/
+  624  cd ..
+  625  ls
+  626  rmdir MET/
+  627  rm tcsh
+  628  rm MET/
+  629  ls Test/
+  630  rmdir Test/
+  631  rmdir MET/
+  632  rm -r MET/
+  633  ls
+  634  mkdir MET MET/IIT MET/ISDR MET/IIT/DAC MET/IIT/DACA MET/ISDR/ADSD
+  635  ls -R MET/
+  636  mkdir MET MET/IIT MET/ISDR MET/IIT/DAC MET/IIT/DACA MET/ISDR/ADSD
+  637  rm -r MET/
+  638  ls
+  639  mkdir MET MET/IIT MET/IIT/DAC MET/IIT/DACA MET/ISDR/ADSD
+  640  ls -R
+  641  rm -r MET/
+  642  mkdir -P MET MET/IIT MET/IIT/DAC MET/IIT/DACA MET/ISDR/ADSD
+  643  mkdir -p MET MET/IIT MET/IIT/DAC MET/IIT/DACA MET/ISDR/ADSD
+  644  ls -R
+  645  ls
+  646  cd MET/
+  647  cd IIT/DAC
+  648  cd /
+  649  ls
+  650  ls b
+  651  ls bin/
+  652  ls
+  653  echo $HOME
+  654  cd home/
+  655  ls
+  656  pwd
+  657  cd ..
+  658  echo $HOME
+  659  cd /SoftDev/ShellScript/
+  660  cd MET/IIT/DAC
+  661  cd ..
+  662  cd home/
+  663  cd unipro/
+  664  cd /SoftDev/ShellScript/MET/IIT/DAC
+  665  cd ~
+  666  pwd
+  667  echo ~
+  668  cd /SoftDev/ShellScript/MET/
+  669  cd $HOME
+  670  cd /SoftDev/ShellScript/MET/ISDR/ADSD/
+  671  cd
+  672  cd ~
+  673  cd /SoftDev/ShellScript/
+  674  ls
+  675  vi names
+  676  cat n
+  677  cat names 
+  678  cat
+  679  ls
+  680  cat > textfile
+  681  ls
+  682  cat < textfile 
+  683  textfile cat
+  684  cat textfile 
+  685  cat < textfile 
+  686  textfile cat
+  687  < textfile cat 
+  688  cat > first
+  689  cat > second
+  690  ls
+  691  cat < first 
+  692  cat < second 
+  693  vi first 
+  694  cat < first 
+  695  cat < second 
+  696  cat < first < second 
+  697  cat first 
+  698  ll first 
+  699  cat < first > first 
+  700  cat < first
+  701  ll first 
+  702  exit
+  703  cd Foundations/Fundamentals/UNIX/Concurrency/
+  704  vi threadtest.c
+  705  cc -o threadtest threadtest.c -lrt
+  706  ./threadtest 
+  707  vi threadtest.c
+  708  cc -o threadtest threadtest.c -lrt
+  709  ./threadtest 
+  710  vi threadtest.c
+  711  cc -o threadtest threadtest.c -lrt
+  712  ./threadtest 
+  713  vi threadtest.c
+  714  cc -o threadtest threadtest.c -lrt
+  715  ./threadtest 
+  716  cp threadtest.c threadsynctest.c
+  717  vi threadsynctest.c 
+  718  cc -o threadsynctest threadsynctest.c -lrt
+  719  ./threadsynctest 
+  720  vi threadsynctest.c 
+  721  cc -o threadsynctest threadsynctest.c -lrt
+  722  vi threadsynctest.c 
+  723  cc -o threadsynctest threadsynctest.c -lrt
+  724  ./threadsynctest 
+  725  cc -o threadsynctest threadsynctest.c -lrt
+  726  vi threadsynctest.c 
+  727  cc -o threadsynctest threadsynctest.c -lrt
+  728  vi threadsynctest.c 
+  729  cc -o threadsynctest threadsynctest.c -lrt
+  730  ./threadsynctest 
+  731  vi threadsynctest.c 
+  732  vi threadcoordtest.c
+  733  cc -o threadcoordtest threadcoordtest.c -lrt
+  734  ./threadcoordtest 
+  735  vi threadcoordtest.c
+  736  cc -o threadcoordtest threadcoordtest.c -lrt
+  737  ./threadcoordtest 
+  738  vi threadcoordtest.c
+  739  cc -o threadcoordtest threadcoordtest.c -lrt
+  740  ./threadcoordtest 
+  741  vi threadlocaltest.c
+  742  cc -o threadlocaltest threadlocaltest.c 
+  743  cc -o threadlocaltest threadlocaltest.c -lrt
+  744  ./threadlocaltest 
+  745  vi threadlocaltest.c
+  746  cc -o threadlocaltest threadlocaltest.c -lrt
+  747  ./threadlocaltest 
+  748  vi threadlocaltest.c
+  749  cc -o threadlocaltest threadlocaltest.c -lrt
+  750  ./threadlocaltest 
+  751  history >cmd14-10-2015.txt
+  752  vi cmd14-10-2015.txt
+  753  cp -r /SoftDev/Foundations ~/Shared/
+  754  exit
+  755  cd ShellScript/
+  756  ls
+  757  cat < first < second
+  758  cat first 
+  759  cat < first > first 
+  760  cat > first
+  761  cat < first
+  762  ls first 
+  763  ll first 
+  764  cat < first >> first
+  765  ll first 
+  766  cat < first >> first
+  767  ll first 
+  768  rm first 
+  769  cat > first
+  770  cat first 
+  771  cat second 
+  772  cat < first 
+  773  cat < second
+  774  cat < first < third
+  775  cat first third
+  776  cat < first < third
+  777  cat first third
+  778  cat first third 2> errlog
+  779  cat errlog 
+  780  cat second 
+  781  cat second fourth
+  782  cat second fourth 2> errlog 
+  783  cat errlog 
+  784  cat first third 2>> errlog
+  785  cat errlog 
+  786  cat first fifth 2>> errlog
+  787  cat errlog 
+  788  ls
+  789  ll
+  790  cd MET/
+  791  cd ..
+  792  chmod u-x MET/
+  793  ll 
+  794  cd MET/
+  795  chmod u+x MET/
+  796  ll
+  797  mkdir ADSD
+  798  ll
+  799  touch abc
+  800  ll
+  801  ll abc
+  802  chmod g-w abc
+  803  ll abc
+  804  chmod u+x abc
+  805  ll abc
+  806  chmod u+x,g+w,r+w abc
+  807  chmod u+x,g+w,o+w abc
+  808  ll abc
+  809  chmod u=rx,g=rw,o=r abc
+  810  ll abc
+  811  chmod u=rwx,g=rw,o=r abc
+  812  ll abc
+  813  chmod u=rwx,g=rw,o= abc
+  814  ll abc
+  815  chmod 647 abc
+  816  ll abc
+  817  umask
+  818  touch xyz
+  819  ll xyz 
+  820  umask 004
+  821  touch lmn
+  822  ll lmn 
+  823  umask 020
+  824  touch pqr
+  825  ll pqr 
+  826  umask 002
+  827  mkdir DAC
+  828  ll
+  829  touch mnb
+  830  ll mnb
+  831  umask 220
+  832  mkdir DACA
+  833  ll
+  834  touch klm
+  835  ll klm
+  836  exit
+  837  exit
+  838  cd Foundations/Fundamentals/UNIX/IPC/
+  839  ./shmemtest 
+  840  ./shmemtest "Yesterday was Thursday"
+  841  ./fifotest 
+  842  exit
+  843  cd Foundations/Fundamentals/UNIX/
+  844  mkdir IPC
+  845  cd IPC
+  846  mkdir shmemtest.c
+  847  rm shmemtest.c
+  848  rmdir shmemtest.c
+  849  vi shmemtest.c
+  850  cc -o shmemtest shmemtest.c -lrt
+  851  vi shmemtest.c
+  852  cc -o shmemtest shmemtest.c -lrt
+  853  ./shmemtest "Today is Friday"
+  854  ./shmemtest
+  855  cp ../Concurrency/forktest.c .
+  856  cp ../Concurrency/worker.h .
+  857  mv forktest.c semaphoretest.c
+  858  vi semaphoretest.c 
+  859  cc -o semaphoretest semaphoretest.c -lrt
+  860  ./semaphoretest 
+  861  vi semaphoretest.c 
+  862  cc -o semaphoretest semaphoretest.c -lrt
+  863  ./semaphoretest 
+  864  vi semaphoretest.c 
+  865  cc -o semaphoretest semaphoretest.c -lrt
+  866  ./semaphoretest 
+  867  vi semaphoretest.c 
+  868  cc -o semaphoretest semaphoretest.c -lrt
+  869  ./semaphoretest 
+  870  vi semaphoretest.c 
+  871  cc -o semaphoretest semaphoretest.c -lrt
+  872  vi pipetest.c
+  873  cc -o pipetest pipetest.c 
+  874  ./pipetest 
+  875  vi pipetest.c
+  876  ./pipetest 
+  877  vi fifotest.c
+  878  cc -o fifotest fifotest.c 
+  879  ./fifotest "Today is Friday"
+  880  ./fifotest "Yesterday was Thursday"
+  881  ll /tmp/
+  882  history >cmd16-10-2015.txt
+  883  vi cmd16-10-2015.txt 
+  884  cp -r /SoftDev/Foundations ~/Shared/
+  885  cd Foundations/Fundamentals/UNIX/IPC/
+  886  ./strmsocktest monday
+  887  ./strmsocktest NLMGBZ
+  888  cp strmsocktest.c dgrmsocktest.c
+  889  vi dgrmsocktest.c 
+  890  cc -o dgrmsocktest dgrmsocktest.c encbuf.o 
+  891  ./dgrmsocktest 
+  892  ./dgrmsocktest monday
+  893  ./dgrmsocktest NLMGBZ
+  894  ./dgrmsocktest monday
+  895  pwd
+  896  exit
+  897  cd Foundations/
+  898  mkdir Advanced
+  899  cd Advanced/
+  900  mkdir C++
+  901  cd C++/
+  902  mkdir Basics
+  903  cd Basics/
+  904  pwd
+  905  vi hello.cpp
+  906  ll
+  907  c++ -o hello hello.cpp 
+  908  ll
+  909  ./hello 
+  910  vi hello.cpp
+  911  c++ -o hello hello.cpp 
+  912  ./hello 
+  913  pwd
+  914  history >cmd20-10-2015.txt
+  915  vi cmd20-10-2015.txt 
+  916  cp -r /SoftDev/Foundations ~/Shared/
+  917  cd Foundations/Advanced/C++/Basics/
+  918  vi namespacetest1.cpp
+  919  c++ -o namespacetest1 namespacetest1.cpp 
+  920  ./namespacetest1 
+  921  echo $?
+  922  vi namespacetest1.cpp
+  923  c++ -o namespacetest1 namespacetest1.cpp 
+  924  ./namespacetest1 
+  925  echo $?
+  926  vi namespacetest1.cpp
+  927  c++ -o namespacetest1 namespacetest1.cpp 
+  928  ./namespacetest1 
+  929  echo $?
+  930  vi namespacetest1.cpp
+  931  c++ -o namespacetest1 namespacetest1.cpp 
+  932  vi namespacetest1.cpp
+  933  c++ -o namespacetest1 namespacetest1.cpp 
+  934  ./namespacetest1 
+  935  echo $?
+  936  vi namespacetest1.cpp
+  937  c++ -o namespacetest1 namespacetest1.cpp 
+  938  objdump -t namespacetest1
+  939  vi namespactest2.h
+  940  vi namespactest2.cpp 
+  941  mv namespactest2.h namespacetest2.h
+  942  mv namespactest2.cpp namespacetest2.cpp
+  943  ll
+  944  vi namespacetest2.cpp 
+  945  c++ -o namespacetest2 namespacetest2.cpp 
+  946  ./namespacetest3
+  947  ./namespacetest2
+  948  echo $?
+  949  objdump -t namespacetest2
+  950  vi namespacetest2.cpp 
+  951  c++ -o namespacetest2 namespacetest2.cpp 
+  952  vi namespacetest2.cpp 
+  953  c++ -o namespacetest2 namespacetest2.cpp 
+  954  power.cpp
+  955  vi power.cpp
+  956  c++ -c power.cpp 
+  957  vi functest.cpp
+  958  c++ -o functest functest.cpp power.o
+  959  vi functest.cpp
+  960  c++ -o functest functest.cpp power.o
+  961  ./functest 
+  962  vi functest.cpp
+  963  c++ -o functest functest.cpp power.o
+  964  vi functest.cpp
+  965  c++ -o functest functest.cpp power.o
+  966  vi power.cpp
+  967  objdump -t power.o
+  968  vi functest.cpp
+  969  c++ -o functest functest.cpp power.o
+  970  vi functest.cpp
+  971  c++ -o functest functest.cpp power.o
+  972  ./functest 
+  973  c++filt _ZN5Actor6ActionEdPf
+  974  cp ../../../Fundamentals/C/Functions/myfunc.o .
+  975  objdump -t myfunc.o 
+  976  vi cfunctest.cpp
+  977  c++ -o cfunctest cfunctest.cpp myfunc.o 
+  978  vi cfunctest.cpp
+  979  cp ../../../Fundamentals/C/Functions/myfunc.c myfunc.cpp
+  980  c++ -c myfunc.cpp 
+  981  c++ -o cfunctest cfunctest.cpp myfunc.o 
+  982  objdump -t myfunc.o 
+  983  ./cfunctest 
+  984  rm myfunc.*
+  985  cp ../../../Fundamentals/C/Functions/myccproc.o
+  986  vi mycppfunc.c
+  987  cc -c mycppfunc.c 
+  988  c++ -o cfunctest cfunctest.cpp mycppfunc.o myfunc.o 
+  989  ./cfunctest 
+  990  rm mycppfunc.o
+  991  vi cfunctest.cpp
+  992  c++ -o cfunctest cfunctest.cpp  myfunc.o 
+  993  ./cfunctest 
+  994  history >cmd21-10-2015.txt
+  995  vi cmd21-10-2015.txt 
+  996  cp -r /SoftDev/Foundations ~/Shared/
+  997  exit
+  998  cd ShellScript/
+  999  ls
+ 1000  man grep
+ 1001  man grep > grepfile
+ 1002  vi grepfile 
+ 1003  col -b < grepfile 
+ 1004  col -b < grepfile > opgrepfile
+ 1005  vi grepfile 
+ 1006  vi opgrepfile 
+ 1007  history | tail 10
+ 1008  history | tail -n10
+ 1009  ls
+ 1010  ll
+ 1011  ll > pract
+ 1012  vi pract 
+ 1013  cat pract 
+ 1014  tr vijay prakash
+ 1015  tr abc xyz
+ 1016  cat pract 
+ 1017  tr " " "|" < pract 
+ 1018  tr -s " " "|" < pract 
+ 1019  tr "a-z" "A-Z" < pract 
+ 1020  tr -s " " "|" < pract 
+ 1021  cat pract 
+ 1022  tr -s " " "|" < pract > dbpract
+ 1023  cat dbpract 
+ 1024  tr -s " " "|" < pract > dbpract
+ 1025  cat pract 
+ 1026  cat dbpract 
+ 1027  tr "a-z" "A-Z" < dbpract 
+ 1028  tr -d "a-z" < dbpract 
+ 1029  tr -d "0-9" < dbpract 
+ 1030  tr -d "a-z" < dbpract 
+ 1031  tr -d "0-9" < dbpract 
+ 1032  tr -dc "0-9" < dbpract 
+ 1033  tr -dc "0-9 \t\n" < dbpract 
+ 1034  tr -dc "0-9 \t\012" < dbpract 
+ 1035  ls
+ 1036  vi opgrepfile 
+ 1037  grep distinctions opgrepfile 
+ 1038  grep -n distinctions opgrepfile 
+ 1039  grep program opgrepfile 
+ 1040  grep -n program opgrepfile 
+ 1041  grep . opgrepfile 
+ 1042  wc opgrepfile 
+ 1043  grep . opgrepfile 
+ 1044  grep -c . opgrepfile 
+ 1045  grep -vc . opgrepfile 
+ 1046  grep "\." opgrepfile 
+ 1047  grep -c "\." opgrepfile 
+ 1048  grep -c "\.$" opgrepfile 
+ 1049  grep "\.$" opgrepfile 
+ 1050  vi names
+ 1051  cat names
+ 1052  sort names
+ 1053  uniq names
+ 1054  sort names > snames
+ 1055* 
+ 1056  uniq snames
+ 1057  cat opgrepfile 
+ 1058  tr -dc "0-9 \t\012" < dbpract 
+ 1059  tr -d "a-z" < dbpract 
+ 1060  tr -dc "a-z" < dbpract 
+ 1061  tr -dc "a-z\012" < dbpract 
+ 1062  tr -dc "a-z|\012" < dbpract 
+ 1063  grep . opgrepfile 
+ 1064  grep ".$" opgrepfile 
+ 1065  history > cmd-21-10-2015.txt

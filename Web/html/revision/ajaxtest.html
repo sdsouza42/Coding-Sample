@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>AJAX</title>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#btnBalance").click(function(){
+					var accId = $("#accountId").val();
+					$.ajax({
+						url : "balance.php?accountId=" + accId,
+						dataType : json,
+						success : function(result){
+							$("#balance").html(result.balance);
+						}
+					});
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<h1>MET Bank AJAX Test</h1>
+		<form>
+			Account Id: <input type="text" id="accountId" />
+			<input type="button" id="btnBalance" value="Balance">
+		</form>
+		<div id="balance">
+		</div>
+	</body>
+</html>
+

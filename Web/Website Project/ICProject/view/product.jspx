@@ -1,0 +1,68 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:jsp="http://java.sun.com/JSP/Page"
+      xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+	<jsp:useBean id="product" class="model.ProductBean" scope="application" />
+
+	<head>
+		<title>Icecream Dealer</title>
+	</head>
+
+	<body bgcolor="lavender">
+		<h1 style="color:brown;"><center> IceCream Parlour </center></h1> 
+			<p>
+			<h2 style="color:brown;">
+					<b>Kwality Wall's</b>
+					<h5 style="color:red">	
+					"Happiness is a frozen dessert waiting to be eaten.
+					 Kwality Wall's brings happiness in all sizes and flavours".</h5>
+			</h2>
+			<h2 style="color:brown;"> 
+					<b>AMUL</b>
+					<h5 style="color:red">
+					" TASTE OF INDIA " 
+					</h5>
+			</h2>
+			Ice cream  is a sweetened frozen food typically eaten as a snack or dessert. It is usually made from dairy products, such as milk and 				cream, and often combined with fruits or other ingredients and flavours. It is typically sweetened with sucrose, corn syrup, cane sugar, beet 				sugar, and/or other sweeteners.
+			</p>
+				
+		<h1 style="color:brown"><center>Available Products</center></h1>
+		<table border="1" align="center">
+			<tr>
+				<th>Product No</th>
+				<th>Product Name</th>
+				<th>Unit Price</th>
+				<th>Current Stock</th>
+			</tr>
+			<c:forEach var="entry" items="${product.entries}">
+				<tr>
+					<td>${entry.productNo}</td>
+					<td>${entry.productNa}</td>
+					<td>${entry.price}</td>
+					<td>${entry.stock}</td>
+				</tr>
+			</c:forEach>
+		</table>
+		<p>
+			<center><b><a href="login">Login/Register</a></b></center>
+		</p>
+		
+		<p>
+			<h2>Contact us </h2> 
+		</p>
+		<table>
+ 			<tr>
+    				<th>Contact :</th>
+   				 <td> Rohit Shirke</td>
+ 			 </tr>
+			<tr>
+				<th> Mob no :</th>
+				<td> 7896541212</td>
+			</tr>
+  				
+		</table>
+	</body>
+
+</html>
+
+

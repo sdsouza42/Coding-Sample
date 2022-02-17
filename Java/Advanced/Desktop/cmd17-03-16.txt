@@ -1,0 +1,65 @@
+    2  cd Java/Advanced/Desktop/
+    3  vi JFCPlainTest.java
+    4  javac JFCPlainTest.java
+    5  java JFCPlainTest
+    6  vi JFCPlainTest.java
+    7  javac JFCPlainTest.java
+    8  java JFCPlainTest
+    9  cp JFCPlainTest.java JFCPaintTest.java
+   10  vi JFCPaintTest.java
+   11  javac JFCPaintTest.java
+   12  java JFCPaintTest
+   13  vi JFCPaintTest.java
+   14  javac JFCPaintTest.java
+   15  java JFCPaintTest
+   16  cp JFCPlainTest.java JFCChildTest.java
+   17  vi JFCChildTest.java 
+   18  javac JFCChildTest.java 
+   19  java JFCChildTest
+   20  vi JFCChildTest.java 
+   21  javac JFCChildTest.java 
+   22  java JFCChildTest
+   23  vi JFCChildTest.java 
+   24  javac JFCChildTest.java 
+   25  java JFCChildTest
+   26  vi JFCChildTest.java 
+   27  javac JFCChildTest.java 
+   28  java JFCChildTest
+   29  cp ~/Shared/face.gif .
+   30  vi JFCChildTest.java 
+   31  javac JFCChildTest.java 
+   32* 
+   33* java -Dswing.defaultlaf=javax.swing.plaf.nimbus.NimbusLookAndFeel JFCChildTes
+   34  java -Dswing.defaultlaf=com.sun.swing.plaf.motif.MotifLookAndFeel JFCChildTest
+   35  java -Dswing.defaultlaf=com.sun.java.swing.plaf.motif.MotifLookAndFeel JFCChildTest
+   36  vi Visitor.java
+   37  javac Visitor.java
+   38  vi Visitor.java 
+   39  javac Visitor.java 
+   40  cp JFCPlainTest.java JFCMVCTest.java
+   41  vi JFCMVCTest.java 
+   42  javac JFCMVCTest.java 
+   43  cp JFCMVCTest*.class ~/Shared/Test
+   44  java JFCMVCTest
+   45  vi JFCMVCTest.java 
+   46  javac JFCMVCTest.java 
+   47  java JFCMVCTest
+   48  vi JFCMVCTest.java 
+   49  javac JFCMVCTest.java 
+   50  java JFCMVCTest
+   51  cp JFCMVCTest*.class ~/Shared/Test
+   52  java JFCMVCTest
+   53  vi JFCMVCTest.java 
+   54  javac JFCMVCTest.java 
+   55  java JFCMVCTest
+   56  vi JFCMVCTest.java 
+   57  javac JFCMVCTest.java 
+   58  vi JFCMVCTest.java 
+   59  javac JFCMVCTest.java 
+   60  java JFCMVCTest
+   61  vi JFCMVCTest.java 
+   62  vi mvcapp.mf
+   63  jar cfm mvcapp.jar mvcapp.mf Visitor.class JFCMVCTest*.class
+   64  java -jar mvcapp.jar
+   65  cp mvcapp.jar ~/Shared/Test
+   66  history >cmd17-03-16.txt

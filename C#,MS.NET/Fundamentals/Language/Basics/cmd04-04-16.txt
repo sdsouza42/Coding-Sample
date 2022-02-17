@@ -1,0 +1,29 @@
+mkdir MS.NET
+md MS.NET
+cd MS.NET
+md Fundamentals\Language\Basics
+cd Fundamentals\Language\Basics
+notepad hello1.il
+ilasm hello1.il
+dir
+hello1
+ilasm hello1.il
+hello1
+ilasm hello1.il
+hello1
+np hello2.cs
+csc hello2.cs
+dir
+hello2
+csc hello2.cs
+hello2
+ildasm hello2.exe
+np cligreetlib.cpp
+cl /clr:safe /LD cligreetlib.cpp
+dir
+ildasm cligreetlib.dll
+np cligreetapp.vb
+vbc cligreetapp.vb
+vbc cligreetapp.vb /reference:cligreetlib.dll
+cligreetapp.exe
+doskey/h > cmd04-04-16.txt

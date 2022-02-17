@@ -1,0 +1,4 @@
+Action htmx /cgi-bin/htmx.cgi
+AddHandler htmx .htmx
+
+

@@ -1,0 +1,50 @@
+custattrtest.exe 500000 Finance.PersonalLoan,attribfin GetInterestRate
+custattrtest.exe 500000 Finance.HomeLoan,attribfin GetInterestRate
+custattrtest.exe 500000 Finance.PersonalLoan,attribfin GetInterestRateForEmployees
+doskey /h > cmd19-04-16.txt
+copy e:\MS.NET\Fundamentals\Language\OOP\interval.cs 
+csc /t:library payroll.cs
+np objaccesstest.cs
+csc objaccesstest.cs interval.cs /r:payroll.dll
+objaccesstest.exe
+csc objaccesstest.cs interval.cs /r:payroll.dll
+objaccesstest.exe
+np interval.cs
+np simplefin.cs
+csc /t:library simplefin.cs
+np earlybindtest.cs
+csc earlybindtest.cs /r:simplefin.dll
+earlybindtest.exe 500000
+earlybindtest.exe 500000 Finance.EducationLoan,simplefin
+earlybindtest.exe 500000 Finance.HomeLoan,simplefin
+earlybindtest.exe 500000 Finance.BusinessLoan,simplefin
+copy earlybindtest.cs latebindtest1.cs
+np latebindtest1.cs
+csc latebindtest1.cs
+latebindtest1.exe 500000 Finance.PersonalLoan,simplefin GetInterestRate
+latebindtest1.exe 500000 Finance.PersonalLoan,simplefin GetInterestRateForEmployees
+latebindtest1.exe 500000 Finance.BusinessLoan,simplefin GetInterestRate
+latebindtest1.exe 500000 Finance.BusinessLoan,simplefin GetRateOfInterest
+latebindtest1.exe 500000 Finance.BusinessLoan,simplefin RateOfInterest
+copy latebindtest1.cs latebindtest2.cs
+np latebindtest2.cs
+csc latebindtest2.cs
+latebindtest2.exe 500000 Finance.PersonalLoan,simplefin GetInterestRate
+latebindtest2.exe 500000 Finance.PersonalLoan,simplefin GetInterestRateForEmployees
+latebindtest2.exe 500000 Finance.BusinessLoan,simplefin GetRateOfInterest
+latebindtest2.exe 500000 Finance.BusinessLoan,simplefin RateOfInterest
+np simplefin.cs attribfin.cs
+copy simplefin.cs attribfin.cs
+np attribfin.cs
+csc /t:library attribfin.cs
+ildasm attribfin.dll
+csc /t:library attribfin.cs
+ildasm attribfin.dll
+copy earlybindtest.cs custattrtest.cs
+np custattrtest.cs
+csc custattrtest.cs /r:attribfin.dll
+custattrtest.exe 500000 Finance.EducationLoan,attribfin GetInterestRate
+custattrtest.exe 500000 Finance.PersonalLoan,attribfin GetInterestRate
+custattrtest.exe 500000 Finance.HomeLoan,attribfin GetInterestRate
+csc custattrtest.cs /r:attribfin.dll
+custattrtest.exe 500000 Finance.EducationLoan,attribfin GetInterestRate

@@ -1,0 +1,20 @@
+    1  pwd
+    2  cd Foundations/Fundamentals/C/Functions/
+    3  cp ../../Elements/myproc.s myccproc.s
+    4  vi myccproc.s 
+    5  vi ccproctest1.c
+    6  as -o myccproc.o myccproc.s 
+    7  vi ccproctest1.c
+    8  cc -o ccproctest1 ccproctest1.c 
+    9  cc -o ccproctest1 ccproctest1.c myccproc.o
+   10  ./ccproctest1 
+   11  vi myccproc.s 
+   12  objdump -t myccproc.o
+   13  vi myccproc.s 
+   14  as -o myccproc.o myccproc.s 
+   15  cp ccproctest1.c ccproctest2.c
+   16  vi ccproctest2.c 
+   17  cc -o ccproctest2 ccproctest2.c myccproc.o
+   18  ./ccproctest2
+   19  vi ccproctest2.c 
+   20  history > cmd24-09-2015.txt 

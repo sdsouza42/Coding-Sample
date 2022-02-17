@@ -1,0 +1,50 @@
+cls
+sortedlisttest.exe
+np linqtest1.cs
+csc linqtest1.cs
+linqtest1.exe
+copy linqtest1.cs linqtest2.cs
+copy listtest2.cs linqtest2.cs
+y
+np linqtest2.cs
+csc linqtest2.cs interval.cs
+linqtest2.exe
+linqtest2.exe 250
+linqtest2.exe 300
+linqtest2.exe 400
+csc linqtest2.cs interval.cs
+linqtest2.exe
+linqtest2.exe 400
+doskey /h > cmd18-04-16.txt
+csc listtest2.cs interval.cs
+listtest2.exe
+csc listtest2.cs interval.cs
+listtest2.exe
+csc listtest2.cs interval.cs
+listtest2.exe
+copy listtest1.cs linkedlisttest.cs
+np linkedlisttest.cs
+csc linkedlisttest.cs interval.cs
+linkedlisttest.exe
+copy linkedlisttest.cs hashsettest.cs
+np hashsettest.cs
+csc hashsettest.cs interval.cs
+hashsettest.exe
+copy hashsettest.cs dictionarytest.cs
+np dictionarytest.cs
+csc dictionarytest.cs interval.cs
+dictionarytest.exe
+csc dictionarytest.cs interval.cs
+dictionarytest.exe
+csc dictionarytest.cs interval.cs
+dictionarytest.exe
+copy dictionarytest.cs sorteddicttest.cs
+np sorteddicttest.cs
+csc sorteddicttest.cs interval.cs
+sorteddicttest.exe
+copy dictionarytest.cs sortedlisttest.cs
+np sortedlisttest.cs
+copy sorteddicttest.cs sortedlisttest.cs
+y
+np sortedlisttest.cs
+csc sortedlisttest.cs interval.cs

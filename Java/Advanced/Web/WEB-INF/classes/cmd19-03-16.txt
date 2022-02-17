@@ -1,0 +1,49 @@
+    1  cd Java/Advanced/Web/
+    2  ~/glassfish4/bin/asadmin start-domain
+    3  export CLASSPATH=.:~/glassfish4/glassfish/lib/javaee.jar 
+    4  cp welcome.html pagetest.jsp
+    5  vi pagetest.jsp 
+    6  cp welcome.html eltest.jspx
+    7  vi eltest.jspx 
+    8  cd WEB-INF/classes/
+    9  vi basicwebapp/CounterBean.java
+   10  javac basicwebapp/CounterBean.java
+   11  vi basicwebapp/CounterBean.java
+   12  javac basicwebapp/CounterBean.java
+   13  touch ../../.reload 
+   14  cp ../../pagetest.jsp ../../beantest1.jsp
+   15  vi ../../beantest1.jsp 
+   16  touch ../../.reload 
+   17  vi ../../beantest1.jsp 
+   18  vi basicwebapp/GreeterBean.java
+   19  javac basicwebapp/GreeterBean.java
+   20  touch ../../.reload 
+   21  cp ../../eltest.jspx ../../beantest2.jspx 
+   22  vi ../../beantest2.jspx 
+   23  vi basicwebapp/PutTimeTag.java
+   24  javac basicwebapp/PutTimeTag.java
+   25  vi basicwebapp/PutTimeTag.java
+   26  javac basicwebapp/PutTimeTag.java
+   27  vi basicwebapp/PutTimeTag.java
+   28  javac basicwebapp/PutTimeTag.java
+   29  vi basicwebapp/PutTimeTag.java
+   30  javac basicwebapp/PutTimeTag.java
+   31  cp ~/Shared/taglib.tld ..
+   32  vi ../taglib.tld 
+   33  cp ../../welcome.html ../../tagtest1.jsp
+   34  vi ../../tagtest1.jsp 
+   35  touch ../../.reload 
+   36  vi ../taglib.tld 
+   37  vi ../../tagtest1.jsp 
+   38  vi ../taglib.tld 
+   39  vi ../../tagtest1.jsp 
+   40  vi basicwebapp/PutTimeTag.java
+   41  vi ../taglib.tld 
+   42  vi basicwebapp/LottoTag.java
+   43  javac basicwebapp/LottoTag.java
+   44  vi ../taglib.tld 
+   45  touch ../../.reload 
+   46  cp ../../eltest.jspx ../../tagtest2.jspx 
+   47  vi ../../tagtest2.jspx 
+   48  pwd
+   49  history >cmd19-03-16.txt

@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>JQuery Test - TestApp</title>
+		<script type="text/javascript" src="./scripts/jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#btnGo").click(function(){
+					$.ajax({
+						url : "ajaxdata.txt",
+						success : function(result){
+							$("#product").html(result);
+						}
+					});
+				});
+			});
+		</script>	
+	</head>
+	<body>		
+		<h1 align="center">Product Lookup</h1>
+		Product No : <input type="text" id="pno" />
+		<input type="button" id="btnGo" value="Lookup" />
+		<div id="product">
+		</div>
+	</body>
+</html>
+

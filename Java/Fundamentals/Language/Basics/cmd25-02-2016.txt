@@ -1,0 +1,106 @@
+1  mkdir Java
+2  mkdir Java/Fundamentals
+3  mkdir Java/Fundamentals/Language
+4  mkdir Java/Fundamentals/Language/Basics
+5  cd Java/Fundamentals/Language/Basics
+6  vi Hello.java
+7  javac Hello.java 
+8  java Greeter
+9  javac Hello.java 
+10  java Greeter
+11  vi Greeter.class 
+12  vi IfElseTest.java
+13  javac IfElseTest.java
+14  java IfElseTest
+15  java IfElseTest Jack
+16  java IfElseTest Jack and Jill
+17  java IfElseTest "Jack and Jill"
+18  cp IfElseTest.java DoWhileTest.java
+19  vi DoWhileTest.java 
+20  javac DoWhileTest.java 
+21  java DoWhileTest Jack Jill John
+22  java DoWhileTest Jack Jill John Jim
+23  java DoWhileTest
+24  cp DoWhileTest.java WhileTest.java
+25  vi WhileTest.java 
+26  javac WhileTest.java 
+27  java WhileTest Jack Jill John
+28  java WhileTest
+29  cp WhileTest.java ForTest1.java
+30  vi ForTest1.java
+31  javac ForTest1.java
+32  java ForTest1 Jack Jill Jeff
+33  java ForTest1 
+34  cp ForTest1.java ForTest2.java
+35  vi ForTest2.java 
+36  javac ForTest2.java 
+37  java ForTest2 Jack Jill Jeff
+38  java ForTest2 Jack
+39  java ForTest2 
+40  vi SwitchTest.java
+41  javac SwitchTest.java
+42  vi SwitchTest.java
+43  javac SwitchTest.java
+44  vi SwitchTest.java
+45  javac SwitchTest.java
+46  vi SwitchTest.java
+47  javac SwitchTest.java
+48  java SwitchTest Economy
+49  java SwitchTest Business
+50  java SwitchTest Executive
+51	java SwitchTest Deluxe
+52	vi TryCatchTest.java
+53	javac TryCatchTest.java
+54	vi TryCatchTest.java
+55	javac TryCatchTest.java
+56	vi TryCatchTest.java
+57	javac TryCatchTest.java
+58	vi TryCatchTest.java
+59	javac TryCatchTest.java
+60	vi TryCatchTest.java
+61	javac TryCatchTest.java
+62	java TryCatchTest 2.5
+63	java TryCatchTest 2.5O
+64	vi TryCatchTest.java
+65	javac TryCatchTest.java
+66	java TryCatchTest 2.5
+67	java TryCatchTest 2.5O
+68	java TryCatchTest
+69	vi TryCatchTest.java
+70	javac TryCatchTest.java
+71	java TryCatchTest 2.5
+72	java TryCatchTest 2.5O
+73	java TryCatchTest
+74	cp TryCatchTest.java TryFinallyTest.java
+75	vi TryFinallyTest.java
+76	javac TryFinallyTest.java
+77	java TryFinallyTest 2.5
+78	java TryFinallyTest 2.5O
+79	java TryFinallyTest 
+80	javac TryFinallyTest.java
+81	vi TryFinallyTest.java
+82	javac TryFinallyTest.java
+83	java TryFinallyTest 2.5
+84	java TryFinallyTest 2.5O
+85	vi TryFinallyTest.java
+86	javac TryFinallyTest.java
+87	java TryFinallyTest 2.5
+88	java TryFinallyTest 2.5O
+89	vi VarArgTest.java
+90	javac VarArgTest.java
+91	java VarArgTest
+92	vi VarArgTest.java
+93	javac VarArgTest.java
+94	vi VarArgTest.java
+95	javac VarArgTest.java
+96	java VarArgTest
+97	vi VarArgTest.java
+98	javac VarArgTest.java
+99	vi VarArgTest.java
+100	javac VarArgTest.java
+101	java VarArgTest
+102	vi VarArgTest.java   
+   
+   
+   
+   

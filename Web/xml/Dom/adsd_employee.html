@@ -1,0 +1,38 @@
+<html>
+<head><title>Dom Demo</title>
+<script type="text/javascript">
+
+var xmlDoc=new ActiveXObject("Microsoft.XMLDOM")
+xmlDoc.async=false
+xmlDoc.load("employee.xml")
+
+
+var emplist = xmlDoc.getElementsByTagName("emp")
+//alert(emplist.length)
+var i,j
+var vemp
+var attlist
+var vattr
+for(i = 0; i < emplist.length; i++)
+{
+	vemp = emplist.item(i)
+	attlist = vemp.attributes
+	for (j = 0; j < attlist.length; j++)
+	{
+		vattr = attlist[j]
+		alert(vattr.nodeName + "/" + vattr.value)
+		document.writeln("Attribute Name : " + vattr.nodeName + "<br/>");
+		document.writeln("Attribute Value : " + vattr.value + "<br/>");
+	}
+
+} 
+
+
+</script>
+</head>
+<body>
+
+
+
+</body>
+</html>

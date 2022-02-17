@@ -1,0 +1,20 @@
+    1  cd Foundations/Fundamentals/UNIX/IPC/
+    2  cp ../IO/encbuf.o .
+    3  vi strmsocktest.c
+    4  cc -o strmsocktest strmsocktest.c encbuf.o 
+    5  vi strmsocktest.c
+    6  cc -o strmsocktest strmsocktest.c encbuf.o 
+    7  ./strmsocktest 
+    8  vi strmsocktest.c
+    9  cc -o strmsocktest strmsocktest.c encbuf.o 
+   10  ./strmsocktest 
+   11  cc -o dgrmsocktest dgrmsocktest.c encbuf.o 
+   12  ./dgrmsocktest 
+   13  vi dgrmsocktest.c 
+   14  cc -o dgrmsocktest dgrmsocktest.c encbuf.o 
+   15  ./dgrmsocktest &
+   16  ps
+   17  ./dgrmsocktest tuesday
+   18  kill 3740
+   19  ./dgrmsocktest tuesday
+   20  history > cmd17-10-2015.txt

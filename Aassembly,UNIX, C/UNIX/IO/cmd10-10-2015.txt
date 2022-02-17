@@ -1,0 +1,51 @@
+    1  cd Foundations/Fundamentals/C/Basics/
+    2  ll hello
+    3  ll variabletest
+    4  cc -static -o variabletest variabletest.o
+    5  ll variabletest
+    6  ./variabletest 
+    7  cd ../../UNIX/IO/
+    8  vi shobjtest1.c
+    9  cc -o shobjtest1 shobjtest1.c 
+   10  cc -o shobjtest1 shobjtest1.c encbuf.o
+   11  ./shobjtest1 
+   12  vi encbuf.c
+   13  cc -c encbuf.c
+   14  ./shobjtest1 
+   15  cc -o shobjtest1 shobjtest1.c encbuf.o
+   16  ./shobjtest1 
+   17  cc -c encbuf.c
+   18  vi encbuf.c
+   19  cc -c encbuf.c
+   20  cc -o shobjtest1 shobjtest1.c encbuf.o
+   21  ./shobjtest1 
+   22  objdump -d encbuf.o
+   23  objdump -d -M intel encbuf.o
+   24  cc -shared -fPIC -o libenc.so encbuf.c
+   25  ll
+   26  cc -o shobjtest1 shobjtest1.c -lenc
+   27  cc -o shobjtest1 shobjtest1.c -L. -lenc
+   28  objdump -d -M intel libenc.so
+   29  ./shobjtest1 
+   30  cp libenc.so /usr/lib
+   31  sudo libenc.so /usr/lib
+   32  sudo cp libenc.so /usr/lib
+   33  ./shobjtest1 
+   34  sudo rm /usr/lib/libenc.so 
+   35  ./shobjtest1 
+   36  export LD_LIBRARY_PATH=.
+   37  ./shobjtest1 
+   38  vi ~/.bashrc 
+   39  vi encbuf.c
+   40  cc -shared -fPIC -o libenc.so encbuf.c
+   41  ./shobjtest1 
+   42  cc -o shobjtest1 shobjtest1.c encbuf.o
+   43  objdump -d -M intel shobjtest1
+   44  cc -o shobjtest1 shobjtest1.c -L. -lenc
+   45  objdump -d -M intel shobjtest1
+   46  ./shobjtest1 
+   47  cc -shared -fPIC -o libenc.so revbuf.c
+   48  ./shobjtest1 
+   49  cc -shared -fPIC -o libenc.so encbuf.c
+   50  ./shobjtest1 
+   51  history >cmd10-10-2015.txt

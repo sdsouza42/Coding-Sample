@@ -1,0 +1,33 @@
+subst s: MS.NET\Fundamentals\Language\OOP
+s:
+csc
+np eventtest.cs
+csc eventtest.cs
+ildasm eventtest.exe
+csc eventtest.cs
+eventtest.exe
+csc eventtest.cs
+eventtest.exe
+csc eventtest.cs
+eventtest.exe
+csc eventtest.cs
+eventtest.exe
+np gctest.cs
+csc gctest.cs
+gctest.exe
+csc /d:TESTING gctest.cs
+gctest.exe
+csc gctest.cs
+gctest.exe
+csc gctest.cs
+gctest.exe
+csc /d:TESTING gctest.cs
+gctest.exe
+csc /d:TESTING gctest.cs
+gctest.exe
+csc /d:TESTING gctest.cs
+gctest.exe
+csc /d:TESTING gctest.cs
+gctest.exe
+doskey /h cmd13-04-16.txt
+doskey /h >cmd13-04-16.txt

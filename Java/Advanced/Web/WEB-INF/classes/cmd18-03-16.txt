@@ -1,0 +1,46 @@
+ 01  mkdir Web
+ 02  mkdir Web/WEB-INF
+ 03  mkdir Web/WEB-INF/classes
+ 04  cp ~/Shared/web.xml Web/WEB-INF/
+ 05  cd Web
+ 06  dir
+ 07  ~/glassfish4/bin/asadmin start-domain
+ 08  ~/glassfish4/bin/asadmin deploy .
+ 09  np welcome.html
+ 10  vi welcome.html
+ 11  vi WEB-INF/web.xml 
+ 12  ~/glassfish4/bin/asadmin undeploy Web
+ 13  ~/glassfish4/bin/asadmin deploy .
+ 14  cd WEB-INF/classes/
+ 15  mkdir basicwebapp
+ 16  vi basicwebapp/GreeterServlet.java
+ 17  javac basicwebapp/GreeterServlet.java
+ 18  export CLASSPATH=.:~/glassfish4/glassfish/lib/javaee.jar 
+ 19  javac basicwebapp/GreeterServlet.java
+ 20  vi ../web.xml 
+ 21  cd ../..
+ 22  touch .reload
+ 23  ~/glassfish4/bin/asadmin deploy .
+ 24  vi WEB-INF/web.xml 
+ 25  ~/glassfish4/bin/asadmin deploy .
+ 26  cd WEB-INF/classes/
+ 27  vi basicwebapp/GreeterServlet.java
+ 28  javac basicwebapp/GreeterServlet.java
+ 29  touch ../../.reload 
+ 30  vi ../web.xml 
+ 31  vi basicwebapp/GreeterServlet.java
+ 32  touch ../../.reload 
+ 33  cp ../../welcome.html ../../formpost.html
+ 34  vi ../../formpost.html 
+ 35  vi basicwebapp/StateServlet.java
+ 36  javac basicwebapp/StateServlet.java
+ 37  vi basicwebapp/StateServlet.java
+ 38  javac basicwebapp/StateServlet.java
+ 39  touch ../../.reload 
+ 40  vi basicwebapp/StateServlet.java
+ 41  javac basicwebapp/StateServlet.java
+ 42  touch ../../.reload 
+ 43  vi basicwebapp/StateServlet.java
+ 44  javac basicwebapp/StateServlet.java
+ 45  touch ../../.reload 
+ 46  history > cmd18-03-16.txt

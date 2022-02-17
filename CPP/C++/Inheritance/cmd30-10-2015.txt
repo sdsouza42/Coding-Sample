@@ -1,0 +1,58 @@
+    3  cd Foundations/Advanced/C++/Classes/
+    4  cp opovldtest2.cpp cntmnttest.cpp
+    5  vi cntmnttest.cpp 
+    6  c++ -o cntmnttest cntmnttest.cpp 
+    7  ./cntmnttest 
+    8  vi cntmnttest.cpp 
+    9  c++ -o cntmnttest cntmnttest.cpp 
+   10  ./cntmnttest 
+   11  vi cntmnttest.cpp 
+   12  c++ -o cntmnttest cntmnttest.cpp 
+   13  ./cntmnttest 
+   14  vi cntmnttest.cpp 
+   15  c++ -D_AGGREGATION -o cntmnttest cntmnttest.cpp 
+   16  ./cntmnttest 
+   17  vi cntmnttest.cpp 
+   18  c++ -o cntmnttest cntmnttest.cpp 
+   19  ./cntmnttest 
+   20  vi cntmnttest.cpp 
+   21  cp classtest1.cpp newdelobjtest.cpp
+   22  vi newdelobjtest.cpp 
+   23  c++ -o newdelobjtest newdelobjtest.cpp 
+   24  vi newdelobjtest.cpp 
+   25  c++ -o newdelobjtest newdelobjtest.cpp 
+   26  ./newdelobjtest 
+   27  vi newdelobjtest.cpp 
+   28  c++ -o newdelobjtest newdelobjtest.cpp 
+   29  ./newdelobjtest 
+   30  cp newdelobjtest.cpp newdelarrtest.cpp
+   31  vi newdelarrtest.cpp 
+   32  c++ -o newdelarrtest newdelarrtest.cpp 
+   33  ./newdelobjtest 
+   34  vi newdelarrtest.cpp 
+   35  c++ -o newdelarrtest newdelarrtest.cpp 
+   36  vi newdelarrtest.cpp 
+   37  c++ -o newdelarrtest newdelarrtest.cpp 
+   38  ./newdelarrtest 
+   39  vi newdelarrtest.cpp 
+   40  c++ -o newdelarrtest newdelarrtest.cpp 
+   41  ./newdelarrtest 
+   42  vi newdelarrtest.cpp 
+   43  c++ -o newdelarrtest newdelarrtest.cpp 
+   44  ./newdelarrtest 
+   45  vi newdelarrtest.cpp 
+   46  c++ -o newdelarrtest newdelarrtest.cpp 
+   47  ./newdelarrtest 
+   48  vi newdelarrtest.cpp 
+   49  vi newdelobjtest.cpp 
+   50  c++ -o newdelarrtest newdelarrtest.cpp 
+   51  cp newdelobjtest.cpp newdelarrtest.cpp
+   52  ./newdelobjtest 
+   53  vi newdelarrtest.cpp 
+   54  c++ -o newdelarrtest newdelarrtest.cpp 
+   55  ./newdelarrtest 
+   56  cd ..
+   57  mkdir Inheritance
+   58  cd Inheritance/
+   59  vi payroll1.h
+   60  history >cmd30-10-2015.txt

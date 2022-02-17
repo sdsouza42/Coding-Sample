@@ -1,0 +1,27 @@
+subst s: MS.NET\Fundamentals\Generic\Basics
+s:
+dir
+copy iterationtest1.cs iterationtest2.cs
+np iterationtest2.cs
+csc iterationtest2.cs interval.cs
+iterationtest2.exe
+ildasm iterationtest2.exe
+csc iterationtest2.cs interval.cs
+iterationtest2.exe
+csc iterationtest2.cs interval.cs
+iterationtest2.exe
+csc iterationtest2.cs interval.cs
+iterationtest2.exe
+csc iterationtest2.cs interval.cs
+iterationtest2.exe
+csc iterationtest2.cs interval.cs
+np nullvaltypetest.cs
+csc nullvaltypetest.cs
+nullvaltypetest.exe INTC
+nullvaltypetest.exe MSFT
+nullvaltypetest.exe SUNW
+csc nullvaltypetest.cs
+nullvaltypetest.exe INTC
+nullvaltypetest.exe MSFT
+nullvaltypetest.exe SUNW
+doskey /h >cmd16-04-16.txt

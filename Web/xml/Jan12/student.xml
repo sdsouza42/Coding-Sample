@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="student.xsd">
+  <student sid="s001">
+    <sname>Amit</sname>
+    <sage>22</sage>
+    <scourse>ADSD</scourse>
+    <sfees currency="Dollars">115000</sfees>
+  </student>
+ <student sid="s002">
+    <sname>Anil</sname>
+    <sage>22</sage>
+    <scourse>DAC</scourse>
+    <sfees currency="Rs">125000</sfees>
+  </student>
+</students>

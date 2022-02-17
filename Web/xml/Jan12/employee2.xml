@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<employee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="employee2.xsd">
+  <emp>
+    <ename>Amit</ename>
+    <eage>22</eage>
+    <esal>10000</esal>
+  </emp>
+  <emp>
+    <ename>Anil</ename>
+    <eage>22</eage>
+    <esal>10000</esal>
+  </emp>
+</employee>

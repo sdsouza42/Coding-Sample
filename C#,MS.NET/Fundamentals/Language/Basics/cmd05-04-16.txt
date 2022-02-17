@@ -1,0 +1,31 @@
+cd MS.NET\Fundamentals\Language\Basics
+dir
+subst s: .
+s:
+np structtypetest.cs
+csc structtypetest.cs
+structtypetest.exe
+csc structtypetest.cs
+structtypetest.exe
+csc structtypetest.cs
+structtypetest.exe
+csc structtypetest.cs
+copy structtypetest.cs classtypetest.cs
+np classtypetest.cs
+np structtypetest.cs
+csc structtypetest.cs
+csc classtypetest.cs
+classtypetest.exe
+csc classtypetest.cs
+ildasm classtypetest.exe
+csc classtypetest.cs
+ildasm structtypetest.exe
+copy structtypetest.cs ptrtypetest.cs
+np ptrtypetest.cs
+csc ptrtypetest.cs
+csc /unsafe ptrtypetest.cs
+copy ptrtypetest.cs fixedptrtest.cs
+np fixedptrtest.cs
+csc /unsafe fixedptrtest.cs
+fixedptrtest.exe
+doskey /h >cmd05-04-16.txt

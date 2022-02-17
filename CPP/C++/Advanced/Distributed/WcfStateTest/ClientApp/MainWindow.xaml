@@ -1,0 +1,19 @@
+﻿<Window x:Class="ClientApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientApp"
+        mc:Ignorable="d"
+        Title="ClientApp" Height="300" Width="300" Closed="Window_Closed">
+    <DockPanel>
+        <TextBlock Margin="10" Text="Welcome Customer" FontSize="16" DockPanel.Dock="Top" />
+        <DockPanel Margin="5" DockPanel.Dock="Top">
+            <TextBlock Margin="5" Text="Item: " DockPanel.Dock="Left" />
+            <Button Name="addButton" Margin="5" Content="Add" Click="addButton_Click"  DockPanel.Dock="Right" />
+            <TextBox Name="itemTextBox" Margin="5" />
+        </DockPanel>
+        <Button Name="checkoutButton" Margin="10" Content="Checkout" Click="checkoutButton_Click" HorizontalAlignment="Center" DockPanel.Dock="Bottom" />
+        <ListBox Name="cartListBox" Margin="10"/>
+    </DockPanel>
+</Window>

@@ -1,0 +1,50 @@
+np iterationtest1.cs
+csc iterationtest1.cs interval.cs
+iterationtest1.exe
+np iterationtest1.cs
+doskey /h > cmd-15-04-2016.txt
+genclasstest.exe
+csc genclasstest.cs
+genclasstest.exe
+csc genclasstest.cs
+csc genclasstest.cs interval.cs
+genclasstest.exe
+csc genclasstest.cs
+genclasstest.exe
+csc genclasstest.cs interval.cs
+genclasstest.exe
+copy genclasstest.cs geninterfacetest.cs
+np geninterfacetest.cs
+csc geninterfacetest.cs interval.cs
+geninterfacetest.exe
+csc geninterfacetest.cs interval.cs
+geninterfacetest.exe
+csc geninterfacetest.cs interval.cs
+geninterfacetest.exe
+csc geninterfacetest.cs interval.cs
+geninterfacetest.exe
+csc geninterfacetest.cs interval.cs
+geninterfacetest.exe
+csc geninterfacetest.cs interval.cs
+geninterfacetest.exe
+csc geninterfacetest.cs interval.cs
+cls
+csc geninterfacetest.cs interval.cs
+geninterfacetest.exe
+csc geninterfacetest.cs interval.cs
+geninterfacetest.exe
+csc geninterfacetest.cs interval.cs
+geninterfacetest.exe
+copy genclasstest.cs gendelegatetest.cs
+np gendelegatetest.cs
+csc gendelegatetest.cs interval.cs
+gendelegatetest.exe
+csc gendelegatetest.cs interval.cs
+gendelegatetest.exe
+csc gendelegatetest.cs interval.cs
+gendelegatetest.exe
+copy genclasstest.cs iterationtest1.cs
+np iterationtest1.cs
+csc iterationtest1.cs interval.cs
+iterationtest1.exe
+csc iterationtest1.cs interval.cs

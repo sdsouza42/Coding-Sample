@@ -1,0 +1,42 @@
+<html>
+<head><title>Dom Demo</title>
+<script type="text/javascript">
+
+var xmlDoc=new ActiveXObject("Microsoft.XMLDOM")
+xmlDoc.async=false
+xmlDoc.load("employee.xml")
+
+
+var emplist = xmlDoc.getElementsByTagName("emp")
+var i,j
+var vemp
+var attlist, childlist
+var vattr
+alert(emplist.length)
+for(i = 0; i < emplist.length; i++)
+{
+
+	vemp = emplist.item(i)
+	alert(vemp.hasChildNodes)
+	alert(vemp.childNodes.length)
+	if (vemp.hasChildNodes)
+	{
+		childlist = vemp.childNodes;
+
+		for(j = 0; j < childlist.length; j++)
+		{
+			document.write(childlist.item(j).nodeName + " : " + childlist.item(j).firstChild.nodeValue + "<hr/>")
+	
+		}
+	}
+} 
+
+
+</script>
+</head>
+<body>
+
+
+
+</body>
+</html>

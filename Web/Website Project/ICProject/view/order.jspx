@@ -1,0 +1,43 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:jsp="http://java.sun.com/JSP/Page"
+      xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+	<jsp:useBean id="product" class="model.ProductBean" scope="application" />
+	<jsp:useBean id="customer" class="model.CustomerBean" scope="session" />
+
+	<head>
+		<title>Ice cream Parlour</title>
+	</head>
+
+	<body bgcolor="lightblue">
+	<center>
+		<h1>Welcome Customer ${customer.id}</h1>
+		<form method="POST" action="order">
+			<b>Product No</b><br/>
+			 <select name="productNo">
+				<c:forEach var="entry" items="${product.entries}">
+					<option>${entry.productNo}</option>
+				</c:forEach>
+			</select> 
+			
+			<br/><br/>
+			<b>Quantity</b><br/>
+			<input type="text" name="quantity" /><br/><br/>
+			<input type="submit" name="submit" value="Order" />
+		</form>
+		<c:if test="${param.submit == 'Order'}">
+			<script type="text/javascript">
+			<![CDATA[
+				alert("New order number is " + ${requestScope.orderNo});
+			]]>
+			</script>
+		</c:if>
+		<p>
+			<b><a href="logout">Logout</a></b>
+		</p>
+	</center>
+	</body>
+
+</html>
+
+

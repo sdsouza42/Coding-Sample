@@ -1,0 +1,11 @@
+   01 cd www/html/
+   02 ls images
+   03 cp personal.html jslayerstest.html
+   04 vi jslayerstest.html 
+   05 cp jslayerstest.html jspopuptest.html
+   06 vi jspopuptest.html 
+   07 cp personal.html jsparsecontrols.html
+   08 vi jsparsecontrols.html 
+   09 ls
+   10 vi cmd08-12-2015.txt 
+   11 history >cmd14-12-2015.txt

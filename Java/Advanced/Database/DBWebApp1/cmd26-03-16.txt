@@ -1,0 +1,44 @@
+    1  cd Java/Advanced/Database/
+    2  ~/oracle/startxe 
+    3  mkdir NTierApp
+    4  cd NTierApp/
+    5  mkdir sales
+    6  vi sales/OrderManager.java
+    7  javac sales/OrderManager.java
+    8  wsgen -cp . sales.OrderManager
+    9  vi MiddleTierServer.java
+   10  javac MiddleTierServer.java
+   11  vi MiddleTierServer.java
+   12  javac MiddleTierServer.java
+   13  vi MiddleTierServer.java
+   14  javac MiddleTierServer.java
+   15  java MiddleTierServer &
+   16  vi PresentationTierClient.java
+   17  wsimport -p sales.client http://localhost:8057/sales/ordermanager?wsdl
+   18  vi PresentationTierClient.java
+   19  javac PresentationTierClient.java
+   20  java PresentationTierClient
+   21  vi server.log 
+   22  java PresentationTierClient
+   23  ps
+   24  kill 3580
+   25  cd ..
+   26  mkdir DBWebApp1
+   27  cd DBWebApp1/
+   28  mkdir WEB-INF
+   29  mkdir WEB-INF/classes
+   30  cp ~/Shared/web.xml WEB-INF/
+   31  ~/glassfish4/bin/asadmin start-domain
+   32  ~/glassfish4/bin/asadmin deploy .
+   33  cd WEB-INF/classes/
+   34  mkdir sales
+   35  vi sales/InvoiceEntry.java
+   36  javac sales/InvoiceEntry.java
+   37  javac sales/InvoiceBean.java
+   38  vi sales/InvoiceBean.java
+   39  javac sales/InvoiceBean.java
+   40  vi sales/InvoiceBean.java
+   41  javac sales/InvoiceBean.java
+   42  cd ../..
+   43  vi invoice.jsp
+   44  history >cmd26-03-16.txt

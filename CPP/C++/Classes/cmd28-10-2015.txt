@@ -1,0 +1,41 @@
+
+  01 cd Foundations/Advanced/C++/Classes/
+  02 cp ctortest.cpp dtortest.cpp
+  03 vi dtortest.cpp 
+  04 c++ -o dtortest dtortest.cpp 
+  05 ./dtortest 
+  06	vi dtortest.cpp 
+  07	c++ -o dtortest dtortest.cpp 
+  08	./dtortest 
+  09	vi dtortest.cpp 
+  10	c++ -o dtortest dtortest.cpp 
+  11	./dtortest 
+  12	vi dtortest.cpp 
+  13	c++ -o dtortest dtortest.cpp 
+  14	./dtortest 
+  15	cp dtortest.cpp objreftest.cpp
+  16	vi objreftest.cpp 
+  17	c++ -o objreftest objreftest.cpp 
+  18	./objreftest 
+  19	vi objreftest.cpp 
+  20	c++ -o objreftest objreftest.cpp 
+  21	vi objreftest.cpp 
+  22	c++ -o objreftest objreftest.cpp 
+  23	./objreftest 
+  24	vi objreftest.cpp 
+  25	c++ -o objreftest objreftest.cpp 
+  26	./objreftest 
+  27	vi objreftest.cpp 
+  28	c++ -o objreftest objreftest.cpp 
+  29	./objreftest 
+  30	vi objreftest.cpp 
+  31	c++ -o objreftest objreftest.cpp 
+  32	vi objreftest.cpp 
+  33	c++ -o objreftest objreftest.cpp 
+  34	./objreftest 
+  35	vi objreftest.cpp 
+  36	c++ -o objreftest objreftest.cpp 
+  37	vi objreftest.cpp 
+  38	c++ -o objreftest objreftest.cpp 
+  39 ./objreftest 
+  40	history >cmd28-10-2015.txt 

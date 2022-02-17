@@ -1,0 +1,22 @@
+<html>
+<body>
+
+<script>
+var xmlDoc=new ActiveXObject("Microsoft.XMLDOM")
+xmlDoc.async=false
+xmlDoc.load("employee.xml")
+alert(xmlDoc)
+var PI = xmlDoc.firstChild
+var attr = PI.attributes
+alert(attr.length)
+for(i = 0;i < attr.length;i++)
+{
+ 	//var item = attr.item(i)
+	var item = attr[i]
+	alert(item.nodeName)
+	alert(item.value)
+
+}
+</script>
+</body>
+</html>

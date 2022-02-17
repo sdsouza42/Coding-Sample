@@ -1,0 +1,54 @@
+    1  nano
+    2  cd Java/Advanced/
+    3  mkdir Desktop
+    4  cd Desktop/
+    5  vi AWTPlainTest.java
+    6  javac AWTPlainTest.java
+    7  java AWTPlainTest
+    8  vi AWTPlainTest.java
+    9  javac AWTPlainTest.java
+   10  java AWTPlainTest
+   11  vi AWTPlainTest.java
+   12  javac AWTPlainTest.java
+   13  vi AWTPlainTest.java
+   14  javac AWTPlainTest.java
+   15  java AWTPlainTest
+   16  cp AWTPlainTest.java AWTPainTest.java
+   17  mv AWTPainTest.java AWTPaintTest.java
+   18  vi AWTPaintTest.java 
+   19  javap java.awt.Graphics
+   20  vi AWTPaintTest.java 
+   21  javac AWTPaintTest.java 
+   22  java AWTPaintTest
+   23  vi AWTPaintTest.java 
+   24  javac AWTPaintTest.java 
+   25  java AWTPaintTest
+   26  vi AWTPaintTest.java 
+   27  javac AWTPaintTest.java 
+   28  java AWTPaintTest
+   29  vi AWTPaintTest.java 
+   30  javac AWTPaintTest.java 
+   31  java AWTPaintTest
+   32  vi AWTPaintTest.java 
+   33  javac AWTPaintTest.java 
+   34  java AWTPaintTest
+   35  cp AWTPaintTest*.class ~/Shared/Test
+   36  cp AWTPlainTest.java AWTChildTest.java
+   37  vi AWTChildTest.java 
+   38  javac AWTChildTest.java 
+   39  java AWTChildTest
+   40  vi AWTChildTest.java 
+   41  javac AWTChildTest.java 
+   42  java AWTChildTest
+   43  vi AWTChildTest.java 
+   44  javac AWTChildTest.java 
+   45  java AWTChildTest
+   46  vi AWTChildTest.java 
+   47  javac AWTChildTest.java 
+   48  java AWTChildTest
+   49  vi AWTChildTest.java 
+   50  javac AWTChildTest.java 
+   51  java AWTChildTest
+   52  java AWTPaintTest
+   53  java AWTChildTest
+   54  history >cmd16-03-16.txt

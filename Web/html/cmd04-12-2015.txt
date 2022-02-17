@@ -1,0 +1,1000 @@
+   13  cp opovldtest1.cpp opovldtest2.cpp
+   14  vi opovldtest2.cpp 
+   15  c++ -o opovldtest2 opovldtest2.cpp 
+   16  vi opovldtest2.cpp 
+   17  c++ -o opovldtest2 opovldtest2.cpp 
+   18  ./opovldtest
+   19  ./opovldtest2
+   20  vi opovldtest2.cpp 
+   21  c++ -o opovldtest2 opovldtest2.cpp 
+   22  ./opovldtest2
+   23  vi opovldtest2.cpp 
+   24  c++ -o opovldtest2 opovldtest2.cpp 
+   25  ./opovldtest2
+   26  vi opovldtest2.cpp 
+   27  c++ -o opovldtest2 opovldtest2.cpp 
+   28  vi opovldtest2.cpp 
+   29  c++ -o opovldtest2 opovldtest2.cpp 
+   30  ./opovldtest2
+   31  vi opovldtest2.cpp 
+   32  c++ -o opovldtest2 opovldtest2.cpp 
+   33  ./opovldtest2
+   34  vi opovldtest2.cpp 
+   35  c++ -o opovldtest2 opovldtest2.cpp 
+   36  ./opovldtest2
+   37  history >cmd29-10-2015.txt
+   38  vi cmd29-10-2015.txt 
+   39  vi cmd28-10-2015.txt 
+   40  cp -r /SoftDev/Foundations ~/Shared/
+   41  exit
+   42  cd Foundations/Advanced/C++/Classes/
+   43  cp opovldtest2.cpp cntmnttest.cpp
+   44  vi cntmnttest.cpp 
+   45  c++ -o cntmnttest cntmnttest.cpp 
+   46  ./cntmnttest 
+   47  vi cntmnttest.cpp 
+   48  c++ -o cntmnttest cntmnttest.cpp 
+   49  ./cntmnttest 
+   50  vi cntmnttest.cpp 
+   51  c++ -o cntmnttest cntmnttest.cpp 
+   52  ./cntmnttest 
+   53  vi cntmnttest.cpp 
+   54  c++ -D_AGGREGATION -o cntmnttest cntmnttest.cpp 
+   55  ./cntmnttest 
+   56  vi cntmnttest.cpp 
+   57  c++ -o cntmnttest cntmnttest.cpp 
+   58  ./cntmnttest 
+   59  vi cntmnttest.cpp 
+   60  cp classtest1.cpp newdelobjtest.cpp
+   61  vi newdelobjtest.cpp 
+   62  c++ -o newdelobjtest newdelobjtest.cpp 
+   63  vi newdelobjtest.cpp 
+   64  c++ -o newdelobjtest newdelobjtest.cpp 
+   65  ./newdelobjtest 
+   66  vi newdelobjtest.cpp 
+   67  c++ -o newdelobjtest newdelobjtest.cpp 
+   68  ./newdelobjtest 
+   69  cp newdelobjtest.cpp newdelarrtest.cpp
+   70  vi newdelarrtest.cpp 
+   71  c++ -o newdelarrtest newdelarrtest.cpp 
+   72  ./newdelobjtest 
+   73  vi newdelarrtest.cpp 
+   74  c++ -o newdelarrtest newdelarrtest.cpp 
+   75  vi newdelarrtest.cpp 
+   76  c++ -o newdelarrtest newdelarrtest.cpp 
+   77  ./newdelarrtest 
+   78  vi newdelarrtest.cpp 
+   79  c++ -o newdelarrtest newdelarrtest.cpp 
+   80  ./newdelarrtest 
+   81  vi newdelarrtest.cpp 
+   82  c++ -o newdelarrtest newdelarrtest.cpp 
+   83  ./newdelarrtest 
+   84  vi newdelarrtest.cpp 
+   85  c++ -o newdelarrtest newdelarrtest.cpp 
+   86  ./newdelarrtest 
+   87  vi newdelarrtest.cpp 
+   88  vi newdelobjtest.cpp 
+   89  c++ -o newdelarrtest newdelarrtest.cpp 
+   90  cp newdelobjtest.cpp newdelarrtest.cpp
+   91  ./newdelobjtest 
+   92  vi newdelarrtest.cpp 
+   93  c++ -o newdelarrtest newdelarrtest.cpp 
+   94  ./newdelarrtest 
+   95  cd ..
+   96  mkdir Inheritance
+   97  cd Inheritance/
+   98  vi payroll1.h
+   99  history >cmd30-10-2015.txt
+  100  vi cmd30-10-2015.txt
+  101  ls
+  102  cp -r /SoftDev/Foundations ~/Shared/
+  103  exit
+  104  ls
+  105  cd ShellScript/
+  106  ls
+  107  ls source/
+  108  cp -r /SoftDev/ShellScript/source ~/Shared/
+  109  cd Foundations/Advanced/C++/Inheritance/
+  110  vi payroll1.h 
+  111  vi derclasstest.cpp
+  112  c++ -o derclasstest derclasstest.cpp 
+  113  ./derclasstest 
+  114  vi derclasstest.cpp
+  115  c++ -o derclasstest derclasstest.cpp 
+  116  ./derclasstest 
+  117  vi derclasstest.cpp
+  118  cp payroll1.h payroll2.h 
+  119  vi payroll2.h 
+  120  cp derclasstest.cpp virtfunctest1.cpp
+  121  vi payroll2.h 
+  122  vi virtfunctest1.cpp 
+  123  c++ -o virtfunctest1 virtfunctest1.cpp 
+  124  ./virtfunctest1 
+  125  vi virtfunctest1.cpp 
+  126  vi derclasstest.cpp 
+  127  c++ -o derclasstest derclasstest.cpp 
+  128  ./derclasstest 
+  129  echo $?
+  130  vi virtfunctest1.cpp 
+  131  c++ -o virtfunctest1 virtfunctest1.cpp 
+  132  ./virtfunctest1 
+  133  echo $?
+  134  vi virtfunctest1.cpp 
+  135  :wq
+  136  vi virtfunctest1.cpp 
+  137  vi virtfunctest2.cpp
+  138  vi virtfunctest1.cpp 
+  139  c++ -o virtfunctest1 virtfunctest1.cpp 
+  140  vi virtfunctest2.cpp
+  141  c++ -o virtfunctest2 virtfunctest2.cpp 
+  142  ./virtfunctest2
+  143  vi virtfunctest2.cpp
+  144  vi payroll2.h 
+  145  c++ -o virtfunctest2 virtfunctest2.cpp 
+  146  ./virtfunctest2
+  147  vi virtfunctest2.cpp
+  148  c++ -o virtfunctest2 virtfunctest2.cpp 
+  149  ./virtfunctest2
+  150  vi virtfunctest2.cpp
+  151  history >cmd31-10-2015.txt
+  152  vi cmd31-10-2015.txt 
+  153  cp -r /SoftDev/Foundations ~/Shared
+  154  exit
+  155  cd Foundations/Advanced/C++/Inheritance/
+  156  cp virtfunctest2.cpp rttitest1.cpp
+  157  vi rttitest1.cpp 
+  158  vi payroll2.h 
+  159  vi rttitest1.cpp 
+  160  c++ -o rttitest1 rttitest1.cpp 
+  161  vi rttitest1.cpp 
+  162  c++ -o rttitest1 rttitest1.cpp 
+  163  vi rttitest1.cpp 
+  164  c++ -o rttitest1 rttitest1.cpp 
+  165  vi rttitest1.cpp 
+  166  c++ -o rttitest1 rttitest1.cpp 
+  167  ./rttitest1 
+  168  vi rttitest1.cpp 
+  169  c++ -o rttitest1 rttitest1.cpp 
+  170  ./rttitest1 
+  171  vi rttitest1.cpp 
+  172  c++ -o rttitest1 rttitest1.cpp 
+  173  ./rttitest1 
+  174  vi rttitest1.cpp 
+  175  cp rttitest1.cpp rttitest2.cpp
+  176  vi rttitest2.cpp 
+  177  c++ -o rttitest2 rttitest2.cpp 
+  178  ./rttitest2
+  179  vi rttitest2.cpp 
+  180  c++ -o rttitest2 rttitest2.cpp 
+  181  ./rttitest2
+  182  vi rttitest2.cpp 
+  183  c++ -o rttitest2 rttitest2.cpp 
+  184  vi student.h
+  185  vi othercasttest.cpp
+  186  c++ -o othercasttest othercasttest.cpp 
+  187  vi student.h
+  188  c++ -o othercasttest othercasttest.cpp 
+  189  ./othercasttest 
+  190  vi othercasttest.cpp
+  191  c++ -o othercasttest othercasttest.cpp 
+  192  vi othercasttest.cpp
+  193  c++ -o othercasttest othercasttest.cpp 
+  194  ./othercasttest 
+  195  vi othercasttest.cpp
+  196  c++ -o othercasttest othercasttest.cpp 
+  197  vi othercasttest.cpp
+  198  c++ -o othercasttest othercasttest.cpp 
+  199  vi othercasttest.cpp
+  200  c++ -o othercasttest othercasttest.cpp 
+  201  ./othercasttest 
+  202  vi othercasttest.cpp
+  203  c++ -o othercasttest othercasttest.cpp 
+  204  vi othercasttest.cpp
+  205  c++ -o othercasttest othercasttest.cpp 
+  206  vi othercasttest.cpp
+  207  c++ -o othercasttest othercasttest.cpp 
+  208  vi othercasttest.cpp
+  209  c++ -o othercasttest othercasttest.cpp 
+  210  ./othercasttest 
+  211  history >cmd01-11-2015.txt
+  212  vi cmd01-11-2015.txt 
+  213  cp -r /SoftDev/Foundations ~/Shared
+  214  exit
+  215  exit
+  216  ll
+  217  ll
+  218  cd Foundations
+  219  ll
+  220  cd Advanced/
+  221  ll
+  222  cd ..
+  223  ll
+  224  cd practice/
+  225  ll
+  226  cp -r /SoftDev/Foundations/Advanced/C++ .
+  227  ll
+  228  clear
+  229  vi C++
+  230  ll
+  231  cd C++
+  232  ll
+  233  cd Classes
+  234  ll
+  235  ll *.cpp
+  236  clear
+  237  ll *.cpp
+  238  clear
+  239  vi classtest1.cpp
+  240  vi classtest2.cpp
+  241  ll *.cpp
+  242  vi ctortest.cpp
+  243  vi dtortest.cpp
+  244  exit
+  245  cd Foundations/Advanced/C++/Inheritance/
+  246  vi banking1.h
+  247  cd Foundations/Advanced/C++/Inheritance/
+  248  vi banking1.h
+  249  vi banking1.cpp 
+  250  c++ -c banking1.cpp 
+  251  vi banking1.cpp 
+  252  c++ -c banking1.cpp 
+  253  vi adttest1.cpp
+  254  c++ -o adttest1 adttest1.cpp 
+  255  c++ -o adttest1 adttest1.cpp banking1.o
+  256  ./adttest1 
+  257  vi adttest1.cpp
+  258  c++ -o adttest1 adttest1.cpp banking1.o
+  259  vi adttest1.cpp
+  260  c++ -o adttest1 adttest1.cpp banking1.o
+  261  ./adttest1 
+  262  cp adttest1.cpp adttest2.cpp
+  263  vi adttest2.cpp 
+  264  c++ -o adttest2 adttest2.cpp banking1.o
+  265  vi adttest2.cpp 
+  266  c++ -o adttest2 adttest2.cpp banking1.o
+  267  ./adttest2
+  268  vi adttest2.cpp 
+  269  c++ -o adttest2 adttest2.cpp banking1.o
+  270  ./adttest2
+  271  vi adttest2.cpp 
+  272  c++ -o adttest2 adttest2.cpp banking1.o
+  273  vi adttest2.cpp 
+  274  ./adttest2
+  275  c++ -o adttest2 adttest2.cpp banking1.o
+  276  ./adttest2
+  277  vi adttest2.cpp 
+  278  history >cmd03-11-2015.txt 
+  279  mv cmd01-11-2015.txt cmd02-11-2015.txt 
+  280  vi cmd02-11-2015.txt 
+  281  vi cmd03-11-2015.txt 
+  282  cp /SoftDev/Foundations ~/Shared/
+  283  cp /SoftDev/Foundations ~/Shared
+  284  cp -r /SoftDev/Foundations ~/Shared
+  285  exit
+  286  ll
+  287  cd practice/
+  288  ll
+  289  cd C+=
+  290  cd C++
+  291  ll
+  292  cd Classes/
+  293  ll
+  294  ll *.cpp
+  295  vi dtortest.cpp
+  296  clear dtortest.cpp
+  297  c++ -o dtortest dtortest.cpp
+  298  ./dtortest 
+  299  vi dtortest.cpp
+  300  ll *.cpp
+  301  vi newdelobjtest.cpp 
+  302  vi objreftest.cpp 
+  303  ./objreftest 
+  304  vi objreftest.cpp 
+  305  c++ -o objreftest objreftest.cpp 
+  306  ./objreftest 
+  307  vi objreftest.cpp 
+  308  ll *.cpp
+  309  exit
+  310  ll
+  311  cd Foundations/
+  312  ll
+  313  cd Advanced/
+  314  ll
+  315  C++
+  316  cd C++
+  317  ll
+  318  cd Inheritance/
+  319  ll
+  320  vi virtfunctest1.cpp
+  321  vi virtfunctest2.cpp
+  322  :wq
+  323  exit
+  324  cd Foundations/Advanced/C++/Inheritance/
+  325  cp banking1.h banking2.h
+  326  cp banking1.cpp banking2.cpp
+  327  vi banking2.h 
+  328  vi banking2.cpp 
+  329  vi banking2.h
+  330  vi banking2.cpp 
+  331  c++ -c banking2.cpp 
+  332  cp adttest2.cpp adtmitest.cpp
+  333  vi adtmitest.cpp 
+  334  c++ -o adtmitest adtmitest.cpp banking2.o
+  335  vi adtmitest.cpp 
+  336  c++ -o adtmitest adtmitest.cpp banking2.o
+  337  ./adtmitest 
+  338  history >cmd04-11-2015.txt
+  339  vi cmd04-11-2015.txt
+  340  cp -r /SoftDev/Foundations ~/Shared/
+  341  exit
+  342  cd /SoftDev/Foundations/Advanced/C++/Inheritance/
+  343  ls
+  344  vi payroll2.h 
+  345  cd
+  346  ls
+  347  mkdir Test
+  348  cd Test/
+  349  vi student.cpp
+  350  c++ -c student.cpp
+  351  vi studenttest.cpp
+  352  c++ -o studenttest studenttest.cpp
+  353  c++ -o studenttest studenttest.cpp student.o
+  354  vi studenttest.cpp
+  355  vi student.cpp 
+  356  objdump -t student.o
+  357  objdump -d student.o
+  358  vi student.cpp 
+  359  c++ -c student.cpp
+  360  ls
+  361  ll
+  362  objdump -d student.o
+  363  mv student.cpp student.h
+  364  rm *.0
+  365  rm *.o
+  366  vi studenttest.cpp 
+  367  c++ -o studenttest studenttest.cpp 
+  368  vi student.h
+  369  c++ -o studenttest studenttest.cpp 
+  370  vi studenttest.cpp 
+  371  c++ -o studenttest studenttest.cpp 
+  372  ./studenttest 
+  373  vi studenttest.cpp 
+  374  cd ..
+  375  ll
+  376  cd /SoftDev/
+  377  ll
+  378  cd practice/
+  379  ll
+  380  cd C++
+  381  ll
+  382  cd Classes/
+  383  ll
+  384  vi cntmnttest.cpp
+  385  c++ -o cntmnttest cntmnttest.cpp
+  386  clear
+  387  ./cntmnttest 
+  388  :wq
+  389  c++ -D _AGGREGATION -o cntmnttest cntmnttest.cpp
+  390  ./cntmnttest 
+  391  clear
+  392  ./cntmnttest 
+  393  exit
+  394  cd practice/
+  395  ll
+  396  cd C+=
+  397  cd C++
+  398  cd Classes/
+  399  ll
+  400  vi cmd29-10-2015.txt 
+  401  vi cmd28-10-2015.txt 
+  402  vi cmd27-10-2015.txt 
+  403  cd ..
+  404  cd Inheritance/
+  405  ll *.txt
+  406  vi cmd30-10-2015.txt 
+  407  cd ..
+  408  cd Classes/
+  409  vi cntmnttest.cpp
+  410  c++ -o cntmnttest cntmnttest.cpp
+  411  ./cntmnttest 
+  412  :wq
+  413  exit
+  414  cd practice/
+  415  cd C++/Classes/cntmnttest.cpp
+  416  vi C++/Classes/cntmnttest.cpp
+  417  exit
+  418  ls
+  419  cd Testing/
+  420  ls
+  421  cd ..
+  422  ls practice/
+  423  cd ..
+  424  ls
+  425  ls ~/Shared/
+  426  ls ~/Shared/Testing/
+  427  cd /SoftDev/
+  428  ls
+  429  cd practice/
+  430  ls
+  431  ls C
+  432  ls C++/
+  433  cd ..
+  434  ls Testing/
+  435  cd Testing/
+  436  vi fptrtest.c 
+  437  history >test.txt
+  438  vi test.txt 
+  439  rm test.txt 
+  440  cd \
+  441  cd /
+  442  ls
+  443  cd 
+  444  ls
+  445  cd Te
+  446  cd Test/
+  447  ls
+  448  vi studenttest.cpp 
+  449  cd ..
+  450  cp -r Test ~/Shared/
+  451  exit
+  452  cd Foundations/Advanced/C++/Inheritance/
+  453  vi taxation1.h
+  454  vi mivitest.cpp
+  455  c++ -o mivitest mivitest.cpp 
+  456  ./mivitest 
+  457  vi mivitest.cpp
+  458  vi taxation1.h 
+  459  c++ -o mivitest mivitest.cpp 
+  460  vi taxation1.h 
+  461  c++ -o mivitest mivitest.cpp 
+  462  vi mivitest.cpp
+  463  c++ -o mivitest mivitest.cpp 
+  464  vi mivitest.cpp
+  465  c++ -o mivitest mivitest.cpp 
+  466  ./mivitest 
+  467  cp taxation1.h taxation2.h 
+  468  vi taxation2.h 
+  469  vi mivitest.cpp
+  470  c++ -o mivitest mivitest.cpp 
+  471  ./mivitest 
+  472  vi mivitest.cpp
+  473  vi taxation2.h 
+  474  vi mivitest.cpp
+  475  c++ -D_DDOD -o mivitest mivitest.cpp 
+  476  ./mivitest 
+  477  c++ -o mivitest mivitest.cpp 
+  478  ./mivitest 
+  479  vi taxation2.h 
+  480  vi mivitest.cpp
+  481  vi taxation2.h 
+  482  vi mivitest.cpp
+  483  history >cmd05-11-2015.txt
+  484  vi cmd05-11-2015.txt 
+  485  cp -r /SoftDev/Foundations ~/Shared/
+  486  exit
+  487  cd Foundations/Advanced/C++/
+  488  ll
+  489  mkdir Templates
+  490  cd Templates/
+  491  vi functmplttest1.cpp
+  492  c++ -o functmplttest1 functmplttest1.cpp 
+  493  ./functmplttest1 
+  494  vi functmplttest1.cpp
+  495  c++ -o functmplttest1 functmplttest1.cpp 
+  496  vi functmplttest1.cpp
+  497  c++ -o functmplttest1 functmplttest1.cpp 
+  498  ./functmplttest1 
+  499  vi functmplttest1.cpp
+  500  c++ -o functmplttest1 functmplttest1.cpp 
+  501  ./functmplttest1 
+  502  vi functmplttest1.cpp
+  503  history >cmd16-11-2015.txt
+  504  vi cmd16-11-2015.txt
+  505  cp -r /SoftDev/Foundations ~/Shared
+  506  exit
+  507  cd Foundations/Advanced/C++/Templates/
+  508  vi functmplttest2.cpp
+  509  c++ -o  functmplttest2 functmplttest2.cpp 
+  510  vi functmplttest2.cpp
+  511  c++ -o  functmplttest2 functmplttest2.cpp 
+  512  ./functmplttest2
+  513  vi functmplttest2.cpp
+  514  c++ -o  functmplttest2 functmplttest2.cpp 
+  515  ./functmplttest2
+  516  vi functmplttest2.cpp
+  517  c++ -o  functmplttest2 functmplttest2.cpp 
+  518  ./functmplttest2
+  519  vi functmplttest2.cpp
+  520  c++ -o  functmplttest2 functmplttest2.cpp 
+  521  ./functmplttest2
+  522  vi functmplttest2.cpp
+  523  c++ -o  functmplttest2 functmplttest2.cpp 
+  524  ./functmplttest2
+  525  vi functmplttest2.cpp
+  526  c++ -o  functmplttest2 functmplttest2.cpp 
+  527  ./functmplttest2
+  528  vi functmplttest2.cpp
+  529  vi classtmplttest1.cpp
+  530  c++ -o classtmplttest1 classtmplttest1.cpp 
+  531  ./classtmplttest1 
+  532  vi classtmplttest1.cpp
+  533  c++ -o classtmplttest1 classtmplttest1.cpp 
+  534  ./classtmplttest1 
+  535  cp classtmplttest1.cpp classtmplttest2.cpp
+  536  vi classtmplttest2.cpp 
+  537  c++ -o classtmplttest2 classtmplttest2.cpp 
+  538  vi classtmplttest2.cpp 
+  539  c++ -o classtmplttest2 classtmplttest2.cpp 
+  540  ./classtmplttest2
+  541  cp classtmplttest2.cpp classtmplttest3.cpp
+  542  vi classtmplttest3.cpp 
+  543  c++ -o classtmplttest3 classtmplttest3.cpp 
+  544  ./classtmplttest3
+  545  vi classtmplttest3.cpp 
+  546  c++ -o classtmplttest3 classtmplttest3.cpp 
+  547  ./classtmplttest3
+  548  history > cmd17-11-2015.txt 
+  549  cd ../../..
+  550  cd ../
+  551  cp -r Foundations/ ~/Shared/
+  552  exit
+  553  cd Foundations/Advanced/C++/Templates/
+  554  vi simplelist.h
+  555  cp ~/Shared/interval.h .
+  556  vi interval.h 
+  557  vi gencntnrtest.cpp
+  558  c++ -o gencntnrtest gencntnrtest.cpp 
+  559  ./gencntnrtest
+  560  vi gencntnrtest.cpp
+  561  cp gencntnrtest.cpp genadptrtest.cpp
+  562  vi genadptrtest.cpp 
+  563  c++ -o genadptrtest genadptrtest.cpp 
+  564  ./genadptrtest 
+  565  vi genadptrtest.cpp 
+  566  c++ -o genadptrtest genadptrtest.cpp 
+  567  ./genadptrtest 
+  568  vi genadptrtest.cpp 
+  569  vi simplelist.h 
+  570  cp gencntnrtest.cpp genitrtrtest.cpp
+  571  vi genitrtrtest.cpp 
+  572  vi simplelist.h 
+  573  vi genitrtrtest.cpp 
+  574  c++ -o genitrtrtest genitrtrtest.cpp 
+  575  vi simplelist.h 
+  576  c++ -o genitrtrtest genitrtrtest.cpp 
+  577  ./genitrtrtest 
+  578  vi genitrtrtest.cpp 
+  579  history >cmd18-11-2015.txt
+  580  vi cmd18-11-2015.txt 
+  581  cp -r /SoftDev/Foundations ~/Shared
+  582  exit
+  583  cd Foundations/Advanced/C++/Templates/
+  584  vi printing.h
+  585  vi genalgotest1.cpp
+  586  c++ -o genalgotest1 genalgotest1.cpp 
+  587  vi genalgotest1.cpp
+  588  c++ -o genalgotest1 genalgotest1.cpp 
+  589  ./genalgotest1 
+  590  vi printing.h
+  591  vi genalgotest1.cpp
+  592  c++ -o genalgotest1 genalgotest1.cpp 
+  593  vi printing.h
+  594  c++ -o genalgotest1 genalgotest1.cpp 
+  595  ./genalgotest1 
+  596  vi genalgotest1.cpp
+  597  c++ -o genalgotest1 genalgotest1.cpp 
+  598  ./genalgotest1 
+  599  vi genalgotest1.cpp
+  600  c++ -o genalgotest1 genalgotest1.cpp 
+  601  cp genalgotest1.cpp genalgotest2.cpp
+  602  vi genalgotest2.cpp 
+  603  c++ -o genalgotest2 genalgotest2.cpp 
+  604  ./genalgotest2
+  605  vi genalgotest2.cpp 
+  606  cd ..
+  607  mkdir STL
+  608  cd STL
+  609  exit
+  610  exit
+  611  cd Foundations/Advanced/STL/
+  612  ll
+  613  cp vectortest.cpp settest.cpp
+  614  vi settest.cpp 
+  615  c++ -o settest settest.cpp 
+  616  ./settest 
+  617  vi settest.cpp 
+  618  c++ -o settest settest.cpp 
+  619  vi interval.h 
+  620  vi settest.cpp 
+  621  c++ -o settest settest.cpp 
+  622  ./settest 
+  623  cp settest.cpp maptest.cpp
+  624  vi maptest.cpp 
+  625  c++ -o maptest maptest.cpp 
+  626  ./maptest 
+  627  vi maptest.cpp 
+  628  c++ -o maptest maptest.cpp 
+  629  ./maptest 
+  630  cp vectortest.cpp stacktest.cpp
+  631  vi stacktest.cpp 
+  632  c++ -o stacktest stacktest.cpp 
+  633  ./stacktest 
+  634  vi stacktest.cpp 
+  635  c++ -o stacktest stacktest.cpp 
+  636  ./stacktest 
+  637  cp stacktest.cpp queuetest.cpp
+  638  vi queuetest.cpp 
+  639  c++ -o queuetest queuetest.cpp 
+  640  ./queuetest 
+  641  vi queuetest.cpp 
+  642  c++ -o queuetest queuetest.cpp 
+  643  ./queuetest 
+  644  cp stacktest.cpp pqueuetest.cpp
+  645  vi pqueuetest.cpp 
+  646  c++ -o pqueuetest pqueuetest.cpp 
+  647  ./pqueuetest 
+  648  vi pqueuetest.cpp 
+  649  c++ -o pqueuetest pqueuetest.cpp 
+  650  vi pqueuetest.cpp 
+  651  c++ -o pqueuetest pqueuetest.cpp 
+  652  ./pqueuetest 
+  653  cp vectortest.cpp sorttest.cpp
+  654  vi sorttest.cpp 
+  655  c++ -o sorttest sorttest.cpp 
+  656  ./sorttest 
+  657  vi sorttest.cpp 
+  658  c++ -o sorttest sorttest.cpp 
+  659  ./sorttest 
+  660  vi sorttest.cpp 
+  661  c++ -o sorttest sorttest.cpp 
+  662  vi sorttest.cpp 
+  663  c++ -o sorttest sorttest.cpp 
+  664  vi sorttest.cpp 
+  665  c++ -o sorttest sorttest.cpp 
+  666  ./sorttest 
+  667  cp sorttest.cpp copytest.cpp
+  668  vi copytest.cpp 
+  669  c++ -o copytest copytest.cpp 
+  670  vi sorttest.cpp 
+  671  vi copytest.cpp 
+  672  vi sorttest.cpp 
+  673  vi copytest.cpp 
+  674  c++ -o copytest copytest.cpp 
+  675  ./copytest 
+  676  vi copytest.cpp 
+  677  c++ -o copytest copytest.cpp 
+  678  ./copytest 
+  679  vi copytest.cpp 
+  680  c++ -o copytest copytest.cpp 
+  681  ./copytest 
+  682  vi copytest.cpp 
+  683  cp sorttest.cpp accumtest.cpp
+  684  vi accumtest.cpp 
+  685  c++ -o accumtest accumtest.cpp 
+  686  ./accumtest 
+  687  history >cmd20-11-2015.txt
+  688  ls
+  689  mv cmd-19-11-2015.txt cmd19-11-2015.txt 
+  690  ls -A
+  691  cp -r /SoftDev/Foundations ~/Shared/
+  692  pwd
+  693  ls
+  694  cd ..
+  695  ls
+  696  exit
+  697  ll
+  698  cd practice/
+  699  cp ~/Shared/treetest.c  .
+  700  vi treetest.c 
+  701  cc -o treetest treetest.c 
+  702  vi treetest.c 
+  703  cc -o treetest treetest.c 
+  704  ./treetest
+  705  vi treetest.c 
+  706  cc -o treetest treetest.c 
+  707  vi treetest.c 
+  708  cc -o treetest treetest.c 
+  709  ./treetest
+  710  vi treetest.c 
+  711  cc -o treetest treetest.c 
+  712  ./treetest
+  713  vi treetest.c 
+  714  cc -o treetest treetest.c 
+  715  ./treetest
+  716  vi treetest.c 
+  717  cc -o treetest treetest.c 
+  718  vi treetest.c 
+  719  cc -o treetest treetest.c 
+  720  ./treetest
+  721  vi treetest.c 
+  722  cc -o treetest treetest.c 
+  723  ./treetest
+  724  vi treetest.c 
+  725  cc -o treetest treetest.c 
+  726  vi treetest.c 
+  727  cc -o treetest treetest.c 
+  728  ./treetest
+  729  vi treetest.c 
+  730  cc -o treetest treetest.c 
+  731  ./treetest
+  732  vi treetest.c 
+  733  cc -o treetest treetest.c 
+  734  ./treetest
+  735  vi treetest.c 
+  736  cc -o treetest treetest.c 
+  737  ./treetest
+  738  vi treetest.c 
+  739  cc -o treetest treetest.c 
+  740  ./treetest
+  741  vi treetest.c 
+  742  cc -o treetest treetest.c 
+  743  ./treetest
+  744  ll
+  745  vi treetest.c
+  746  cc -o treetest treetest.c 
+  747  ./treetest
+  748  vi treetest.c
+  749  cc -o treetest treetest.c 
+  750  vi treetest.c
+  751  cc -o treetest treetest.c 
+  752  ./treetest
+  753  vi treetest.c
+  754  cc -o treetest treetest.c 
+  755  ./treetest
+  756  clear
+  757  ./treetest
+  758  clear
+  759  ./treetest
+  760  clear
+  761  vi treetest.c
+  762  cc -o treetest treetest.c 
+  763  ./treetest
+  764  vi treetest.c
+  765  cc -o treetest treetest.c 
+  766  ./treetest
+  767  clear
+  768  vi treetest.c
+  769  cc -o treetest treetest.c 
+  770  ./treetest
+  771  vi treetest.c
+  772  cc -o treetest treetest.c 
+  773  ./treetest
+  774  vi treetest.c
+  775  ./treetest
+  776  vi treetest.c
+  777  cc -o treetest treetest.c 
+  778  ./treetest
+  779  vi treetest.c
+  780  cc -o treetest treetest.c 
+  781  clear
+  782  ./treetest
+  783  vi treetest.c
+  784  cc -o treetest treetest.c 
+  785  ./treetest
+  786  vi treetest.c
+  787  cc -o treetest treetest.c 
+  788  ./treetest
+  789  :q
+  790  vi treetest.c
+  791  cc -o treetest treetest.c 
+  792  ./treq
+  793  ./treetest
+  794  vi treetest.c
+  795  cc -o treetest treetest.c 
+  796  ./treetest
+  797  vi treetest.c
+  798  cc -o treetest treetest.c 
+  799  ./treetest
+  800  vi treetest.c
+  801  cc -o treetest treetest.c 
+  802  ./treetest
+  803  vi treetest.c
+  804  cc -o treetest treetest.c 
+  805  ./treetest
+  806  vi treetest.c
+  807  cc -o treetest treetest.c 
+  808  ./treetest
+  809  vi treetest.c
+  810  cc -o treetest treetest.c 
+  811  vi treetest.c
+  812  cc -o treetest treetest.c 
+  813  ./treetest
+  814  vi treetest.c
+  815  cc -o treetest treetest.c 
+  816  ./treetest
+  817  vi treetest.c
+  818  cc -o treetest treetest.c 
+  819  ./treetest
+  820  vi treetest.c
+  821  cc -o treetest treetest.c 
+  822  ./treetest
+  823  vi treetest.c
+  824  exit
+  825  cd practice/
+  826  cd C++/Classes/
+  827  pwd
+  828  ll *.c++
+  829  ll *.cpp
+  830  vi opovldtest1.cpp
+  831  vi opovldtest2.cpp
+  832  vi opovldtest1.cpp
+  833  ll
+  834  cd ..
+  835  cd basics
+  836  ll
+  837  cd Basics
+  838  ll
+  839  vi namespacetest1.cpp
+  840  cd ..
+  841  cd Classes
+  842  vi opovldtest1.cpp
+  843  vi opovldtest2.cpp
+  844  vi classtest1.cpp
+  845  vi opovldtest1.cpp
+  846  cd ..
+  847  ll
+  848  cd Inheritance/
+  849  exit
+  850  ll
+  851  cd practice/
+  852  ll
+  853  cd C++
+  854  ll
+  855  cd Classes
+  856  ll
+  857  pwd
+  858  cd ..
+  859  ll
+  860  vi distance.cpp
+  861  c++ -o distance distance.cpp
+  862  clear
+  863  vi distance.cpp
+  864  c++ -o distance distance.cpp
+  865  vi distance.cpp
+  866  c++ -o distance distance.cpp
+  867  vi distance.cpp
+  868  c++ -o distance distance.cpp
+  869  vi distance.cpp
+  870  c++ -o distance distance.cpp
+  871  vi distance.cpp
+  872  c++ -o distance distance.cpp
+  873  vi distance.cpp
+  874  c++ -o distance distance.cpp
+  875  ./distance 
+  876  vi distance.cpp
+  877  c++ -o distance distance.cpp
+  878  vi distance.cpp
+  879  c++ -o distance distance.cpp
+  880  clear
+  881  ./distance
+  882  vi distance.cpp
+  883  c++ -o distance distance.cpp
+  884  ./distance 
+  885  vi distance.cpp
+  886  c++ -o distance distance.cpp
+  887  ./distance 
+  888  vi distance.cpp
+  889  c++ -o distance distance.cpp
+  890  vi distance.cpp
+  891  c++ -o distance distance.cpp
+  892  ./distance
+  893  vi distance.cpp
+  894  c++ -o distance distance.cpp
+  895  vi distance.cpp
+  896  c++ -o distance distance.cpp
+  897  vi distance.cpp
+  898  c++ -o distance distance.cpp
+  899  vi distance.cpp
+  900  c++ -o distance distance.cpp
+  901  vi distance.cpp
+  902  c++ -o distance distance.cpp
+  903  ./distance
+  904  vi distance.cpp
+  905  cp distance.cpp ~/Shared/.
+  906  clear
+  907  ll
+  908  exit
+  909  ps -e
+  910  ls
+  911  cd practice/
+  912  ls
+  913  ll
+  914  cat arraytest.c 
+  915  ll arraytest.c
+  916  cat arraytest.c 
+  917  ll arraytest.c
+  918  cd ..
+  919  ls
+  920  mkdir Web
+  921  cd Web/
+  922  pwd
+  923  vi information.txt
+  924  exit
+  925  cd www/html/
+  926  pwd
+  927  mv /SoftDev/Web/information.txt .
+  928  ls
+  929  pwd
+  930  cd 
+  931  cd /SoftDev/
+  932  cd www/html/
+  933  pwd
+  934  vi information.txt 
+  935  mv information.txt personal.html
+  936  ls
+  937  vi personal.html 
+  938  ifconfig
+  939  vi personal.html 
+  940  exit
+  941  cd www/html/
+  942  pwd
+  943  vi course.html
+  944  cp personal.html course.html 
+  945  vi course.html 
+  946  cp personal.html tabletest.html
+  947  vi tabletest.html 
+  948  cp personal.html linktest.html
+  949  vi linktest.html 
+  950  cp personal.html imagetest.html
+  951  ls
+  952  mkdir images
+  953  cp ~/Shared/laptop.jpg images
+  954  ls images/
+  955  vi imagetest.html 
+  956  cp imagetest.html DELL.html
+  957  vi DELL.html 
+  958  vi imagetest.html 
+  959  cp images/laptop.jpg .
+  960  ls
+  961  vi imagetest.html 
+  962  rm laptop.jpg 
+  963  ls
+  964  pwd
+  965  ls
+  966  cp linktest.html ~/Shared
+  967  cp personal.html 
+  968  cp personal.html inlinecss.html
+  969  vi inlinecss.html 
+  970  cp inlinecss.html internalcss.html
+  971  vi internalcss.html 
+  972  cp ~/Shared/met.gif images/
+  973  vi internalcss.html 
+  974  mv internalcss.html internalcss1.html 
+  975  mv internalcss1.html internalcss.html 
+  976  cp internalcss.html customclasscss.html
+  977  vi customclasscss.html 
+  978  mkdir css
+  979  vi css/extcss.css
+  980  cp ~/Shared/watermark.jpg images/
+  981  vi css/extcss.css
+  982  vi inlinecss.html 
+  983  vi internalcss.html 
+  984  vi inlinecss.html 
+  985  vi internalcss.html 
+  986  vi css/extcss.css 
+  987  cp internalcss.html externalcss.html
+  988  vi externalcss.html 
+  989  vi inlinecss.html 
+  990  pwd
+  991  cls
+  992  ls
+  993  cp -r /SoftDev/www/html ~/Shared/
+  994  history >cmd03-12-2015.txt
+  995  vi cmd03-12-2015.txt
+  996  cp cmd03-12-2015.txt ~/Shared/html/
+  997  exit
+  998  cd www/html/
+  999  ls
+ 1000  cp personal.html divtest.html
+ 1001  vi divtest.html 
+ 1002  vi css/divcss.css
+ 1003  ls
+ 1004  ls css/
+ 1005  vi css/divcss.css
+ 1006  vi divtest.html 
+ 1007  cp divtest.html divtest1.html 
+ 1008  vi divtest1.html 
+ 1009  vi css/extcss.css 
+ 1010  vi externalcss.html 
+ 1011  vi customclasscss.html 
+ 1012  history >cmd04-12-2015.txt

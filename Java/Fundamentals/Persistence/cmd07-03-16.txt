@@ -1,0 +1,97 @@
+   exit
+   cd Java/Fundamentals/Concurrency/
+   cp ~/Shared/threads/ThreadCoordTest.java .
+   vi ThreadCoordTest.java 
+   javac ThreadCoordTest.java 
+   java ThreadCoordTest
+   vi ThreadCoordTest.java 
+   javac ThreadCoordTest.java 
+   java ThreadCoordTest
+   vi ThreadCoordTest.java 
+   javac ThreadCoordTest.java 
+   java ThreadCoordTest
+   vi ThreadCoordTest.java 
+   javac ThreadCoordTest.java 
+   java ThreadCoordTest
+   vi ThreadCoordTest.java 
+   javac ThreadCoordTest.java 
+   java ThreadCoordTest
+   vi ThreadCoordTest.java 
+   cp ~/Shared/threads/ThreadLocalTest.java .
+   vi ThreadLocalTest.java 
+   javac ThreadLocalTest.java 
+   java ThreadLocalTest
+   vi ThreadLocalTest.java 
+   javac ThreadLocalTest.java 
+   java ThreadLocalTest
+   vi ThreadLocalTest.java 
+   javac ThreadLocalTest.java 
+   java ThreadLocalTest
+   vi ExecutorTest.java
+   javac ExecutorTest.java
+   vi ExecutorTest.java
+   javac ExecutorTest.java
+   java ExecutorTest
+   vi ExecutorTest.java
+   javac ExecutorTest.java
+   java ExecutorTest
+   vi ExecutorTest.java
+   javac ExecutorTest.java
+   java ExecutorTest
+   vi ExecutorTest.java
+   javac ExecutorTest.java
+   java ExecutorTest
+   vi ExecutorTest.java
+   cd Java/Fundamentals/Concurrency/
+   cp ExecutorTest.java ForkJoinTest.java
+   vi ForkJoinTest.java 
+   javac ForkJoinTest.java 
+   vi ForkJoinTest.java 
+   javac ForkJoinTest.java 
+   java ForkJoinTest
+   cp ForkJoinTest*.class ~/Shared/Test
+   cp Worker.class ~/Shared/Test
+   vi ForkJoinTest.java 
+   vi ParallelStreamTest.java
+   javac ParallelStreamTest.java
+   java ParallelStreamTest
+   vi ParallelStreamTest.java
+   javac ParallelStreamTest.java
+   java ParallelStreamTest
+   cp ParallelStreamTest*.class ~/Shared/Test
+   cd ..
+   mkdir Persistence
+   cd Persistence/
+   vi FileIOTest1.java
+   javac FileIOTest1.java
+   cp FileIOTest1.java data1.txt
+   vi data1.txt 
+   java FileIOTest1 data1.txt data2.txt
+   ls
+   lsvi data2.txt 
+   vi data2.txt 
+   java FileIOTest1 data2.txt data3.txt
+   vi data3.txt 
+   rm data2.txt data3.txt
+   java -Djava.security.manager FileIOTest1 data1.txt data2.txt
+   cp data1.txt /tmp/
+   java -Djava.security.manager FileIOTest1 /tmp/data1.txt /tmp/data2.txt
+   vi ~/.java.policy
+   policytool 
+   java -Djava.security.manager FileIOTest1 /tmp/data1.txt /tmp/data2.txt
+   java -Djava.security.manager FileIOTest1 /tmp/data1.txt data2.txt
+   rm ~/.java.policy 
+   java -Djava.security.manager FileIOTest1 /tmp/data1.txt /tmp/data2.txt
+   vi ~/.java.policy
+   policytool 
+   vi ~/.java.policy
+   java -Djava.security.manager FileIOTest1 /tmp/data1.txt /tmp/data2.txt
+   cp FileIOTest1.java FileIOTest2.java
+   vi FileIOTest2.java 
+   javac FileIOTest2.java 
+   vi data1.txt 
+   java FileIOTest2 data1.txt 
+   vi data1.txt 
+   java FileIOTest2 data1.txt 
+   vi data1.txt 
+   history >cmd07-03-16.txt

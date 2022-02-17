@@ -1,0 +1,58 @@
+np dataiotest.cs
+np dataiotest1.cs
+csc dataiotest1.cs
+dataiotest1.exe 4999.95 20000 hdd
+dataiotest1.exe
+dir product.dat
+np product.dat
+copy dataiotest1.cs dataiotest2.cs
+np dataiotest2.cs
+csc dataiotest2.cs
+dataiotest2.exe 4999.95 20000 hdd
+dataiotest2.exe
+np product.txt
+copy z:\Shared\Java\Fundamentals\Persistence\DataIOTest2.class
+java DataIOTest2
+copy z:\Shared\Java\Fundamentals\Persistence\DataIOTest1.class
+java DataIOTest1
+del *.class
+dir product.*
+np serhr.cs
+csc /t:library serhr.cs
+np objsertest1.cs
+csc objsertest1.cs /r:serhr.dll
+objsertest1.exe Accounting
+objsertest1.exe 
+np dept.dat
+np serhr.cs
+csc /t:library serhr.cs
+objsertest1.exe Accounting
+np dept.dat
+objsertest1.exe 
+csc /t:library serhr.cs
+objsertest1.exe Accounting
+objsertest1.exe 
+csc /t:library serhr.cs
+csc objsertest1.cs /r:serhr.dll
+objsertest1.exe Accounting
+objsertest1.exe 
+copy serhr.cs custserhr.cs
+np custserhr.cs
+csc /t:libarary custserhr.cs
+csc /t:libaary custserhr.cs
+csc /t:library custserhr.cs
+csc objsertest1.cs /r:custserhr.dll
+objsertest1.exe Accounting
+objsertest1.exe 
+np dept.dat
+np objsertest2.cs
+csc objsertest2.cs /r:custserhr.dll
+objsertest2.exe
+csc objsertest2.cs /r:custserhr.dll
+objsertest2.exe
+csc objsertest2.cs /r:serhr.dll
+objsertest2.exe
+csc objsertest2.cs /r:custserhr.dll
+objsertest2.exe
+csc objsertest2.cs /r:custserhr.dll
+doskey /h >cmd25-04-16.txt

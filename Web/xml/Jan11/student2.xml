@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MET SYSTEM "student2.dtd">
+<MET>
+    <COURSES>
+      <COURSE Cid="C001">
+          <CNAME>ADSD</CNAME>
+          <CFEES>115000</CFEES>
+          <CSDATE>AUG2015</CSDATE>
+      </COURSE>
+      <COURSE Cid="C002">
+          <CNAME>DAC</CNAME>
+          <CFEES>90000</CFEES>
+          <CSDATE>AUG2015</CSDATE>
+      </COURSE>
+      <COURSE Cid="C003">
+          <CNAME>DACA</CNAME>
+          <CFEES>80000</CFEES>
+          <CSDATE>AUG2015</CSDATE>
+      </COURSE>
+    </COURSES>
+    <STUDENTS>
+        <STUDENT Rno="A101" Scid="C001">
+            <SNAME>AMIT</SNAME>
+            <SAGE>22</SAGE>
+            <SFEES Currency="Rs">30000</SFEES>
+            <SCONTACT>
+              <SMOBILE>9999999990</SMOBILE>
+            </SCONTACT>
+            <SADDRESS>MUMBAI</SADDRESS>
+        </STUDENT>
+        <STUDENT Rno="A102" Scid="C002">
+            <SNAME>ANIL</SNAME>
+            <SAGE>22</SAGE>
+            <SFEES Currency="Dollars">40000</SFEES>
+            <SCONTACT>
+              <SMOBILE>9998999990</SMOBILE>
+            </SCONTACT>
+            <SADDRESS>MUMBAI</SADDRESS>
+        </STUDENT>
+        <STUDENT Rno="A103" Scid="A102">
+            <SNAME>ANIT</SNAME>
+            <SAGE>22</SAGE>
+            <SFEES Currency="Rs">40000</SFEES>
+            <SCONTACT>
+              <SMOBILE>9998999990</SMOBILE>
+            </SCONTACT>
+            <SADDRESS>MUMBAI</SADDRESS>
+        </STUDENT>
+        <STUDENT Rno="A104" Scid="C003">
+            <SNAME>KETAN</SNAME>
+            <SAGE>22</SAGE>
+            <SFEES>43000</SFEES>
+            <SCONTACT>
+              <SLANDLINE>53647778</SLANDLINE>
+            </SCONTACT>
+            <SADDRESS>MUMBAI</SADDRESS>
+        </STUDENT>
+    </STUDENTS>
+    </MET>

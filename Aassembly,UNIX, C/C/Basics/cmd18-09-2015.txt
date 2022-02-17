@@ -1,0 +1,13 @@
+    1  cd Foundations/Fundamentals/C/Basics/
+    2  vi variabletest.c
+    3  cc -c variabletest.c 
+    4  ll
+    5  objdump -t variabletest.o
+    6  ld -o variabletest variabletest.o /usr/lib/crt*.o /usr/lib/libc.so -dynamic-linker /lib/ld-2.12.so 
+    7  ./variabletest 
+    8  vi variabletest.c
+    9  objdump -t variabletest.o
+   10  vi arraytest.c
+   11  cc -o arraytest arraytest.c 
+   12  ./arraytest 
+   13  history >cmd18-09-2015.txt

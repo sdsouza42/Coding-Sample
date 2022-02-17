@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>AJAX Test - TestApp</title>
+		<script type="text/javascript">
+			var xmlhttp = 0;
+			function loadProduct(frm){
+				xmlhttp = new XMLHttpRequest();
+				var url = "ajaxdata.txt";
+				xmlhttp.open("GET", url, true);
+				xmlhttp.onreadystatechange = displayProduct;
+				xmlhttp.send(null);
+			}
+
+			function displayProduct(){
+				if(xmlhttp.readyState == 4){
+					var data = xmlhttp.responseText;
+					var divProduct = document.getElementById("product");
+					divProduct.innerHTML = "<b>" + data + "</b>";
+				}
+			}
+		</script>
+	</head>
+	<body>		
+		<h1 align="center">Product Info</h1>
+		<form name="frmProduct">
+			Product No: <input type="text" name="pno"/>
+			<input type="button" value="Lookup" onClick="loadProduct(frmProduct)">
+			<p>
+				<div id="product">
+				</div>
+			</p>
+		</form>
+	</body>
+</html>
+

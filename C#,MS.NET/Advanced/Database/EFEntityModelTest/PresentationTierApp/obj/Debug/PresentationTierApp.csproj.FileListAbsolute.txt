@@ -1,0 +1,16 @@
+E:\MS.NET\Advanced\Database\EFEntityModelTest\PresentationTierApp\bin\Debug\PresentationTierApp.exe.config
+E:\MS.NET\Advanced\Database\EFEntityModelTest\PresentationTierApp\bin\Debug\PresentationTierApp.exe
+E:\MS.NET\Advanced\Database\EFEntityModelTest\PresentationTierApp\bin\Debug\PresentationTierApp.pdb
+E:\MS.NET\Advanced\Database\EFEntityModelTest\PresentationTierApp\obj\Debug\PresentationTierApp.csprojResolveAssemblyReference.cache
+E:\MS.NET\Advanced\Database\EFEntityModelTest\PresentationTierApp\obj\Debug\MainWindow.g.cs
+E:\MS.NET\Advanced\Database\EFEntityModelTest\PresentationTierApp\obj\Debug\App.g.cs
+E:\MS.NET\Advanced\Database\EFEntityModelTest\PresentationTierApp\obj\Debug\PresentationTierApp_MarkupCompile.cache
+E:\MS.NET\Advanced\Database\EFEntityModelTest\PresentationTierApp\obj\Debug\PresentationTierApp_MarkupCompile.lref
+E:\MS.NET\Advanced\Database\EFEntityModelTest\PresentationTierApp\obj\Debug\MainWindow.baml
+E:\MS.NET\Advanced\Database\EFEntityModelTest\PresentationTierApp\obj\Debug\PresentationTierApp.g.resources
+E:\MS.NET\Advanced\Database\EFEntityModelTest\PresentationTierApp\obj\Debug\PresentationTierApp.Properties.Resources.resources
+E:\MS.NET\Advanced\Database\EFEntityModelTest\PresentationTierApp\obj\Debug\PresentationTierApp.csproj.GenerateResource.Cache
+E:\MS.NET\Advanced\Database\EFEntityModelTest\PresentationTierApp\obj\Debug\PresentationTierApp.exe
+E:\MS.NET\Advanced\Database\EFEntityModelTest\PresentationTierApp\obj\Debug\PresentationTierApp.pdb
+E:\MS.NET\Advanced\Database\EFEntityModelTest\PresentationTierApp\bin\Debug\ContractLib.dll
+E:\MS.NET\Advanced\Database\EFEntityModelTest\PresentationTierApp\bin\Debug\ContractLib.pdb

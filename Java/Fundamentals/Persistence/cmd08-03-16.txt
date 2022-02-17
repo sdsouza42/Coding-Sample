@@ -1,0 +1,77 @@
+    1  cd Java/Fundamentals/Persistence/
+    2  cp FileIOTest2.java MemMapIOTest.java
+    3  vi MemMapIOTest.java 
+    4  javac MemMapIOTest.java 
+    5  vi data1.txt 
+    6  java MemMapIOTest data1.txt 
+    7  vi data1.txt 
+    8  java MemMapIOTest data1.txt 
+    9  vi data1.txt 
+   10  vi MemMapIOTest.java 
+   11  vi DataIOTest1.java
+   12  javac DataIOTest1.java
+   13  java DataIOTest1 4999.95 20000 hdd
+   14  ll product.*
+   15  java DataIOTest1
+   16  vi product.dat 
+   17  cp DataIOTest1.java DataIOTest2.java
+   18  vi DataIOTest2.java 
+   19  javac DataIOTest2.java 
+   20  java DataIOTest2 4999.95 20000 hdd
+   21  java DataIOTest2
+   22  vi product.txt 
+   23  ll product.*
+   24  cp -r ~/Shared/hr serhr
+   25  vi serhr/Employee.java 
+   26  vi serhr/Department.java 
+   27  vi serhr/Employee.java 
+   28  javac -d . serhr/*.java
+   29  vi ObjSerTest.java
+   30  javac ObjSerTest.java
+   31  java ObjSerTest Accounting
+   32  java ObjSerTest
+   33  ll dept.dat 
+   34  vi dept.dat 
+   35  vi serhr/Employee.java 
+   36  javac -d . serhr/*.java
+   37  java ObjSerTest Accounting
+   38  vi dept.dat 
+   39  java ObjSerTest
+   40* cp -r serihr/ exthr
+   41  vi exthr/Employee.java 
+   42  javap java.io.Externalizable
+   43  vi exthr/Employee.java 
+   44  javac -d . exthr/*.java
+   45  java ObjSerTest Accounting
+   46  vi dept.dat 
+   47  java ObjSerTest
+   48  cp -r ~/Shared/hr xmlhr
+   49  vi xmlhr/Department.java 
+   50  javac -d . xmlhr/Department.java 
+   51  cp ObjSerTest.java XmlBindTest.java
+   52  vi XmlBindTest.java 
+   53  javac XmlBindTest.java 
+   54  java XmlBindTest Accounting
+   55  java XmlBindTest 
+   56  vi dept.xml 
+   57  vi XmlBindTest.java 
+   58  java XmlBindTest Accounting
+   59  javac XmlBindTest.java 
+   60  java XmlBindTest Accounting
+   61  vi dept.xml 
+   62  vi xmlhr/Employee.java 
+   63  javac -d . xmlhr/Department.java 
+   64  java XmlBindTest Accounting
+   65  vi dept.xml 
+   66  javac -d . xmlhr/Employee.java 
+   67  java XmlBindTest Accounting
+   68  vi dept.xml 
+   69  java XmlBindTest
+   70  vi xmlhr/Employee.java 
+   71  javac -d . xmlhr/Employee.java 
+   72  java XmlBindTest Accounting
+   73  java XmlBindTest
+   74  vi dept.xml 
+   75  cd ..
+   76  cd Persistence/
+   77  history >cmd08-03-16.txt

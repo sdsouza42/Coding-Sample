@@ -1,0 +1,77 @@
+    1  cd Foundations/Advanced/STL/
+    2  ll
+    3  cp vectortest.cpp settest.cpp
+    4  vi settest.cpp 
+    5  c++ -o settest settest.cpp 
+    6  ./settest 
+    7  vi settest.cpp 
+    8  c++ -o settest settest.cpp 
+    9  vi interval.h 
+   10  vi settest.cpp 
+   11  c++ -o settest settest.cpp 
+   12  ./settest 
+   13  cp settest.cpp maptest.cpp
+   14  vi maptest.cpp 
+   15  c++ -o maptest maptest.cpp 
+   16  ./maptest 
+   17  vi maptest.cpp 
+   18  c++ -o maptest maptest.cpp 
+   19  ./maptest 
+   20  cp vectortest.cpp stacktest.cpp
+   21  vi stacktest.cpp 
+   22  c++ -o stacktest stacktest.cpp 
+   23  ./stacktest 
+   24  vi stacktest.cpp 
+   25  c++ -o stacktest stacktest.cpp 
+   26  ./stacktest 
+   27  cp stacktest.cpp queuetest.cpp
+   28  vi queuetest.cpp 
+   29  c++ -o queuetest queuetest.cpp 
+   30  ./queuetest 
+   31  vi queuetest.cpp 
+   32  c++ -o queuetest queuetest.cpp 
+   33  ./queuetest 
+   34  cp stacktest.cpp pqueuetest.cpp
+   35  vi pqueuetest.cpp 
+   36  c++ -o pqueuetest pqueuetest.cpp 
+   37  ./pqueuetest 
+   38  vi pqueuetest.cpp 
+   39  c++ -o pqueuetest pqueuetest.cpp 
+   40  vi pqueuetest.cpp 
+   41  c++ -o pqueuetest pqueuetest.cpp 
+   42  ./pqueuetest 
+   43  cp vectortest.cpp sorttest.cpp
+   44  vi sorttest.cpp 
+   45  c++ -o sorttest sorttest.cpp 
+   46  ./sorttest 
+   47  vi sorttest.cpp 
+   48  c++ -o sorttest sorttest.cpp 
+   49  ./sorttest 
+   50  vi sorttest.cpp 
+   51  c++ -o sorttest sorttest.cpp 
+   52  vi sorttest.cpp 
+   53  c++ -o sorttest sorttest.cpp 
+   54  vi sorttest.cpp 
+   55  c++ -o sorttest sorttest.cpp 
+   56  ./sorttest 
+   57  cp sorttest.cpp copytest.cpp
+   58  vi copytest.cpp 
+   59  c++ -o copytest copytest.cpp 
+   60  vi sorttest.cpp 
+   61  vi copytest.cpp 
+   62  vi sorttest.cpp 
+   63  vi copytest.cpp 
+   64  c++ -o copytest copytest.cpp 
+   65  ./copytest 
+   66  vi copytest.cpp 
+   67  c++ -o copytest copytest.cpp 
+   68  ./copytest 
+   69  vi copytest.cpp 
+   70  c++ -o copytest copytest.cpp 
+   71  ./copytest 
+   72  vi copytest.cpp 
+   73  cp sorttest.cpp accumtest.cpp
+   74  vi accumtest.cpp 
+   75  c++ -o accumtest accumtest.cpp 
+   76  ./accumtest 
+   77  history >cmd20-11-2015.txt

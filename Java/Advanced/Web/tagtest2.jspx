@@ -1,0 +1,16 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:jsp="http://java.sun.com/JSP/Page"
+      xmlns:m="http://java.met.edu/basicwebapp">
+
+	<head>
+		<title>BasicWebApp</title>
+	</head>
+	<body>
+		<h1>Welcome Visitor</h1>
+		<b>WINNER: </b>
+		<m:lotto var="entry" digits="8">
+			<i>${entry}</i>
+		</m:lotto>
+	</body>
+</html>
+

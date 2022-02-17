@@ -1,0 +1,32 @@
+    1  cd Foundations/Fundamentals/C/Pointers/
+    2* 
+    3  vi structptrtest1.c
+    4  cc -o structptrtest1 structptrtest1.c
+    5  ./structptrtest1 
+    6  vi structptrtest1.c
+    7  cc -o structptrtest1 structptrtest1.c
+    8  ./structptrtest1 
+    9  vi structptrtest1.c
+   10  cc -o structptrtest1 structptrtest1.c
+   11  vi structptrtest1.c
+   12  cc -o structptrtest1 structptrtest1.c
+   13  ./structptrtest1 
+   14  cp structptrtest1.c structptrtest2.c
+   15  vi structptrtest2.c
+   16  cc -o structptrtest2 structptrtest2.c
+   17  vi structptrtest2.c
+   18  cc -o structptrtest2 structptrtest2.c
+   19  ./structptrtest2
+   20  vi structptrtest2.c
+   21  cc -o structptrtest2 structptrtest2.c
+   22  ./structptrtest2
+   23  vi structptrtest2.c
+   24  cc -o structptrtest2 structptrtest2.c
+   25  ./structptrtest2
+   26  vi structptrtest2.c
+   27  cc -o structptrtest2 structptrtest2.c
+   28  ./structptrtest2
+   29  vi structptrtest2.c
+   30  cc -o structptrtest2 structptrtest2.c
+   31  ./structptrtest2
+   32  history > cmd30-09-2015.txt

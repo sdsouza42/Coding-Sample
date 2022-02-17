@@ -1,0 +1,26 @@
+    1  cd Foundations/Fundamentals/C/Basics/
+    2  ./arraytest 
+    3  vi arraytest.c
+    4  ./arraytest 
+    5  cp arraytest.c iftest.c
+    6  vi iftest.c 
+    7  cc -o iftest iftest.c 
+    8  ./iftest `
+    9  ./iftest 
+   10  vi ifelsetest.c
+   11  cc -o ifelsetest ifelsetest.c 
+   12  ./ifelsetest 
+   13  vi ifelsetest.c
+   14  cp ifelsetest.c switchtest.c
+   15  vi switchtest.c 
+   16  cc -o switchtest switchtest.c 
+   17  ./switchtest 
+   18  vi dowhiletest.c
+   19  cc -o dowhiletest dowhiletest.c 
+   20  ./dowhiletest 
+   21  vi dowhiletest.c
+   22  cp arraytest.c whiletest.c
+   23  vi whiletest.c 
+   24  cc -o whiletest whiletest.c 
+   25  ./whiletest 
+   26  history >cmd22-09-2015.txt

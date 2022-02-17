@@ -1,0 +1,64 @@
+    1  cd Java/Fundamentals/Language/OOP/
+    2  vi InterfaceTest2.java
+    3  javac InterfaceTest2.java
+    4  vi InterfaceTest2.java
+    5  javac InterfaceTest2.java
+    6  java InterfaceTest2
+    7  vi InterfaceTest2.java
+    8  javac InterfaceTest2.java
+    9  java InterfaceTest2
+   10  vi InterfaceTest2.java
+   11  javac InterfaceTest2.java
+   12  java InterfaceTest2
+   13  vi InterfaceTest2.java
+   14  javac InterfaceTest2.java
+   15  vi InterfaceTest2.java
+   16  java InterfaceTest2
+   17  ll InterfaceTest2*.class
+   18  vi InterfaceTest2.java
+   19  javac InterfaceTest2.java
+   20  java InterfaceTest2
+   21  vi InterfaceTest2.java
+   22  javac InterfaceTest2.java
+   23  vi InterfaceTest2.java
+   24  javac InterfaceTest2.java
+   25  ll InterfaceTest2*.class
+   26  cp InterfaceTest2.java LambdaTest.java
+   27  vi LambdaTest.java 
+   28  javac LambdaTest.java 
+   29  java LambdaTest
+   30  vi LambdaTest.java 
+   31  javac LambdaTest.java 
+   32  java LambdaTest
+   33  javap -p LambdaTest
+   34  vi LambdaTest.java 
+   35  javac LambdaTest.java 
+   36  javap -p LambdaTest
+   37  vi LambdaTest.java 
+   38  javac LambdaTest.java 
+   39  vi LambdaTest.java 
+   40  javac LambdaTest.java 
+   41  cp ../Basics/SwitchCaseTest.java EnumTest.java
+   42  vi EnumTest.java 
+   43  vi EnumTest.java 
+   44  javac EnumTest.java 
+   45  javap "EnumTest.RoomType"
+   46  java EnumTest 3
+   47  vi EnumTest.java 
+   48  javac EnumTest.java 
+   49  java EnumTest 3
+   50  vi EnumTest.java 
+   51  javac EnumTest.java 
+   52  vi EnumTest.java 
+   53  javac EnumTest.java 
+   54  java EnumTest 3
+   55  vi EnumTest.java 
+   56  javap -p "EnumTest.RoomType"
+   57  vi EnumTest.java 
+   58  vi LambdaTest.java 
+   59  javac LambdaTest.java 
+   60  vi LambdaTest.java 
+   61  javac LambdaTest.java 
+   62  java LambdaTest
+   63  vi LambdaTest.java 
+   64  history > cmd29-02-16.txt

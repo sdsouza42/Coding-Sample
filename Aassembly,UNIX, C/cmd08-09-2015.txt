@@ -1,0 +1,44 @@
+     01 mkdir Foundations
+     02 mkdir Foundations/Fundamentals
+     03 mkdir Foundations/Fundamentals/Elements
+     04 cd Foundations/Fundamentals/Elements/
+     05 cp ~/Shared/ia32/* .
+     06 ll
+     07 vi hello.s
+     08 as -o hello.o hello.s
+     09 ll
+     10 vi hello.o
+     11 ld -o hello hello.o system.o 
+     12 ll
+     13 ./hello 
+     14 vi hello.s
+     15 ./hello 
+     16 as -o hello.o hello.s
+     17 ld -o hello hello.o system.o 
+     18 ./hello 
+     19 vi hello.s
+     20 as -o hello.o hello.s
+     21 ld -o hello hello.o system.o 
+     22 ./hello 
+     23 vi hello.s
+     24 as -o hello.o hello.s
+     25 vi hello.s
+     26 as -o hello.o hello.s
+     27 vi console.i 
+     28 vi hello.s
+     29 as -o hello.o hello.s
+     30 ld -o hello hello.o system.o 
+     31 vi hello.s
+     32 as -o hello.o hello.s
+     33 ld -o hello hello.o system.o 
+     34 vi hello.s
+     35 as -o hello.o hello.s
+     36 ld -o hello hello.o system.o 
+     37 ./hello 
+     38 vi hello.s
+     39 as -o hello.o hello.s
+     40 ld -o hello hello.o system.o 
+     41 cd ..
+     42 ./hello 
+     43 Elements/hello 
+     44 history >cmd08-09-2015.txt

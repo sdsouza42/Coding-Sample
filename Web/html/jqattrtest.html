@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>JQuery Event Test - TestApp</title>
+		<script type="text/javascript" src="./scripts/jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+
+				$("#btnGo").click(function(){
+					$("#txtName").attr('value', 'Jack');
+
+					$("p").css('background-color', 'yellow');
+
+					$("p").hide('slow');
+				});
+
+			});
+		</script>	
+	</head>
+	<body>		
+		<h1 align="center">JQuery Test</h1>
+		Name : <input type="text" id="txtName" />
+		Click: <input type="button" id="btnGo" value="Go!" />
+		<p style="background-color:grey">
+			Akash Thakur<br />
+			B.E Computers<br />
+			Percentage : 99% <br />
+		</p>
+	</body>
+</html>
+
+
+
+
+
+
+

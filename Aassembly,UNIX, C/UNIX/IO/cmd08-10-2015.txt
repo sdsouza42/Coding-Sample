@@ -1,0 +1,25 @@
+    1  cd Foundations/Fundamentals/UNIX/IO/
+    2  vi strmiotest1.c 
+    3  vi encbuf.c
+    4  vi revbuf.c
+    5  cc -c revbuf.c 
+    6  vi strmiotest2.c
+    7  ll /usr/include/
+    8  ll /usr/include/sys
+    9  vi strmiotest2.c
+   10  man fstat
+   11  vi strmiotest2.c
+   12  cc -o strmiotest2 strmiotest2.c revbuf.o
+   13  vi strmiotest2.c
+   14  cc -o strmiotest2 strmiotest2.c revbuf.o
+   15  vi data1.txt 
+   16  ./strmiotest2
+   17  ./strmiotest2 data1.txt 
+   18  vi data1.txt 
+   19  ./strmiotest2 data2.txt 
+   20  vi data1.txt 
+   21  ./strmiotest2 data1.txt 
+   22  vi data1.txt 
+   23  vi strmiotest2.c
+   24  cc -o strmiotest2 strmiotest2.c revbuf.o
+   25  history >cmd08-10-2015.txt 

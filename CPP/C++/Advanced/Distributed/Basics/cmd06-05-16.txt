@@ -1,0 +1,32 @@
+md MS.NET\Advanced\Distributed\Basics
+subst S: MS.NET\Advanced
+s:
+cd Distributed\Basics
+vi remotingtest.cs
+npi remotingtest.cs
+np remotingtest.cs
+csc remotingtest.cs
+remotingtest.exe
+csc remotingtest.cs
+remotingtest.exe
+csc remotingtest.cs
+remotingtest.exe
+csc remotingtest.cs
+remotingtest.exe
+csc remotingtest.cs
+remotingtest.exe
+csc remotingtest.cs
+remotingtest.exe
+np namedpipetest.cs
+csc namedpipetest.cs
+start namedpipetest.exe
+namedpipetest.exe monday
+namedpipetest.exe NLMGBZ
+namedpipetest.exe
+np strmsocktest.cs
+csc strmsocktest.cs
+start strmsocktest.exe
+strmsocktest.exe localhost monday
+strmsocktest.exe localhost NLMGBZ
+strmsocktest.exe localhost monday
+doskey /h >cmd06-05-16.txt 

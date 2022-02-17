@@ -1,0 +1,57 @@
+    1  cd Foundations/Advanced/C++/Inheritance/
+    2  cp virtfunctest2.cpp rttitest1.cpp
+    3  vi rttitest1.cpp 
+    4  vi payroll2.h 
+    5  vi rttitest1.cpp 
+    6  c++ -o rttitest1 rttitest1.cpp 
+    7  vi rttitest1.cpp 
+    8  c++ -o rttitest1 rttitest1.cpp 
+    9  vi rttitest1.cpp 
+   10  c++ -o rttitest1 rttitest1.cpp 
+   11  vi rttitest1.cpp 
+   12  c++ -o rttitest1 rttitest1.cpp 
+   13  ./rttitest1 
+   14  vi rttitest1.cpp 
+   15  c++ -o rttitest1 rttitest1.cpp 
+   16  ./rttitest1 
+   17  vi rttitest1.cpp 
+   18  c++ -o rttitest1 rttitest1.cpp 
+   19  ./rttitest1 
+   20  vi rttitest1.cpp 
+   21  cp rttitest1.cpp rttitest2.cpp
+   22  vi rttitest2.cpp 
+   23  c++ -o rttitest2 rttitest2.cpp 
+   24  ./rttitest2
+   25  vi rttitest2.cpp 
+   26  c++ -o rttitest2 rttitest2.cpp 
+   27  ./rttitest2
+   28  vi rttitest2.cpp 
+   29  c++ -o rttitest2 rttitest2.cpp 
+   30  vi student.h
+   31  vi othercasttest.cpp
+   32  c++ -o othercasttest othercasttest.cpp 
+   33  vi student.h
+   34  c++ -o othercasttest othercasttest.cpp 
+   35  ./othercasttest 
+   36  vi othercasttest.cpp
+   37  c++ -o othercasttest othercasttest.cpp 
+   38  vi othercasttest.cpp
+   39  c++ -o othercasttest othercasttest.cpp 
+   40  ./othercasttest 
+   41  vi othercasttest.cpp
+   42  c++ -o othercasttest othercasttest.cpp 
+   43  vi othercasttest.cpp
+   44  c++ -o othercasttest othercasttest.cpp 
+   45  vi othercasttest.cpp
+   46  c++ -o othercasttest othercasttest.cpp 
+   47  ./othercasttest 
+   48  vi othercasttest.cpp
+   49  c++ -o othercasttest othercasttest.cpp 
+   50  vi othercasttest.cpp
+   51  c++ -o othercasttest othercasttest.cpp 
+   52  vi othercasttest.cpp
+   53  c++ -o othercasttest othercasttest.cpp 
+   54  vi othercasttest.cpp
+   55  c++ -o othercasttest othercasttest.cpp 
+   56  ./othercasttest 
+   57  history >cmd01-11-2015.txt

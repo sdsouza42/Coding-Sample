@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>Javascript Validation - TestApp</title>
+		<script type="text/javascript">
+			function validate(frm){
+				//var name = window.document.forms[0].elements[0].value;
+				//var name = document.forms[0].elements[0].value;
+				//var name = document.frmRegister.elements[0].value;
+				//var name = document.frmRegister.user.value;
+				/*
+				var name = frm.user.value;
+				alert("Name = " + name);
+				*/
+
+				var len = frm.elements.length - 1;
+				var str = "";
+				var flag = 0;
+
+				for(var i = 0; i < len; i++){
+					if(frm.elements[i].value == ""){
+						str += frm.elements[i].name + " ";
+						flag = 1;
+					}
+				}
+				if(flag == 1)
+					alert("Please fill : " + str);
+			}
+		</script>
+	</head>
+	<body>
+		<h1 align="center">Customer Registration</h1>
+		<form name="frmRegister" method="POST">
+		  <table>
+			<tr>
+				<td>Name : </td>
+				<td>
+					<input type="text" name="user" />
+				</td>
+			</tr>
+			<tr>
+				<td>Mobile : </td>
+				<td>
+					<input type="text" name="mobile" />
+				</td>
+			</tr>
+			<tr>
+				<td>Email : </td>
+				<td>
+					<input type="text" name="email" />
+				</td>
+			</tr>
+			<tr align="center">
+				<td colspan="2">
+					<input type="submit" name="submit" value="Register" onClick="validate(frmRegister)"/>
+				</td>
+			</tr>
+
+		  </table>
+		</form>
+	</body>
+</html>
+
+

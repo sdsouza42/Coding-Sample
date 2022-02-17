@@ -1,0 +1,14 @@
+subst s: MS.NET\Fundamentals\Language\OOP
+s:
+dir
+copy banking1.cs banking2.cs
+np banking2.cs
+csc /t:library banking2.cs
+np interfacetest.cs
+csc interfacetest.cs /r:banking2.dll
+interfacetest.exe
+csc interfacetest.cs /r:banking2.dll
+interfacetest.exe
+csc interfacetest.cs /r:banking2.dll
+interfacetest.exe
+doskey /h > cmd11-04-16.txt

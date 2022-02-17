@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Image Popup- TestApp</title>
+		<script type="text/javascript">
+			function bringPopup(){
+				document.getElementById("popupLayer").style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<h1 align="center">Image Popup</h1>
+		<img src="./images/laptop.jpg" onClick="bringPopup()"/> 
+		<div id="popupLayer" style="position:absolute;left:30%;top:20%;background-color:wheat;display:none">
+			DELL Laptop <br />
+			i3 processor <br /> 
+			4 GB RAM <br />
+			19"" Monitor <br />
+			<a href="#" onClick="document.getElementById('popupLayer').style.display='none'">Close</a>
+		</div>
+	</body>
+</html>
+

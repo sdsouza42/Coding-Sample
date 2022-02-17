@@ -1,0 +1,21 @@
+<html>
+<head>
+<script language="javascript">
+var objDom;
+objDom=new ActiveXObject("MSXML.DOMDocument")
+objDom.load("add_attribute.xml")
+
+var objElement;
+objElement=objDom.documentElement;
+objElement.getAttributeNode("name").nodeValue="vrushali";
+
+alert(objElement.getAttribute("name"));
+
+var objAttr=objDom.createAttribute("sname");
+objAttr.nodeValue="kirkole";
+objElement.setAttributeNode(objAttr);
+alert(objDom.xml);
+
+</script>
+</head>
+</html>

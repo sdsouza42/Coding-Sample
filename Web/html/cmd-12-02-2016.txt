@@ -1,0 +1,10 @@
+    1  cd www/html/
+    2  ls
+    3  vi index.php 
+    4  vi login.php 
+    5  vi order.php 
+    6  cp order.php invoice.php
+    7  vi invoice.php 
+    8  vi logout.php
+    9  vi login.php 
+   10  history > cmd-12-02-2016.txt 

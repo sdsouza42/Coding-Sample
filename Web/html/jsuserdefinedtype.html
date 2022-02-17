@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Javascript Test - TestApp</title>
+		<script type="text/javascript">
+			var pno = 7;
+			var product = new Object();
+			product.pno = 101;
+			product.price = 5000;
+			product.stock = 10;
+
+			product.sellingPrice = function(){
+				return product.price + (product.price * (1 + 10) / 100);
+			}
+
+			alert("Product No = " + product.pno);
+			alert("Price = " + product.price);
+			alert("Stock = " + product.stock);
+			alert("Selling price = " + product.sellingPrice());
+		</script>
+
+	</head>
+	<body>		
+		<h1 align="center">Javascript Test</h1>
+	</body>
+</html>
+

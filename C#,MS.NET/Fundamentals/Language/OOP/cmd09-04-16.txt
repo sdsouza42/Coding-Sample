@@ -1,0 +1,50 @@
+objmethodtest.exe
+csc objmethodtest.cs interval.cs
+objmethodtest.exe
+csc objmethodtest.cs interval.cs
+objmethodtest.exe
+csc objmethodtest.cs interval.cs
+objmethodtest.exe
+csc objmethodtest.cs interval.cs
+np banking1.cs
+csc /t:library banking1.cs
+np abstractclasstest.cs
+csc abstractclasstest.cs /r:banking1.dll
+cls
+abstractclasstest.exe
+csc abstractclasstest.cs /r:banking1.dll
+abstractclasstest.exe 2000
+abstractclasstest.exe 12000
+csc abstractclasstest.cs /r:banking1.dll
+abstractclasstest.exe 2000
+csc abstractclasstest.cs /r:banking1.dll
+abstractclasstest.exe 2000
+dir
+doskey /h >cmd09-04-16.txt
+derivedclasstest1.exe
+csc derivedclasstest1.cs /r:payroll2.dll
+derivedclasstest1.exe
+csc derivedclasstest1.cs /r:payroll2.dll
+derivedclasstest1.exe
+csc derivedclasstest1.cs /r:payroll2.dll
+derivedclasstest1.exe
+np derivedclasstest2.cs
+csc derivedclasstest2.cs /r:payroll2.dll
+derivedclasstest2.exe
+csc derivedclasstest2.cs /r:payroll2.dll
+derivedclasstest2.exe
+csc derivedclasstest2.cs /r:payroll2.dll
+derivedclasstest2.exe
+csc derivedclasstest2.cs /r:payroll2.dll
+derivedclasstest2.exe
+csc derivedclasstest2.cs /r:payroll2.dll
+derivedclasstest2.exe
+np interval.cs
+np objmethodtest.cs
+csc objmethodtest.cs interval.cs
+ildasm objmethodtest.cs
+ildasm objmethodtest.exe
+objmethodtest.exe
+csc objmethodtest.cs interval.cs
+ildasm objmethodtest.cs
+ildasm objmethodtest.exe

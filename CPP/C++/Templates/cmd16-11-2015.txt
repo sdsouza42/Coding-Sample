@@ -1,0 +1,17 @@
+    1  cd Foundations/Advanced/C++/
+    2  ll
+    3  mkdir Templates
+    4  cd Templates/
+    5  vi functmplttest1.cpp
+    6  c++ -o functmplttest1 functmplttest1.cpp 
+    7  ./functmplttest1 
+    8  vi functmplttest1.cpp
+    9  c++ -o functmplttest1 functmplttest1.cpp 
+   10  vi functmplttest1.cpp
+   11  c++ -o functmplttest1 functmplttest1.cpp 
+   12  ./functmplttest1 
+   13  vi functmplttest1.cpp
+   14  c++ -o functmplttest1 functmplttest1.cpp 
+   15  ./functmplttest1 
+   16  vi functmplttest1.cpp
+   17  history >cmd16-11-2015.txt

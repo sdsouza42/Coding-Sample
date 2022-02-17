@@ -1,0 +1,26 @@
+<html>
+<body>
+<script>
+var xmlDoc=new ActiveXObject("Microsoft.XMLDOM")
+xmlDoc.async=false
+xmlDoc.load("books.xml")
+alert(xmlDoc.xml)
+document.write("The original XML:")
+	document.write("<xmp>" + xmlDoc.xml + "</xmp>")
+
+//Create New Element and text inside Element
+var p="price"
+var v="500"
+var newnode=xmlDoc.createElement(p)
+var newtext=xmlDoc.createTextNode(v)
+newnode.appendChild(newtext)
+
+
+//Append New Element to rootElement
+xmlDoc.documentElement.appendChild(newnode)
+document.write("After appending the new node:")
+document.write("<xmp>" + xmlDoc.xml + "</xmp>")
+
+</script>
+</body>
+</html>

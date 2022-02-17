@@ -1,0 +1,10 @@
+<html>
+	<head>
+		<title>Hello - TestApp</title>
+	</head>
+	<body>		
+		<h1 align="center">Welcome Visitor</h1>
+		<b>Current time on server: </b> <now>
+	</body>
+</html>
+

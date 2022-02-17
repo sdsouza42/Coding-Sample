@@ -1,0 +1,43 @@
+    1  cd Java/Advanced/Native/
+    2  vi ArrayAccessTest.java
+    3  javac -h . ArrayAccessTest.java
+    4  export CPATH=/usr/java/jdk1.8.0_11/include/:/usr/java/jdk1.8.0_11/include/linux/
+    5  export LD_LIBRARY_PATH=.
+    6  vi arrh.cpp
+    7  vi ArrayHelper.h
+    8  vi arrh.cpp
+    9  c++ -shared -fPIC -o libarrh.so arrh.cpp 
+   10  java ArrayAccessTest 1.1 2.2 3.3
+   11  vi ArrayAccessTest.java
+   12  javac -h . ArrayAccessTest.java
+   13  vi ArrayHelper.h
+   14  vi arrh.cpp 
+   15  c++ -shared -fPIC -o libarrh.so arrh.cpp 
+   16  java ArrayAccessTest 1.1 2.2 3.3
+   17  java ArrayAccessTest 1.0 2.0 3.0
+   18  cp ~/Shared/box4c.o .
+   19  objdump -d -M intel box4c.o 
+   20  vi ObjectAccessTest.java
+   21  javac -h . ObjectAccessTest.java
+   22  vi ObjectAccessTest.java
+   23  javac -h . ObjectAccessTest.java
+   24  vi LegacyBox.h
+   25  vi lbox.cpp
+   26  c++ -shared -fPIC -o liblbox.so lbox.cpp box4c.o 
+   27  vi lbox.cpp
+   28  c++ -shared -fPIC -o liblbox.so lbox.cpp box4c.o 
+   29  java ObjectAccessTest 12 8 7 1
+   30  vi ObjectAccessTest.java
+   31  javac -h . ObjectAccessTest.java
+   32  vi lbox.cpp
+   33  javap -p -s LegacyBox
+   34  vi lbox.cpp
+   35  c++ -shared -fPIC -o liblbox.so lbox.cpp box4c.o 
+   36  java ObjectAccessTest 12 8 7 1
+   37  java ObjectAccessTest 12 8 7 4
+   38  cd ..
+   39  mkdir Communication
+   40  cd Communication/
+   41  mkdir Basics
+   42  cd Basics/
+   43  history > cmd11-03-16.txt

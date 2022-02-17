@@ -1,0 +1,43 @@
+    1  cd Foundations/Advanced/C++/Inheritance/
+    2  vi payroll1.h 
+    3  vi derclasstest.cpp
+    4  c++ -o derclasstest derclasstest.cpp 
+    5  ./derclasstest 
+    6  vi derclasstest.cpp
+    7  c++ -o derclasstest derclasstest.cpp 
+    8  ./derclasstest 
+    9  vi derclasstest.cpp
+   10  cp payroll1.h payroll2.h 
+   11  vi payroll2.h 
+   12  cp derclasstest.cpp virtfunctest1.cpp
+   13  vi payroll2.h 
+   14  vi virtfunctest1.cpp 
+   15  c++ -o virtfunctest1 virtfunctest1.cpp 
+   16  ./virtfunctest1 
+   17  vi virtfunctest1.cpp 
+   18  vi derclasstest.cpp 
+   19  c++ -o derclasstest derclasstest.cpp 
+   20  ./derclasstest 
+   21  echo $?
+   22  vi virtfunctest1.cpp 
+   23  c++ -o virtfunctest1 virtfunctest1.cpp 
+   24  ./virtfunctest1 
+   25  echo $?
+   26  vi virtfunctest1.cpp 
+   27  :wq
+   28  vi virtfunctest1.cpp 
+   29  vi virtfunctest2.cpp
+   30  vi virtfunctest1.cpp 
+   31  c++ -o virtfunctest1 virtfunctest1.cpp 
+   32  vi virtfunctest2.cpp
+   33  c++ -o virtfunctest2 virtfunctest2.cpp 
+   34  ./virtfunctest2
+   35  vi virtfunctest2.cpp
+   36  vi payroll2.h 
+   37  c++ -o virtfunctest2 virtfunctest2.cpp 
+   38  ./virtfunctest2
+   39  vi virtfunctest2.cpp
+   40  c++ -o virtfunctest2 virtfunctest2.cpp 
+   41  ./virtfunctest2
+   42  vi virtfunctest2.cpp
+   43  history >cmd31-10-2015.txt

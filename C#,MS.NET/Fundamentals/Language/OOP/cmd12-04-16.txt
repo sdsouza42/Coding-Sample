@@ -1,0 +1,19 @@
+subst s: MS.NET\Fundamentals\Language\OOP
+s:
+np delegatetest1.cs
+csc delegatetest1.cs
+delegatetest1.exe
+csc delegatetest1.cs
+delegatetest1.exe
+ildasm delegatetest1.exe
+csc delegatetest1.cs
+delegatetest1.exe
+copy delegatetest1.cs delegatetest2.cs
+np delegatetest2.cs
+csc delegatetest2.cs
+delegatetest2.exe monday tuesday wednesday
+copy delegatetest1.cs lambdatest.cs
+np lambdatest.cs
+csc lambdatest.cs
+lambdatest.exe
+doskey /h >cmd12-04-16.txt

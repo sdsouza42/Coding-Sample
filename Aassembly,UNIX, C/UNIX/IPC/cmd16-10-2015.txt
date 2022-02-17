@@ -1,0 +1,40 @@
+    1  cd Foundations/Fundamentals/UNIX/
+    2  mkdir IPC
+    3  cd IPC
+    4  mkdir shmemtest.c
+    5  rm shmemtest.c
+    6  rmdir shmemtest.c
+    7  vi shmemtest.c
+    8  cc -o shmemtest shmemtest.c -lrt
+    9  vi shmemtest.c
+   10  cc -o shmemtest shmemtest.c -lrt
+   11  ./shmemtest "Today is Friday"
+   12  ./shmemtest
+   13  cp ../Concurrency/forktest.c .
+   14  cp ../Concurrency/worker.h .
+   15  mv forktest.c semaphoretest.c
+   16  vi semaphoretest.c 
+   17  cc -o semaphoretest semaphoretest.c -lrt
+   18  ./semaphoretest 
+   19  vi semaphoretest.c 
+   20  cc -o semaphoretest semaphoretest.c -lrt
+   21  ./semaphoretest 
+   22  vi semaphoretest.c 
+   23  cc -o semaphoretest semaphoretest.c -lrt
+   24  ./semaphoretest 
+   25  vi semaphoretest.c 
+   26  cc -o semaphoretest semaphoretest.c -lrt
+   27  ./semaphoretest 
+   28  vi semaphoretest.c 
+   29  cc -o semaphoretest semaphoretest.c -lrt
+   30  vi pipetest.c
+   31  cc -o pipetest pipetest.c 
+   32  ./pipetest 
+   33  vi pipetest.c
+   34  ./pipetest 
+   35  vi fifotest.c
+   36  cc -o fifotest fifotest.c 
+   37  ./fifotest "Today is Friday"
+   38  ./fifotest "Yesterday was Thursday"
+   39  ll /tmp/
+   40  history >cmd16-10-2015.txt

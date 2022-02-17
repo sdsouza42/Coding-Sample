@@ -1,0 +1,45 @@
+md MS.NET\Advanced\Database\Basics
+subst s: MS.NET\Advanced
+s:
+cd Database\Basics
+np querytest.cs
+csc querytest.cs
+np querytest.exe.config
+querytest.exe
+csc querytest.cs
+querytest.exe
+sqlcmd /i Shop.sql
+sqlcmd /d Shop
+np updatetest.cs
+csc updatetest.cs
+updatetest.exe 104
+csc updatetest.cs
+updatetest.exe 104
+updatetest.exe
+copy updatetest.cs paramsqltest.cs
+np paramsqltest.cs
+csc paramsqltest.cs
+paramsqltest.exe CU101 105 4
+paramsqltest.exe CU103 106 9
+paramsqltest.exe CU103 102 9
+np Shop.sql
+copy paramsqltest.cs storproctest.cs
+np storproctest.cs
+csc storproctest.cs
+storproctest.exe CU101 104 19
+storproctest.exe CU105 102 9
+storproctest.exe CU103 102 9
+np datasettest.cs
+csc datasettest.cs
+datasettest.exe
+csc datasettest.cs
+datasettest.exe
+dir
+np shop.xml
+datasettest.exe shop.xml
+np linqtodatatest.cs
+csc linqtodatatest.cs
+datasettest.exe
+linqtodatatest.exe 30
+datasettest.exe
+doskey /h > cmd13-05-16.txt

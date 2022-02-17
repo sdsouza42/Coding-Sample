@@ -1,0 +1,28 @@
+    1  cd Foundations/Fundamentals/C/UDT/
+    2  vi box.h
+    3  vi box.c
+    4  vi structtest.c
+    5  cc -o structtest structtest.c 
+    6  ./structtest 
+    7  echo $?
+    8  vi structtest.c
+    9  vi uniontest.c
+   10  cc -o uniontest uniontest.c 
+   11  ./uniontest 
+   12  vi uniontest.c
+   13  cc -o uniontest uniontest.c 
+   14  ./uniontest 
+   15  vi uniontest.c
+   16  ./uniontest 
+   17  echo $?
+   18  vi structuniontest.c
+   19  cc -o structuniontest structuniontest.c
+   20  ./structuniontest 
+   21  vi structuniontest.c
+   22  vi enumtest.c
+   23  cc -o enumtest enumtest.c 
+   24  ./enumtest 
+   25  vi structuniontest.c
+   26  cc -o structuniontest structuniontest.c
+   27  ./structuniontest 
+   28  history >cmd28-09-2015.txt

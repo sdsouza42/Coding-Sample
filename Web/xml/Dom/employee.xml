@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employee>
+	<emp eid="e001" did="d001">
+		<ename>Nilesh</ename>
+		<eage>25</eage>
+		<esal>10000</esal>
+	</emp>
+	<emp eid="e002" did="d002">
+		<ename>Mahesh</ename>
+		<eage>30</eage>
+		<esal>1000</esal>
+	</emp>
+	<emp eid="e003" did="d003">
+		<ename>Amit</ename>
+		<eage>25</eage>
+		<esal>1000</esal>
+	</emp>
+</employee>

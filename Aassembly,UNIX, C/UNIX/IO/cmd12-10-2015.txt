@@ -1,0 +1,29 @@
+    1  cd Foundations/Fundamentals/UNIX/IO/
+    2  ll *.so
+    3  cc -shared -fPIC -o librev.so revbuf.c
+    4  ll *.so
+    5  vi shobjtest2.c
+    6  cc -o shobjtest2 shobjtest1.c 
+    7  vi shobjtest2.c
+    8  cc -o shobjtest2 shobjtest1.c 
+    9  cc -o shobjtest2 shobjtest2.c 
+   10  ll /usr/lib
+   11  ll /usr/lib/*.so
+   12  cc -o shobjtest2 shobjtest2.c -ldl
+   13  man dlopen
+   14  ./shobjtest2
+   15  ./shobjtest2 libxyz.so
+   16  echo $LD_LIBRARY_PATH
+   17  ./shobjtest2 libm.so
+   18  ./shobjtest2 libenc.so
+   19  ./shobjtest2 librev.so
+   20  vi shobjtest2.c
+   21  vi shobjtest3.py
+   22* 
+   23  vi shobjtest2.c
+   24  vi shobjtest3.py
+   25  python shobjtest3.py 
+   26  vi shobjtest3.py
+   27  python shobjtest3.py 
+   28* 
+   29  history >cmd12-10-2015.txt

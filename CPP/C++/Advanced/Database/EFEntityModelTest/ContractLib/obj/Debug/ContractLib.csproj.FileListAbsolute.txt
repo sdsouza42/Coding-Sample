@@ -1,0 +1,5 @@
+E:\MS.NET\Advanced\Database\EFEntityModelTest\ContractLib\bin\Debug\ContractLib.dll
+E:\MS.NET\Advanced\Database\EFEntityModelTest\ContractLib\bin\Debug\ContractLib.pdb
+E:\MS.NET\Advanced\Database\EFEntityModelTest\ContractLib\obj\Debug\ContractLib.csprojResolveAssemblyReference.cache
+E:\MS.NET\Advanced\Database\EFEntityModelTest\ContractLib\obj\Debug\ContractLib.dll
+E:\MS.NET\Advanced\Database\EFEntityModelTest\ContractLib\obj\Debug\ContractLib.pdb

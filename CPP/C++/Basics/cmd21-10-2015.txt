@@ -1,0 +1,78 @@
+    1  cd Foundations/Advanced/C++/Basics/
+    2  vi namespacetest1.cpp
+    3  c++ -o namespacetest1 namespacetest1.cpp 
+    4  ./namespacetest1 
+    5  echo $?
+    6  vi namespacetest1.cpp
+    7  c++ -o namespacetest1 namespacetest1.cpp 
+    8  ./namespacetest1 
+    9  echo $?
+   10  vi namespacetest1.cpp
+   11  c++ -o namespacetest1 namespacetest1.cpp 
+   12  ./namespacetest1 
+   13  echo $?
+   14  vi namespacetest1.cpp
+   15  c++ -o namespacetest1 namespacetest1.cpp 
+   16  vi namespacetest1.cpp
+   17  c++ -o namespacetest1 namespacetest1.cpp 
+   18  ./namespacetest1 
+   19  echo $?
+   20  vi namespacetest1.cpp
+   21  c++ -o namespacetest1 namespacetest1.cpp 
+   22  objdump -t namespacetest1
+   23  vi namespactest2.h
+   24  vi namespactest2.cpp 
+   25  mv namespactest2.h namespacetest2.h
+   26  mv namespactest2.cpp namespacetest2.cpp
+   27  ll
+   28  vi namespacetest2.cpp 
+   29  c++ -o namespacetest2 namespacetest2.cpp 
+   30  ./namespacetest3
+   31  ./namespacetest2
+   32  echo $?
+   33  objdump -t namespacetest2
+   34  vi namespacetest2.cpp 
+   35  c++ -o namespacetest2 namespacetest2.cpp 
+   36  vi namespacetest2.cpp 
+   37  c++ -o namespacetest2 namespacetest2.cpp 
+   38  power.cpp
+   39  vi power.cpp
+   40  c++ -c power.cpp 
+   41  vi functest.cpp
+   42  c++ -o functest functest.cpp power.o
+   43  vi functest.cpp
+   44  c++ -o functest functest.cpp power.o
+   45  ./functest 
+   46  vi functest.cpp
+   47  c++ -o functest functest.cpp power.o
+   48  vi functest.cpp
+   49  c++ -o functest functest.cpp power.o
+   50  vi power.cpp
+   51  objdump -t power.o
+   52  vi functest.cpp
+   53  c++ -o functest functest.cpp power.o
+   54  vi functest.cpp
+   55  c++ -o functest functest.cpp power.o
+   56  ./functest 
+   57  c++filt _ZN5Actor6ActionEdPf
+   58  cp ../../../Fundamentals/C/Functions/myfunc.o .
+   59  objdump -t myfunc.o 
+   60  vi cfunctest.cpp
+   61  c++ -o cfunctest cfunctest.cpp myfunc.o 
+   62  vi cfunctest.cpp
+   63  cp ../../../Fundamentals/C/Functions/myfunc.c myfunc.cpp
+   64  c++ -c myfunc.cpp 
+   65  c++ -o cfunctest cfunctest.cpp myfunc.o 
+   66  objdump -t myfunc.o 
+   67  ./cfunctest 
+   68  rm myfunc.*
+   69* cp ../../../Fundamentals/C/Functions/myccproc.o
+   70  vi mycppfunc.c
+   71  cc -c mycppfunc.c 
+   72  c++ -o cfunctest cfunctest.cpp mycppfunc.o myfunc.o 
+   73  ./cfunctest 
+   74  rm mycppfunc.o
+   75  vi cfunctest.cpp
+   76  c++ -o cfunctest cfunctest.cpp  myfunc.o 
+   77  ./cfunctest 
+   78  history >cmd21-10-2015.txt

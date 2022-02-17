@@ -1,0 +1,61 @@
+    1  cd Java/Advanced/Communication/Distributed/
+    2  vi shopping/Cart.java 
+    3  vi shopping/CartImpl.java 
+    4  vi shopping/CartFactory.java
+    5  javac shopping/CartFactory.java
+    6  vi shopping/CartFactoryImpl.java
+    7  javac shopping/CartFactoryImpl.java
+    8  rmic -nowarn shopping.CartFactoryImpl
+    9  vi shopping/CartFactoryImpl.java
+   10  vi RMIServerTest2.java
+   11  javac RMIServerTest2.java
+   12  rmiregistry &
+   13  vi jndi.properties
+   14  java RMIServerTest2 &
+   15  vi RMIClientTest2.java
+   16  javac RMIClientTest2.java
+   17  vi RMIClientTest2.java
+   18  javac RMIClientTest2.java
+   19  java RMIClientTest2
+   20  vi RMIClientTest2.java
+   21  rm RMIClientTest.class 
+   22  javac RMIClientTest2.java
+   23  java RMIClientTest2
+   24  ps
+   25  kill 3151
+   26  kill 3104
+   27  rm shopping/Cart*_Stub.class
+   28  rmic -iiop shopping.CartImpl
+   29  rmic -iiop shopping.CartFactoryImpl
+   30  ll shopping/
+   31  orbd -ORBInitialPort
+   32  orbd -ORBInitialPort 1900 
+   33  orbd -ORBInitialPort 1900 &
+   34  vi jndi.properties 
+   35  java RMIServerTest2 &
+   36  java RMIClientTest
+   37  java RMIClientTest2
+   38  ps
+   39  kill 3766
+   40  kill 3762
+   41  ps
+   42  kill 3796
+   43  vi shopping/ItemDetail.java
+   44  javac shopping/ItemDetail.java
+   45  vi shopping/ShopKeeperWS.java
+   46  javac shopping/ShopKeeperWS.java
+   47  vi shopping/ShopKeeperWS.java
+   48  javac shopping/ShopKeeperWS.java
+   49  wsgen -cp . shopping.ShopKeeperWS
+   50  ll shopping/
+   51  ll shopping/jaxws/
+   52  vi JWSServerTest.java
+   53  javac JWSServerTest.java
+   54  java JWSServerTest
+   55  java JWSServerTest &
+   56  wsimport -p shopping.client http://localhost:8055/shopping/shopkeeper?wsdl
+   57  ll shopping/client/
+   58  vi JWSClientTest.java
+   59  javac JWSClientTest.java
+   60  java JWSClientTest
+   61  history >cmd15-03-16.txt

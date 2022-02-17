@@ -1,0 +1,45 @@
+subst s: MS.NET\Advanced
+s:
+cd Native
+dir
+np rcwtest1.cs
+ildasm QuartzTypeLib.dll
+csc rcwtest1.cs /r:QuartzTypeLib.dll
+rcwtest1.exe e:\media\clock.avi
+rcwtest1.exe e:\media\flourish.mid
+rcwtest1.exe e:\media\hello.mpg
+rcwtest1.exe rcwtest1.cs
+csc rcwtest1.cs /r:QuartzTypeLib.dll
+rcwtest1.exe e:\media\clock.avi
+csc rcwtest1.cs /r:QuartzTypeLib.dll
+rcwtest1.exe e:\media\clock.avi
+ildasm QuartzTypeLib.dll
+np rcwtest1.cs
+start .
+tlbimp legacy\x86\quadeq.exe
+ildasm QuadEq.dll
+np rcwtest2.cs
+ildasm QuadEq.dll
+csc rcwtest2.cs /link:QuadEq.dll
+rcwtest2.exe
+csc /platform:x86 rcwtest2.cs /link:QuadEq.dll
+rcwtest2.exe
+rcwtest2.exe
+cls
+rcwtest2.exe
+ildasm rcwtest2.exe
+ildasm rcwtest1.exe
+np rcwtest3.cs
+csc rcwtest3.cs
+rcwtest3.exe
+csc /platform:x86 rcwtest3.cs
+rcwtest3.exe
+legacy\x86\axcargoclient.exe
+copy e:\MS.NET\Fundamentals\Reflection\met.snk
+np ccwtest.cs
+csc /t:library /keyfile:met.snk ccwtest.cs
+regasm /codebase ccwtest.dll
+legacy\x86\axcargoclient.exe
+regasm /u ccwtest.dll
+legacy\x86\axcargoclient.exe
+doskey /h > cmd29-04-16.txt

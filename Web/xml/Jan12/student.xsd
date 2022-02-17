@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="sname" type="xs:string"/>
+  <xs:element name="sage" type="agetype"/>
+  <xs:element name="scourse" type="xs:string"/>
+  <xs:element name="sfees" type="myfeestype"/>
+  
+  <xs:complexType name="myfeestype">
+    <xs:simpleContent>
+    <xs:extension base="feestype">
+      <xs:attribute name="currency">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Rs"/>
+            <xs:enumeration value="Pound"/>
+            <xs:enumeration value="Dollars"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      </xs:extension>
+   </xs:simpleContent>
+  </xs:complexType>
+  
+  
+  
+  <xs:simpleType name="agetype">
+   <xs:restriction base="xs:integer">
+    <xs:minInclusive value="18"/>
+    <xs:maxInclusive value="30"/>
+   </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="feestype">
+   <xs:restriction base="xs:integer">
+    <xs:minInclusive value="10000"/>
+    <xs:maxInclusive value="125000"/>
+   </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:complexType name="stype">
+    <xs:sequence>
+        <xs:element ref="sname" minOccurs="1" maxOccurs="1"/>
+        <xs:element ref="sage" minOccurs="1" maxOccurs="1"/>
+        <xs:element ref="scourse" minOccurs="1" maxOccurs="1"/>
+        <xs:element ref="sfees" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="sid" type="xs:ID" use="required"/>
+  </xs:complexType>
+ 
+  <xs:element name="student" type="stype"/>
+ 
+  <xs:element name="students">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="student" minOccurs="1" maxOccurs="100"/>
+      </xs:sequence>
+    </xs:complexType>
+   </xs:element>
+  
+  
+</xs:schema>

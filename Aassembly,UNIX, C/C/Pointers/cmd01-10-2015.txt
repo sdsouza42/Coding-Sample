@@ -1,0 +1,45 @@
+    1  cd Foundations/Fundamentals/C/Pointers/
+    2  vi funcptrtest.c
+    3  cc -o funcptrtest funcptrtest.c 
+    4  ./funcptrtest 
+    5  vi funcptrtest.c
+    6  cc -o funcptrtest funcptrtest.c 
+    7  vi funcptrtest.c
+    8  cc -o funcptrtest funcptrtest.c 
+    9  ./funcptrtest 
+   10  vi funcptrtest.c
+   11  cc -o funcptrtest funcptrtest.c 
+   12  ./funcptrtest 
+   13  vi funcptrtest.c
+   14  cc -o funcptrtest funcptrtest.c 
+   15  vi funcptrtest.c
+   16  cc -o funcptrtest funcptrtest.c 
+   17  vi funcptrtest.c
+   18  vi voidptrtest.c
+   19  cc -o voidptrtest voidptrtest.c 
+   20  ./voidptrtest 
+   21  vi voidptrtest.c
+   22  cc -o voidptrtest voidptrtest.c 
+   23  ./voidptrtest 
+   24  vi voidptrtest.c
+   25  cc -o voidptrtest voidptrtest.c 
+   26  ./voidptrtest 
+   27  vi voidptrtest.c
+   28  cc -o voidptrtest voidptrtest.c 
+   29  vi voidptrtest.c
+   30  cc -o voidptrtest voidptrtest.c 
+   31  ./voidptrtest 
+   32  vi voidptrtest.c
+   33  cc -o voidptrtest voidptrtest.c 
+   34  ./voidptrtest 
+   35  vi voidptrtest.c
+   36  cc -o voidptrtest voidptrtest.c 
+   37  ./voidptrtest 
+   38  vi voidptrtest.c
+   39  cc -o voidptrtest voidptrtest.c 
+   40  ./voidptrtest 
+   41  vi voidptrtest.c
+   42  cc -o voidptrtest voidptrtest.c 
+   43  ./voidptrtest 
+   44  vi voidptrtest.c
+   45  history >cmd01-10-2015.txt

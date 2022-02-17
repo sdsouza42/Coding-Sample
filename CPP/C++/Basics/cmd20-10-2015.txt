@@ -1,0 +1,18 @@
+    1  cd Foundations/
+    2  mkdir Advanced
+    3  cd Advanced/
+    4  mkdir C++
+    5  cd C++/
+    6  mkdir Basics
+    7  cd Basics/
+    8  pwd
+    9  vi hello.cpp
+   10  ll
+   11  c++ -o hello hello.cpp 
+   12  ll
+   13  ./hello 
+   14  vi hello.cpp
+   15  c++ -o hello hello.cpp 
+   16  ./hello 
+   17  pwd
+   18  history >cmd20-10-2015.txt

@@ -1,0 +1,47 @@
+subst s: MS.NET\Fundamentals
+s:
+cd Persistence
+copy serhr.cs xmlserhr.cs
+np xmlserhr.cs
+csc /t:library xmlserhr.cs
+copy objsertest1.cs xmlsertest.cs
+np xmlsertest.cs
+csc xmlsertest.cs /r:xmlserhr.dll
+xmlsertest.exe Accounting
+xmlsertest.exe 
+np dept.xml
+csc /t:library xmlserhr.cs
+xmlsertest.exe Accounting
+xmlsertest.exe 
+np dept.xml
+csc /t:library xmlserhr.cs
+xmlsertest.exe Accounting
+xmlsertest.exe 
+np dept.xml
+np xmllinqtest.cs
+csc xmllinqtest.cs
+xmllinqtest.exe
+xmllinqtest.exe 3
+xmllinqtest.exe 5
+np filestreamtest.cs
+csc filestreamtest.cs
+np product.txt
+filestreamtest.exe product.txt
+np product.txt
+filestreamtest.exe product.txt
+np product.txt
+np memmapfiletest1.cs
+csc memmapfiletest1.cs
+np dept.xml
+memmapfiletest1.exe dept.xml
+np dept.xml
+write dept.xml
+memmapfiletest1.exe dept.xml
+np dept.xml
+np memmapfiletest2.cs
+csc memmapfiletest1.cs
+csc memmapfiletest2.cs
+memmapfiletest2.exe
+memmapfiletest2.exe "Today is Tuesday."
+memmapfiletest2.exe "Yesterday was Monday."
+doskey /h >cmd26-04-16.txt

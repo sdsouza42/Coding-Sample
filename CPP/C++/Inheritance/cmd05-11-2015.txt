@@ -1,0 +1,32 @@
+    1  cd Foundations/Advanced/C++/Inheritance/
+    2  vi taxation1.h
+    3  vi mivitest.cpp
+    4  c++ -o mivitest mivitest.cpp 
+    5  ./mivitest 
+    6  vi mivitest.cpp
+    7  vi taxation1.h 
+    8  c++ -o mivitest mivitest.cpp 
+    9  vi taxation1.h 
+   10  c++ -o mivitest mivitest.cpp 
+   11  vi mivitest.cpp
+   12  c++ -o mivitest mivitest.cpp 
+   13  vi mivitest.cpp
+   14  c++ -o mivitest mivitest.cpp 
+   15  ./mivitest 
+   16  cp taxation1.h taxation2.h 
+   17  vi taxation2.h 
+   18  vi mivitest.cpp
+   19  c++ -o mivitest mivitest.cpp 
+   20  ./mivitest 
+   21  vi mivitest.cpp
+   22  vi taxation2.h 
+   23  vi mivitest.cpp
+   24  c++ -D_DDOD -o mivitest mivitest.cpp 
+   25  ./mivitest 
+   26  c++ -o mivitest mivitest.cpp 
+   27  ./mivitest 
+   28  vi taxation2.h 
+   29  vi mivitest.cpp
+   30  vi taxation2.h 
+   31  vi mivitest.cpp
+   32  history >cmd05-11-2015.txt

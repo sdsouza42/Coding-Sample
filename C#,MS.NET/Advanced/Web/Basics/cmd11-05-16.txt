@@ -1,0 +1,19 @@
+subst s: MS.NET\Advanced\Web
+s:
+cd Basics
+np webctrltest.aspx
+start server
+np webctrltest.aspx.cs
+cd Bin
+np basicwebapp.cs
+csc /t:library basicwebapp.cs
+dir
+np ..\webformtest.aspx
+np basicwebapp.cs
+csc /t:library basicwebapp.cs
+cd ..
+np global.asax
+copy webformtest.aspx webformstatetest.aspx
+np webformstatetest.aspx
+np web.config
+doskey /h > cmd11-05-16.txt

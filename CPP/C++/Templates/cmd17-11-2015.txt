@@ -1,0 +1,42 @@
+    1  cd Foundations/Advanced/C++/Templates/
+    2  vi functmplttest2.cpp
+    3  c++ -o  functmplttest2 functmplttest2.cpp 
+    4  vi functmplttest2.cpp
+    5  c++ -o  functmplttest2 functmplttest2.cpp 
+    6  ./functmplttest2
+    7  vi functmplttest2.cpp
+    8  c++ -o  functmplttest2 functmplttest2.cpp 
+    9  ./functmplttest2
+   10  vi functmplttest2.cpp
+   11  c++ -o  functmplttest2 functmplttest2.cpp 
+   12  ./functmplttest2
+   13  vi functmplttest2.cpp
+   14  c++ -o  functmplttest2 functmplttest2.cpp 
+   15  ./functmplttest2
+   16  vi functmplttest2.cpp
+   17  c++ -o  functmplttest2 functmplttest2.cpp 
+   18  ./functmplttest2
+   19  vi functmplttest2.cpp
+   20  c++ -o  functmplttest2 functmplttest2.cpp 
+   21  ./functmplttest2
+   22  vi functmplttest2.cpp
+   23  vi classtmplttest1.cpp
+   24  c++ -o classtmplttest1 classtmplttest1.cpp 
+   25  ./classtmplttest1 
+   26  vi classtmplttest1.cpp
+   27  c++ -o classtmplttest1 classtmplttest1.cpp 
+   28  ./classtmplttest1 
+   29  cp classtmplttest1.cpp classtmplttest2.cpp
+   30  vi classtmplttest2.cpp 
+   31  c++ -o classtmplttest2 classtmplttest2.cpp 
+   32  vi classtmplttest2.cpp 
+   33  c++ -o classtmplttest2 classtmplttest2.cpp 
+   34  ./classtmplttest2
+   35  cp classtmplttest2.cpp classtmplttest3.cpp
+   36  vi classtmplttest3.cpp 
+   37  c++ -o classtmplttest3 classtmplttest3.cpp 
+   38  ./classtmplttest3
+   39  vi classtmplttest3.cpp 
+   40  c++ -o classtmplttest3 classtmplttest3.cpp 
+   41  ./classtmplttest3
+   42  history > cmd17-11-2015.txt 

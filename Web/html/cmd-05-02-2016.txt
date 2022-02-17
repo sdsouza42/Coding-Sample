@@ -1,0 +1,23 @@
+ 1012  ll
+ 1013  umask
+ 1014  chmod +x welcome.cgi 
+ 1015  ll
+ 1016  vi welcome.cgi 
+ 1017  cd ..
+ 1018  cp hello.html hello.htmx
+ 1019  vi hello.htmx
+ 1020  cd cgi-bin/
+ 1021  vi htmx.cgi
+ 1022  set
+ 1023  vi htmx.cgi
+ 1024  chmod +x htmx.cgi 
+ 1025  cd ..
+ 1026  pwd
+ 1027  cp ~/Shared/.htaccess .
+ 1028  sudo vi /etc/httpd/conf/httpd.conf
+ 1029  vi .htaccess 
+ 1030  cp hello.htmx hello.php
+ 1031  vi hello.php 
+ 1032  vi /etc/httpd/conf.d/php.conf 
+ 1033  history > cmd-05-02-2016.txt
+ 1034  vi cmd-05-02-2016.txt 

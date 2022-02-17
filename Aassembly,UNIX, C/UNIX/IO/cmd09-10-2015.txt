@@ -1,0 +1,14 @@
+    1  cd Foundations/Fundamentals/UNIX/IO/
+    2  vi strmiotest2.c
+    3  cp strmiotest2.c mmapiotest.c
+    4  vi mmapiotest.c 
+    5  cc -o mmapiotest mmapiotest.c 
+    6  cc -o mmapiotest mmapiotest.c revbuf.o
+    7  vi data1.txt 
+    8  ./mmapiotest 
+    9  ./mmapiotest data1.txt 
+   10  vi data1.txt 
+   11  ./mmapiotest data1.txt 
+   12  vi data1.txt 
+   13  vi mmapiotest.c 
+   14  history >cmd09-10-2015.txt

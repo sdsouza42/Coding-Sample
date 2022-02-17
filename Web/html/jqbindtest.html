@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>JQuery Event Test - TestApp</title>
+		<script type="text/javascript" src="./scripts/jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+
+				$("#btnGo").click(function(){
+					$("#txtName").attr('value', 'Jack');
+
+					$("p").css('background-color', 'yellow');
+
+					$("#firstName, lastName").bind('blur',
+						function(){
+							alert("Fields cannot be empty");
+						});
+				});
+
+			});
+		</script>	
+	</head>
+	<body>		
+		<h1 align="center">JQuery Test</h1>
+		First Name : <input type="text" id="firstName" />
+		Last Name : <input type="text" id="lastName" placeholder="Mathew" />
+		Click: <input type="button" id="btnGo" value="Go!" />
+		<p style="background-color:grey">
+			Akash Thakur<br />
+			B.E Computers<br />
+			Percentage : 99% <br />
+		</p>
+	</body>
+</html>
+
+
+
+
+
+
+
